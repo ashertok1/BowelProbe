@@ -7,15 +7,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.778 0)
+			(at 0 3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "MAX038CPP"
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,18 +49,16 @@
 				(hide yes)
 			)
 		)
-		(symbol "MAX038CPP_0_1"
-			(rectangle
-				(start -6.35 0)
-				(end 6.35 -27.305)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Order" "https://www.dacikeys.net/MAX038CPP-DIP-20-MAXIM-p1299866.html?srsltid=AfmBOorEDJYV8vFaekGVLyzHaX0TnbwOnJfniJK9FtHMBZoVppgJrtWhxoI"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "MAX038CPP_0_1"
 			(circle
 				(center -5.715 -0.635)
 				(radius 0.0001)
@@ -74,6 +72,18 @@
 			)
 		)
 		(symbol "MAX038CPP_1_1"
+			(rectangle
+				(start -6.35 0)
+				(end 6.35 -27.305)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 253 0 0.25)
+				)
+			)
 			(pin power_out line
 				(at -8.89 -2.54 0)
 				(length 2.54)

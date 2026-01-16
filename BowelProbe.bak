@@ -74,7 +74,7 @@
 			)
 		)
 		(symbol "MAX038CPP_1_1"
-			(pin input line
+			(pin power_out line
 				(at -8.89 -2.54 0)
 				(length 2.54)
 				(name "REF"
@@ -92,7 +92,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -8.89 -5.08 0)
 				(length 2.54)
 				(name "GND"
@@ -146,7 +146,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -8.89 -12.7 0)
 				(length 2.54)
 				(name "COSC"
@@ -164,7 +164,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -8.89 -15.24 0)
 				(length 2.54)
 				(name "GND"
@@ -218,7 +218,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -8.89 -22.86 0)
 				(length 2.54)
 				(name "GND"
@@ -236,7 +236,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -8.89 -25.4 0)
 				(length 2.54)
 				(name "IIN"
@@ -254,7 +254,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 8.89 -2.54 180)
 				(length 2.54)
 				(name "V-"
@@ -272,7 +272,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_out line
 				(at 8.89 -5.08 180)
 				(length 2.54)
 				(name "OUT"
@@ -290,7 +290,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 8.89 -7.62 180)
 				(length 2.54)
 				(name "GND"
@@ -308,7 +308,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 8.89 -10.16 180)
 				(length 2.54)
 				(name "V+"
@@ -326,7 +326,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 8.89 -12.7 180)
 				(length 2.54)
 				(name "DV+"
@@ -344,7 +344,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 8.89 -15.24 180)
 				(length 2.54)
 				(name "DGND"
@@ -398,7 +398,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 8.89 -22.86 180)
 				(length 2.54)
 				(name "PDO"
@@ -416,7 +416,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 8.89 -25.4 180)
 				(length 2.54)
 				(name "GND"
