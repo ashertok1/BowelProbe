@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BowelProbe")(type "KiCad")(uri "${KIPRJMOD}/bowelProbe.pretty")(options "")(descr ""))
+)

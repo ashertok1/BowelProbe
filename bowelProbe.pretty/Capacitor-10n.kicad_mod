@@ -1,0 +1,224 @@
+(footprint "Capacitor-10n"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.8 0)
+		(layer "F.SilkS")
+		(uuid "0890a984-fdae-4516-9a1b-78d8ff0f90e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAPRR508W54L508T381H660"
+		(at 11.156 3.79 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e3ff437-24cc-415d-a55c-935e8e02df3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85733cc2-37b9-47a4-9b10-cd1531bda547")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "420949ea-1f9b-4a77-8618-638f139d2e49")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.54 -1.905)
+		(end 2.54 -1.905)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1b225bc-aac2-47fc-93c6-14d4a8df1273")
+	)
+	(fp_line
+		(start -2.54 -0.979)
+		(end -2.54 -1.905)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73c8ad4f-4bec-449b-a2fd-6ec4a8ab9dbb")
+	)
+	(fp_line
+		(start -2.54 1.905)
+		(end -2.54 0.979)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "51971063-5818-49a1-8a46-96c172e9f1b7")
+	)
+	(fp_line
+		(start 2.54 -1.905)
+		(end 2.54 -0.979)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8b1cb18-fa01-4798-8d77-7914072565d5")
+	)
+	(fp_line
+		(start 2.54 1.905)
+		(end -2.54 1.905)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9554c5b3-9e00-4280-9d90-367125c92370")
+	)
+	(fp_line
+		(start 2.54 1.905)
+		(end 2.54 0.979)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3424ded4-5e24-406a-b0a8-9960d3a6b2a8")
+	)
+	(fp_line
+		(start -3.449 -2.155)
+		(end -3.449 2.155)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "833bdd6a-0990-4c1f-91e0-29133c2405f1")
+	)
+	(fp_line
+		(start -3.449 2.155)
+		(end 3.449 2.155)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "92cb2ffe-a087-47ee-b39f-9cc7c2970a0c")
+	)
+	(fp_line
+		(start 3.449 -2.155)
+		(end -3.449 -2.155)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "11a46c99-2f8c-4339-b35b-fae985c70aa4")
+	)
+	(fp_line
+		(start 3.449 2.155)
+		(end 3.449 -2.155)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fbf57672-c7da-40b3-a0be-2cc568b991c5")
+	)
+	(fp_line
+		(start -2.54 -1.905)
+		(end 2.54 -1.905)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "77066581-4027-4735-8729-1288218aff14")
+	)
+	(fp_line
+		(start -2.54 1.905)
+		(end -2.54 -1.905)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd368e83-ff45-43c9-85d8-afa6be13bc84")
+	)
+	(fp_line
+		(start 2.54 -1.905)
+		(end 2.54 1.905)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b9ff24d-b72c-4965-aba0-9b4a22ae7693")
+	)
+	(fp_line
+		(start 2.54 1.905)
+		(end -2.54 1.905)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d27832ae-850b-49f4-bd36-379f6b593046")
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 0)
+		(size 1.318 1.318)
+		(drill 0.81)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "47a49c8a-9afc-4307-a5a0-ce354c93547c")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.318 1.318)
+		(drill 0.81)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "cd4b135b-8f5a-449d-80df-c6749f13a69f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/bowelProbe_3D/Capacitor-10n.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
