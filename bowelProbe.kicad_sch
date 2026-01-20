@@ -3928,6 +3928,12 @@
 		(uuid "1e65f932-f226-4174-9619-ea0d9735bb95")
 	)
 	(junction
+		(at 210.82 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "228a1af0-6a78-46a1-9cdb-3a0a44d5d42c")
+	)
+	(junction
 		(at 224.79 60.96)
 		(diameter 0)
 		(color 194 0 0 1)
@@ -4310,6 +4316,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 86.36) (xy 213.36 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c22f84f-da64-4dbb-b460-67213bcbfa38")
+	)
+	(wire
+		(pts
 			(xy 73.66 91.44) (xy 86.36 91.44)
 		)
 		(stroke
@@ -4538,6 +4554,16 @@
 			(color 194 0 0 1)
 		)
 		(uuid "2378a4b2-096b-4401-be68-db8273f738c3")
+	)
+	(wire
+		(pts
+			(xy 210.82 85.09) (xy 210.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "238ebc8a-3be3-4666-bc30-23301826c21c")
 	)
 	(wire
 		(pts
@@ -5363,7 +5389,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 86.36) (xy 213.36 86.36)
+			(xy 194.31 86.36) (xy 210.82 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5454,6 +5480,17 @@
 			(type default)
 		)
 		(uuid "88089fd3-dde3-4b82-a982-c992ea034868")
+	)
+	(wire
+		(pts
+			(xy 210.82 69.85) (xy 210.82 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "89b8805e-db98-4c63-a19f-5cd7dddce50c")
 	)
 	(wire
 		(pts
@@ -9679,6 +9716,83 @@
 		)
 	)
 	(symbol
+		(lib_name "Conn_01x01_8")
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 210.82 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e2f38e2-ce32-4521-a629-a98aaa063d29")
+		(property "Reference" "J13"
+			(at 215.9 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 208.28 74.9301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BowelProbe:CT3149-0"
+			(at 210.82 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 210.82 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-5/6005536"
+			(at 210.82 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5680d157-b7e7-4a24-8408-a1439976ef7e")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 106.68 148.59 0)
 		(mirror y)
@@ -11649,6 +11763,83 @@
 		)
 	)
 	(symbol
+		(lib_name "Conn_01x01_9")
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 210.82 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdf58dff-0d26-4224-a908-12f17079cf7c")
+		(property "Reference" "J12"
+			(at 212.344 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 213.36 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BowelProbe:CT3149-0"
+			(at 210.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 210.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-5/6005536"
+			(at 210.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b7e366b-a6a4-4181-b4ef-84dba7e8ab2f")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 113.03 77.47 0)
 		(unit 1)
@@ -12022,6 +12213,71 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc02536f-750f-4675-85cb-49ff78ba16ba")
+		(property "Reference" "#PWR052"
+			(at 210.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8d7750c-f08f-44d7-b2aa-9e90edaf64c8")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
