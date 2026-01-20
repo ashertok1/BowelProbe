@@ -72,17 +72,6 @@
 		(uuid "79a2db6a-918f-47f2-ae6a-2a7b9ad330bd")
 	)
 	(fp_circle
-		(center -3.25 0)
-		(end -3.15 0)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "acc0136d-277d-4f43-963b-64878024a3cf")
-	)
-	(fp_circle
 		(center 0 0)
 		(end 2.5 0)
 		(stroke
@@ -103,17 +92,6 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "e5ea20d3-74ee-48dd-bb69-bc4ca4e327c8")
-	)
-	(fp_circle
-		(center -3.25 0)
-		(end -3.15 0)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "7a91edc5-8abf-46df-bcc2-8640f074e97f")
 	)
 	(fp_circle
 		(center 0 0)

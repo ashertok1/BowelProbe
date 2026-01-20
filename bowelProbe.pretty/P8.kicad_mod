@@ -586,52 +586,6 @@
 		(layer "F.Fab")
 		(uuid "8f3e0fdf-0eb8-4215-b037-aa87d1ab287d")
 	)
-	(fp_text user "*"
-		(at -7.62 -9.0678 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "20227a2e-3b9a-44e5-bea7-4151144b7e5e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -7.62 -9.0678 0)
-		(layer "F.SilkS")
-		(uuid "8eaacc87-33aa-46d5-b0c2-efd4c3c8b0bc")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -7.62 -9.0678 0)
-		(layer "F.Fab")
-		(uuid "4c6f3f94-efee-4620-81d2-548be185983b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -7.62 -9.0678 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "b1b91414-d9b6-41f2-860a-167c0643f1e5")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "1" thru_hole rect
 		(at -7.62 -7.62)
 		(size 1.3716 1.3716)
