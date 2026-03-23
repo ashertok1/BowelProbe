@@ -5261,191 +5261,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LED_Small"
-				(at -4.445 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pin" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode light-emitting-diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L_Small"
 			(pin_numbers
 				(hide yes)
@@ -5783,133 +5598,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Speaker"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LS"
-				(at 1.27 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Speaker"
-				(at 1.27 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -0.254 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Speaker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "speaker sound"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Speaker_0_0"
-				(rectangle
-					(start -2.54 1.27)
-					(end 1.016 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.27) (xy 3.556 3.81) (xy 3.556 -6.35) (xy 1.016 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Speaker_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -6025,6 +5713,18 @@
 		(uuid 067629ac-5c1f-4a72-ab73-862320a203cd)
 	)
 	(rectangle
+		(start 243.84 152.4)
+		(end 281.94 179.07)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 165c1d67-aafe-45fb-8cb5-e503dd7408aa)
+	)
+	(rectangle
 		(start 201.93 22.86)
 		(end 323.85 140.97)
 		(stroke
@@ -6050,7 +5750,7 @@
 	)
 	(rectangle
 		(start 15.24 154.94)
-		(end 111.76 204.47)
+		(end 124.46 204.47)
 		(stroke
 			(width 0)
 			(type default)
@@ -6122,7 +5822,7 @@
 	)
 	(rectangle
 		(start 201.93 152.4)
-		(end 243.84 179.07)
+		(end 242.57 179.07)
 		(stroke
 			(width 0)
 			(type default)
@@ -6144,7 +5844,7 @@
 	)
 	(text "ICSP"
 		(exclude_from_sim no)
-		(at 291.846 148.59 0)
+		(at 291.846 149.098 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -6162,9 +5862,19 @@
 		)
 		(uuid "3314963a-ca4e-45e5-9610-898be976e23a")
 	)
+	(text "Extra Pins"
+		(exclude_from_sim no)
+		(at 259.334 149.098 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "4144208d-da13-4874-9585-78dcc5ac21fc")
+	)
 	(text "Pin 1 - 5V\nPin 2 - 3V\nPin 3 - GND\nPin 4 - CLK\nPin 5 - DO\nPin 6 - DI\nPin 7 - CS\nPin 8 - CD"
 		(exclude_from_sim no)
-		(at 229.362 165.1 0)
+		(at 228.346 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6228,7 +5938,7 @@
 	)
 	(text "PROBE"
 		(exclude_from_sim no)
-		(at 445.516 145.542 0)
+		(at 444.246 134.112 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6238,7 +5948,7 @@
 	)
 	(text "MicroSD"
 		(exclude_from_sim no)
-		(at 213.36 148.59 0)
+		(at 213.36 149.098 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -6309,7 +6019,7 @@
 		(uuid "138d3eef-747f-4181-a5cc-7808fe79fbdf")
 	)
 	(junction
-		(at 60.96 175.26)
+		(at 64.77 176.53)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "154e8e25-e064-4518-8fa1-e7ec5c0c7a1e")
@@ -6351,6 +6061,12 @@
 		(uuid "33ca7f8f-eff1-4438-a243-3946868143bf")
 	)
 	(junction
+		(at 429.26 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4209290f-4096-421b-a9b0-9a08a45fb0d1")
+	)
+	(junction
 		(at 500.38 185.42)
 		(diameter 0)
 		(color 194 0 0 1)
@@ -6387,7 +6103,7 @@
 		(uuid "5890c654-d6b2-4f94-8b4c-fc8a714f2750")
 	)
 	(junction
-		(at 24.13 189.23)
+		(at 27.94 190.5)
 		(diameter 0)
 		(color 132 132 132 1)
 		(uuid "58cc913b-4fd7-4312-8073-58ed847c7532")
@@ -6429,12 +6145,6 @@
 		(uuid "7209ba68-3c1a-4abd-9ab8-5bf97a4579f2")
 	)
 	(junction
-		(at 429.26 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7584e127-4f11-469f-8ff7-d4f0e8bc3b06")
-	)
-	(junction
 		(at 433.07 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6453,13 +6163,13 @@
 		(uuid "93f840e3-2a04-4b61-bb94-e3ace8e8f316")
 	)
 	(junction
-		(at 97.79 175.26)
+		(at 101.6 176.53)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "968450ea-0ebe-470c-8246-13e82aedd6b3")
 	)
 	(junction
-		(at 24.13 161.29)
+		(at 27.94 162.56)
 		(diameter 0)
 		(color 194 0 0 1)
 		(uuid "a05961d1-2263-4abb-b43b-6604b5833f2b")
@@ -6471,16 +6181,10 @@
 		(uuid "a374edfa-2c09-4ccc-bb0d-46f8b3a4030e")
 	)
 	(junction
-		(at 24.13 175.26)
+		(at 27.94 176.53)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "a67014ad-a2a5-4be2-950b-d2c84fff5d47")
-	)
-	(junction
-		(at 255.27 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9c54144-4f67-406c-8da5-6cfbbe24ff25")
 	)
 	(junction
 		(at 544.83 198.12)
@@ -6499,12 +6203,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8f37272-c646-4960-8cef-c29d57de4d28")
-	)
-	(junction
-		(at 255.27 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc29530a-6ede-4f98-a561-82bbfc7f14c7")
 	)
 	(junction
 		(at 433.07 97.79)
@@ -6555,7 +6253,7 @@
 		(uuid "d49738d7-f900-4b44-8117-bab2ae0afb23")
 	)
 	(junction
-		(at 97.79 161.29)
+		(at 101.6 162.56)
 		(diameter 0)
 		(color 194 0 0 1)
 		(uuid "d87d2990-36cc-480e-a487-d873cc59ff40")
@@ -6579,7 +6277,7 @@
 		(uuid "d9fbe993-cccf-434c-8650-d923db6eb820")
 	)
 	(junction
-		(at 97.79 189.23)
+		(at 101.6 190.5)
 		(diameter 0)
 		(color 132 132 132 1)
 		(uuid "df8d0699-d711-4681-8d25-bf92eb28c8ac")
@@ -6591,13 +6289,13 @@
 		(uuid "e5a04bb7-3402-4f4b-8800-05b49d8d8141")
 	)
 	(junction
-		(at 60.96 161.29)
+		(at 64.77 162.56)
 		(diameter 0)
 		(color 194 0 0 1)
 		(uuid "ed105612-099a-4753-b990-022182c3df88")
 	)
 	(junction
-		(at 60.96 189.23)
+		(at 64.77 190.5)
 		(diameter 0)
 		(color 132 132 132 1)
 		(uuid "f0f00984-8166-4f8b-82d6-8d5aff75c94a")
@@ -6663,6 +6361,16 @@
 	)
 	(wire
 		(pts
+			(xy 429.26 139.7) (xy 429.26 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018ee38e-f08a-494e-b538-f628ffb192f1")
+	)
+	(wire
+		(pts
 			(xy 92.71 135.89) (xy 92.71 133.35)
 		)
 		(stroke
@@ -6707,6 +6415,17 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 68.58) (xy 290.83 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "07ca011f-734e-41dd-acac-bd89ea0be0b4")
+	)
+	(wire
+		(pts
 			(xy 438.15 92.71) (xy 438.15 95.25)
 		)
 		(stroke
@@ -6725,6 +6444,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "08da683c-55d1-4d68-8cf6-0a4db1084f30")
+	)
+	(wire
+		(pts
+			(xy 262.89 172.72) (xy 262.89 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09155404-eb7a-4e25-b8de-72c556383f71")
 	)
 	(wire
 		(pts
@@ -6833,6 +6562,17 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 66.04) (xy 241.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "104a0642-c28f-4056-8487-b3bb42ee4b31")
+	)
+	(wire
+		(pts
 			(xy 208.28 165.1) (xy 208.28 172.72)
 		)
 		(stroke
@@ -6840,6 +6580,17 @@
 			(type default)
 		)
 		(uuid "12bda3c7-14f3-4eab-93d7-057a3c752674")
+	)
+	(wire
+		(pts
+			(xy 257.81 93.98) (xy 257.81 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "16033062-aa0a-4387-b4a7-7f1676cfc40e")
 	)
 	(wire
 		(pts
@@ -6882,6 +6633,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "18cc3fd3-77c5-4ff4-8736-d187b362f004")
+	)
+	(wire
+		(pts
+			(xy 255.27 49.53) (xy 255.27 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "1a04ae9a-e1f1-42eb-ae5f-6000a9978399")
 	)
 	(wire
 		(pts
@@ -6994,6 +6756,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 172.72) (xy 252.73 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20397967-f258-4cc7-bd0e-570508396470")
+	)
+	(wire
+		(pts
 			(xy 482.6 247.65) (xy 482.6 241.3)
 		)
 		(stroke
@@ -7024,16 +6796,6 @@
 			(color 132 132 132 1)
 		)
 		(uuid "23d6666a-42f9-4724-a0b0-242ba5d2f83a")
-	)
-	(wire
-		(pts
-			(xy 429.26 139.7) (xy 429.26 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24c59acb-23ff-4afe-8046-8b820ba9d6d8")
 	)
 	(wire
 		(pts
@@ -7145,6 +6907,28 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 49.53) (xy 252.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "3128ec32-b1c1-4a6b-8c7b-3307fd9b93a4")
+	)
+	(wire
+		(pts
+			(xy 267.97 49.53) (xy 267.97 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "3159136d-f3f9-4eb2-b68f-115412cd60c7")
+	)
+	(wire
+		(pts
 			(xy 433.07 87.63) (xy 433.07 88.9)
 		)
 		(stroke
@@ -7173,6 +6957,16 @@
 			(color 0 0 255 1)
 		)
 		(uuid "341ab944-ca8a-4074-b141-b095b911ce4d")
+	)
+	(wire
+		(pts
+			(xy 247.65 172.72) (xy 247.65 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "360f1c34-756e-46a7-b12d-31e96d3a4560")
 	)
 	(wire
 		(pts
@@ -7290,6 +7084,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 172.72) (xy 278.13 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406f816b-b442-4ec8-9344-3afb290f6463")
+	)
+	(wire
+		(pts
 			(xy 215.9 165.1) (xy 215.9 172.72)
 		)
 		(stroke
@@ -7319,6 +7123,17 @@
 			(color 194 0 0 1)
 		)
 		(uuid "443fba31-5eb7-4029-b08b-de2b54f40ab1")
+	)
+	(wire
+		(pts
+			(xy 262.89 49.53) (xy 262.89 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "444bea67-cf4e-48fd-9656-59504010855d")
 	)
 	(wire
 		(pts
@@ -7398,7 +7213,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 76.2) (xy 287.02 76.2)
+			(xy 281.94 76.2) (xy 290.83 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7419,7 +7234,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 175.26) (xy 97.79 175.26)
+			(xy 64.77 176.53) (xy 101.6 176.53)
 		)
 		(stroke
 			(width 0)
@@ -7441,17 +7256,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 113.03) (xy 257.81 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eb4db35-70e0-411d-bfab-01e79c0de75a")
-	)
-	(wire
-		(pts
-			(xy 429.26 147.32) (xy 429.26 151.13)
+			(xy 429.26 149.86) (xy 429.26 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7459,6 +7264,27 @@
 			(color 0 0 0 1)
 		)
 		(uuid "4fb98168-9e2d-4fb7-9563-bd16035f3fb0")
+	)
+	(wire
+		(pts
+			(xy 257.81 49.53) (xy 257.81 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "4fe074a0-721d-4344-87bb-b4552d008f7c")
+	)
+	(wire
+		(pts
+			(xy 429.26 135.89) (xy 430.53 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ffa2459-a4f4-4683-8b40-20613198acf4")
 	)
 	(wire
 		(pts
@@ -7484,7 +7310,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 175.26) (xy 60.96 175.26)
+			(xy 27.94 176.53) (xy 64.77 176.53)
 		)
 		(stroke
 			(width 0)
@@ -7503,6 +7329,16 @@
 			(color 132 132 132 1)
 		)
 		(uuid "52155d71-e143-435f-88b7-20f1ea7885f5")
+	)
+	(wire
+		(pts
+			(xy 247.65 156.21) (xy 247.65 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52584edb-28aa-4870-b00d-0db8ae4232f2")
 	)
 	(wire
 		(pts
@@ -7527,17 +7363,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 129.54) (xy 255.27 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "551e30c1-a5c6-4288-ae96-dee618ac31ea")
-	)
-	(wire
-		(pts
 			(xy 21.59 102.87) (xy 21.59 107.95)
 		)
 		(stroke
@@ -7546,6 +7371,28 @@
 			(color 194 0 0 1)
 		)
 		(uuid "560ece82-13e1-483f-b3ec-3310cf095d71")
+	)
+	(wire
+		(pts
+			(xy 562.61 179.07) (xy 566.42 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "57055997-1bb8-4a9b-be81-f782566fb6d8")
+	)
+	(wire
+		(pts
+			(xy 281.94 78.74) (xy 290.83 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "575c3850-2951-49ef-993d-99b9a941c956")
 	)
 	(wire
 		(pts
@@ -7570,6 +7417,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 156.21) (xy 262.89 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "596c0841-c806-48e3-bad8-462a36ba5bc7")
+	)
+	(wire
+		(pts
 			(xy 458.47 182.88) (xy 458.47 194.31)
 		)
 		(stroke
@@ -7577,17 +7434,6 @@
 			(type default)
 		)
 		(uuid "5ad760d7-f73e-4933-995a-5f83dec2e41a")
-	)
-	(wire
-		(pts
-			(xy 429.26 147.32) (xy 431.8 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "5b656835-833d-4e40-891f-70eb9cd636f9")
 	)
 	(wire
 		(pts
@@ -7601,7 +7447,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 161.29) (xy 97.79 161.29)
+			(xy 64.77 162.56) (xy 101.6 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7609,6 +7455,16 @@
 			(color 194 0 0 1)
 		)
 		(uuid "5ce2e5c7-765f-473f-8344-ebc66f8c1c2b")
+	)
+	(wire
+		(pts
+			(xy 257.81 156.21) (xy 257.81 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd06c80-554b-4e67-8758-d39802c30539")
 	)
 	(wire
 		(pts
@@ -7673,16 +7529,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 102.87) (xy 257.81 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63017996-35b6-4459-afed-6f4063f62cbd")
-	)
-	(wire
-		(pts
 			(xy 472.44 247.65) (xy 472.44 246.38)
 		)
 		(stroke
@@ -7713,6 +7559,16 @@
 			(color 132 132 132 1)
 		)
 		(uuid "63a1f17e-9ed7-4348-ad2e-5896730ee664")
+	)
+	(wire
+		(pts
+			(xy 267.97 156.21) (xy 267.97 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "649987f4-b280-4db2-b332-7cdfc0657d91")
 	)
 	(wire
 		(pts
@@ -7749,7 +7605,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 161.29) (xy 24.13 161.29)
+			(xy 21.59 162.56) (xy 27.94 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7777,16 +7633,6 @@
 			(type default)
 		)
 		(uuid "6b34174a-6534-472e-a597-88f6c53c4d8c")
-	)
-	(wire
-		(pts
-			(xy 252.73 48.26) (xy 252.73 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b454341-bdfc-478b-b4ee-fdae18454fc2")
 	)
 	(wire
 		(pts
@@ -7887,7 +7733,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 189.23) (xy 60.96 189.23)
+			(xy 27.94 190.5) (xy 64.77 190.5)
 		)
 		(stroke
 			(width 0)
@@ -7941,6 +7787,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 156.21) (xy 252.73 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78668f4c-cb08-466f-a96a-567a3fbcb451")
+	)
+	(wire
+		(pts
 			(xy 501.65 91.44) (xy 501.65 92.71)
 		)
 		(stroke
@@ -7971,6 +7827,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "79072b7a-eea2-4552-8bb6-d0067222717b")
+	)
+	(wire
+		(pts
+			(xy 237.49 68.58) (xy 241.3 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "7a52660b-20e6-465b-9b9d-c85115168ee0")
 	)
 	(wire
 		(pts
@@ -8051,16 +7918,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 109.22) (xy 255.27 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fcdd74c-be6e-4bd6-baba-45155667573a")
-	)
-	(wire
-		(pts
 			(xy 45.72 77.47) (xy 45.72 78.74)
 		)
 		(stroke
@@ -8080,6 +7937,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "812bc467-f655-479e-b95a-b4123ec95716")
+	)
+	(wire
+		(pts
+			(xy 252.73 93.98) (xy 252.73 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "816d5780-23b7-45ee-b304-4d555a2d1262")
 	)
 	(wire
 		(pts
@@ -8114,6 +7982,16 @@
 	)
 	(wire
 		(pts
+			(xy 429.26 129.54) (xy 429.26 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85daf18e-4df5-41a1-97b5-551dd9e41ebc")
+	)
+	(wire
+		(pts
 			(xy 241.3 83.82) (xy 241.3 92.71)
 		)
 		(stroke
@@ -8124,7 +8002,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 189.23) (xy 24.13 189.23)
+			(xy 21.59 190.5) (xy 27.94 190.5)
 		)
 		(stroke
 			(width 0)
@@ -8132,16 +8010,6 @@
 			(color 132 132 132 1)
 		)
 		(uuid "86ba6a6a-20b7-42a5-88c8-297da73415d8")
-	)
-	(wire
-		(pts
-			(xy 255.27 113.03) (xy 255.27 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86e04920-72b7-4e56-aef6-02fb77c530f9")
 	)
 	(wire
 		(pts
@@ -8187,7 +8055,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 161.29) (xy 60.96 161.29)
+			(xy 27.94 162.56) (xy 64.77 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8286,17 +8154,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 33.02) (xy 252.73 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "93500a9c-070d-48ec-8489-ee1cc675c9cc")
-	)
-	(wire
-		(pts
 			(xy 223.52 165.1) (xy 223.52 172.72)
 		)
 		(stroke
@@ -8350,7 +8207,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 175.26) (xy 107.95 175.26)
+			(xy 101.6 176.53) (xy 118.11 176.53)
 		)
 		(stroke
 			(width 0)
@@ -8445,16 +8302,6 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 143.51) (xy 431.8 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a65603f-2a69-4618-b5e4-53135cb2c4ef")
-	)
-	(wire
-		(pts
 			(xy 92.71 115.57) (xy 99.06 115.57)
 		)
 		(stroke
@@ -8476,16 +8323,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 41.91) (xy 252.73 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c3e5fd4-8deb-4703-9c53-90aecf82a9af")
-	)
-	(wire
-		(pts
 			(xy 92.71 107.95) (xy 92.71 99.06)
 		)
 		(stroke
@@ -8493,6 +8330,27 @@
 			(type default)
 		)
 		(uuid "9d45b57e-4141-41fa-a5e7-dd5735fcf170")
+	)
+	(wire
+		(pts
+			(xy 257.81 172.72) (xy 257.81 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5de7fa-0eeb-4745-9943-0efd467ccd90")
+	)
+	(wire
+		(pts
+			(xy 562.61 185.42) (xy 562.61 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "9f670339-9ea6-4ef0-8699-f36d26d42f66")
 	)
 	(wire
 		(pts
@@ -8593,13 +8451,23 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 132.08) (xy 429.26 129.54)
+			(xy 429.26 132.08) (xy 430.53 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6091d7a-1424-4a01-95b6-0b44859971ac")
+		(uuid "a598d65b-ccd4-4948-956c-61056dbd61d9")
+	)
+	(wire
+		(pts
+			(xy 281.94 71.12) (xy 290.83 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6093473-5e4d-4bbe-8cca-fc694627c9e9")
 	)
 	(wire
 		(pts
@@ -8790,7 +8658,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 189.23) (xy 97.79 189.23)
+			(xy 64.77 190.5) (xy 101.6 190.5)
 		)
 		(stroke
 			(width 0)
@@ -8843,7 +8711,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 189.23) (xy 107.95 189.23)
+			(xy 101.6 190.5) (xy 118.11 190.5)
 		)
 		(stroke
 			(width 0)
@@ -8865,7 +8733,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 175.26) (xy 24.13 175.26)
+			(xy 21.59 176.53) (xy 27.94 176.53)
 		)
 		(stroke
 			(width 0)
@@ -8909,16 +8777,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 93.98) (xy 255.27 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdb57be7-5979-4202-aa44-4715709193ed")
-	)
-	(wire
-		(pts
 			(xy 501.65 100.33) (xy 501.65 102.87)
 		)
 		(stroke
@@ -8941,14 +8799,13 @@
 	)
 	(wire
 		(pts
-			(xy 562.61 182.88) (xy 562.61 185.42)
+			(xy 278.13 156.21) (xy 278.13 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 0 0 1)
 		)
-		(uuid "c160b09f-ad7e-4693-9618-fce0dca08d1a")
+		(uuid "c20bf5df-b35b-4c5c-ad87-b61da5bec57c")
 	)
 	(wire
 		(pts
@@ -9059,6 +8916,17 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 66.04) (xy 290.83 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "cc96dfd7-a49d-435c-a21f-b215b5155b6e")
+	)
+	(wire
+		(pts
 			(xy 539.75 198.12) (xy 539.75 195.58)
 		)
 		(stroke
@@ -9079,16 +8947,6 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 140.97) (xy 435.61 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d04e1edb-295a-4f1f-a90e-f4e30aeddb2b")
-	)
-	(wire
-		(pts
 			(xy 431.8 44.45) (xy 433.07 44.45)
 		)
 		(stroke
@@ -9097,6 +8955,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "d22792dc-cbe7-4c88-95c1-c83048ebe4c8")
+	)
+	(wire
+		(pts
+			(xy 265.43 49.53) (xy 265.43 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "d2c255ed-8e60-428c-9dd1-4d46787925bf")
 	)
 	(wire
 		(pts
@@ -9120,13 +8989,13 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 140.97) (xy 429.26 143.51)
+			(xy 273.05 156.21) (xy 273.05 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3aefe42-2041-4e31-99df-a2779a2fa2d1")
+		(uuid "d46f641c-18d4-4eb7-ace3-3769b6907972")
 	)
 	(wire
 		(pts
@@ -9225,6 +9094,16 @@
 	)
 	(wire
 		(pts
+			(xy 429.26 135.89) (xy 429.26 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd4bf5d0-23e3-4800-8ea0-152278c2e653")
+	)
+	(wire
+		(pts
 			(xy 427.99 36.83) (xy 433.07 36.83)
 		)
 		(stroke
@@ -9311,16 +9190,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 102.87) (xy 255.27 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e263ad4c-f395-4e36-9816-ed18fad72066")
-	)
-	(wire
-		(pts
 			(xy 109.22 115.57) (xy 109.22 116.84)
 		)
 		(stroke
@@ -9352,13 +9221,13 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 68.58) (xy 290.83 68.58)
+			(xy 267.97 172.72) (xy 267.97 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e70dc587-c7c9-4dfe-90d3-3f9a713edf4d")
+		(uuid "e6963939-8cfd-41f9-9948-79549877fbe4")
 	)
 	(wire
 		(pts
@@ -9432,6 +9301,16 @@
 			(type default)
 		)
 		(uuid "ecc952b7-ca52-4bcd-a753-510cca10bd43")
+	)
+	(wire
+		(pts
+			(xy 429.26 139.7) (xy 448.31 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed1c89c1-ccf5-4cc9-810e-5cea4ea04676")
 	)
 	(wire
 		(pts
@@ -9520,6 +9399,17 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 93.98) (xy 255.27 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "f628c8da-d2d4-4072-8fd6-1b3f9ab87585")
+	)
+	(wire
+		(pts
 			(xy 463.55 90.17) (xy 440.69 90.17)
 		)
 		(stroke
@@ -9541,7 +9431,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 76.2) (xy 298.45 76.2)
+			(xy 295.91 76.2) (xy 298.45 76.2)
 		)
 		(stroke
 			(width 0)
@@ -9562,7 +9452,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 161.29) (xy 107.95 161.29)
+			(xy 101.6 162.56) (xy 118.11 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9581,6 +9471,16 @@
 			(color 194 0 0 1)
 		)
 		(uuid "fcb04e86-b1ba-4ed6-9724-7e3288b0b44a")
+	)
+	(wire
+		(pts
+			(xy 273.05 172.72) (xy 273.05 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffd6d325-4b60-4ad2-8d5c-731368d80c8d")
 	)
 	(label "+5V"
 		(at 266.7 123.19 180)
@@ -9605,7 +9505,7 @@
 		(uuid "0084e3fd-c765-430a-95bd-fe1365e7a536")
 	)
 	(label "+5V"
-		(at 17.78 175.26 0)
+		(at 21.59 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9615,8 +9515,28 @@
 		)
 		(uuid "0580b8af-2a1d-4d23-a7c7-bfa5efed5c8c")
 	)
+	(label "D3"
+		(at 237.49 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0651f499-b007-434a-b68f-e513ae656d4c")
+	)
+	(label "A6"
+		(at 290.83 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "110f6b4b-6366-46e0-b5c3-31dae5a7224b")
+	)
 	(label "+12V"
-		(at 17.78 161.29 0)
+		(at 21.59 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9688,16 +9608,25 @@
 		)
 		(uuid "1a14fdb0-6538-476c-951d-568d9e59cd0d")
 	)
-	(label "Test2"
-		(at 255.27 100.33 90)
+	(label "A0"
+		(at 252.73 175.26 90)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 255 153 0 1)
 			)
 			(justify left bottom)
 		)
-		(uuid "23bbcffb-3d7b-46e9-8577-0194668cc514")
+		(uuid "207ce522-e418-449d-9534-28cc7445d22e")
+	)
+	(label "D0"
+		(at 257.81 49.53 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "250eb8f3-d79b-454f-8b03-c103d81bdb2a")
 	)
 	(label "+5V"
 		(at 256.54 35.56 0)
@@ -9709,6 +9638,26 @@
 			(justify left bottom)
 		)
 		(uuid "2713189b-0e28-49f8-99b8-39daddf632f8")
+	)
+	(label "A3"
+		(at 267.97 175.26 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "292dd06f-c20d-4bb0-867c-a65cd6776b1c")
+	)
+	(label "D7"
+		(at 257.81 100.33 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c9cc07d-b162-440e-9d7a-9de1528f90a4")
 	)
 	(label "CLKO"
 		(at 260.35 100.33 90)
@@ -9740,6 +9689,26 @@
 		)
 		(uuid "350dc474-2574-4cc8-b5ef-4d37bbd22b92")
 	)
+	(label "D6"
+		(at 278.13 156.21 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3522464f-1882-4e6a-b888-56b7b1a3a453")
+	)
+	(label "A5"
+		(at 278.13 175.26 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4218e6a9-6712-4fa6-93eb-d40539125624")
+	)
 	(label "MOSI"
 		(at 218.44 172.72 90)
 		(effects
@@ -9749,6 +9718,26 @@
 			(justify left bottom)
 		)
 		(uuid "4537730f-f2b5-4470-a901-ee420586a297")
+	)
+	(label "D0"
+		(at 247.65 156.21 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "499cec9e-20d0-4ce3-a68b-d933fdc80b7b")
+	)
+	(label "D2"
+		(at 257.81 156.21 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c20d25c-74aa-45e9-bc6e-5f06f4abeda2")
 	)
 	(label "+12V"
 		(at 510.54 180.34 180)
@@ -9863,6 +9852,16 @@
 		)
 		(uuid "7a7734e4-aea1-49d3-b246-9aee9bfeeab9")
 	)
+	(label "D4"
+		(at 237.49 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c3781b7-d257-43c7-848a-10c995c4f950")
+	)
 	(label "SCK"
 		(at 289.56 83.82 180)
 		(effects
@@ -9872,6 +9871,16 @@
 			(justify right bottom)
 		)
 		(uuid "8145bc1c-9071-4b0b-9d64-8adb7f13f54b")
+	)
+	(label "A1"
+		(at 257.81 175.26 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "850ac524-589d-424b-889c-0539fddb345e")
 	)
 	(label "-12V"
 		(at 417.83 104.14 0)
@@ -9938,6 +9947,26 @@
 		)
 		(uuid "9df8400f-6b53-4105-ba13-c16850857161")
 	)
+	(label "A4"
+		(at 273.05 175.26 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e01453a-be99-409b-ac9c-027e362d74e2")
+	)
+	(label "D1"
+		(at 252.73 156.21 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3b42942-4518-4fc1-beb2-4e38d8a06323")
+	)
 	(label "nSS_Sin"
 		(at 270.51 46.99 270)
 		(effects
@@ -9947,6 +9976,16 @@
 			(justify right bottom)
 		)
 		(uuid "a3c92ae2-6614-44b4-9a94-eee693dd1f5b")
+	)
+	(label "D3"
+		(at 262.89 156.21 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a62a2524-dfb6-4bb4-8a3e-1e0a59f83978")
 	)
 	(label "Vbuffer"
 		(at 462.28 194.31 0)
@@ -9979,6 +10018,26 @@
 		)
 		(uuid "a8f3232e-7c06-4998-b297-07379316d1a9")
 	)
+	(label "D1"
+		(at 255.27 49.53 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a930f374-2e00-47a1-9b3b-2bc2c412366d")
+	)
+	(label "A4"
+		(at 265.43 49.53 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0ea81f1-2fce-40ed-bf93-ef8ba7eebfbc")
+	)
 	(label "MISO"
 		(at 270.51 100.33 90)
 		(effects
@@ -9988,17 +10047,6 @@
 			(justify left bottom)
 		)
 		(uuid "b10a70fb-9202-4b30-ae4f-5b164817e353")
-	)
-	(label "Test1"
-		(at 252.73 54.61 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 153 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "b14792c7-3f67-4e31-80d6-db73df8fea25")
 	)
 	(label "CD"
 		(at 223.52 172.72 90)
@@ -10010,6 +10058,26 @@
 		)
 		(uuid "b3a61442-d848-4318-afed-524c7903cc2a")
 	)
+	(label "D4"
+		(at 267.97 156.21 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b78e5508-70bd-4cef-bd8d-2a45354ceba2")
+	)
+	(label "A5"
+		(at 262.89 49.53 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba91aecd-8d03-4f0f-986d-0f103eb57acb")
+	)
 	(label "MOSI"
 		(at 500.38 44.45 180)
 		(effects
@@ -10019,6 +10087,36 @@
 			(justify right bottom)
 		)
 		(uuid "bb847aa9-c75c-4312-9e77-5e702df36ec4")
+	)
+	(label "D2"
+		(at 252.73 49.53 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc20000e-132c-4577-bd1d-038adb8862d5")
+	)
+	(label "A1"
+		(at 290.83 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf34aa1e-0148-4882-9c1e-4c2442ee8016")
+	)
+	(label "D5"
+		(at 252.73 100.33 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1e246f0-7367-4968-99b7-ef35d963eb5e")
 	)
 	(label "Vfiltered"
 		(at 464.82 99.06 0)
@@ -10051,6 +10149,17 @@
 		)
 		(uuid "c724e42a-f4ea-4269-8d86-e5afefda9235")
 	)
+	(label "+5V"
+		(at 566.42 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "cf3c80b7-196f-49a3-b5b7-2a348a54a428")
+	)
 	(label "SCK"
 		(at 285.75 165.1 0)
 		(effects
@@ -10073,14 +10182,44 @@
 		(uuid "d48909ed-eaff-47ab-b1e8-7776441997dc")
 	)
 	(label "Vprobe"
-		(at 435.61 140.97 0)
+		(at 448.31 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d4e78472-8008-4eaf-b5c4-910bd8bc4839")
+	)
+	(label "D7"
+		(at 247.65 175.26 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d4e78472-8008-4eaf-b5c4-910bd8bc4839")
+		(uuid "d52007f1-2f53-4038-9683-c1d144820977")
+	)
+	(label "D5"
+		(at 273.05 156.21 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d5da2fd8-0015-47f7-993c-11d19de79a30")
+	)
+	(label "A0"
+		(at 290.83 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d763cefe-6ba3-415b-befb-674a879d30f4")
 	)
 	(label "+5V"
 		(at 486.41 241.3 180)
@@ -10105,7 +10244,7 @@
 		(uuid "e01ae310-5d3c-4657-b600-d8ea90d62c1e")
 	)
 	(label "VADC"
-		(at 290.83 68.58 180)
+		(at 290.83 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10115,7 +10254,7 @@
 		(uuid "e14d36c9-e3c7-433c-8725-208320f61777")
 	)
 	(label "-12V"
-		(at 17.78 189.23 0)
+		(at 21.59 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10145,6 +10284,26 @@
 		)
 		(uuid "e903c1e7-193d-4a7c-b7fb-2231fee0a5d1")
 	)
+	(label "A3"
+		(at 267.97 49.53 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eaa791e9-2770-422b-ae77-e1c7b29dbc48")
+	)
+	(label "D6"
+		(at 255.27 100.33 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc90d158-174e-4e8a-986e-3eb3ef765e49")
+	)
 	(label "Vsingen"
 		(at 425.45 74.93 0)
 		(effects
@@ -10154,6 +10313,16 @@
 			(justify left bottom)
 		)
 		(uuid "fd03d2c2-6209-4b08-8160-a76928f295a3")
+	)
+	(label "A2"
+		(at 262.89 175.26 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff5ed652-80fa-4e61-8352-5aee6b29d266")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -10257,7 +10426,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 194.31 0)
+		(at 27.94 195.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10266,7 +10435,7 @@
 		(dnp no)
 		(uuid "041c285c-0912-4543-ab30-675f9f5b1eaf")
 		(property "Reference" "#PWR067"
-			(at 24.13 200.66 0)
+			(at 27.94 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10275,7 +10444,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 198.12 0)
+			(at 27.94 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10283,7 +10452,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 194.31 0)
+			(at 27.94 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10292,7 +10461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 194.31 0)
+			(at 27.94 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10301,7 +10470,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 194.31 0)
+			(at 27.94 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10997,7 +11166,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 60.96 177.8 0)
+		(at 64.77 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11006,7 +11175,7 @@
 		(fields_autoplaced yes)
 		(uuid "33db56b3-2802-4069-9f0a-e95286f718f7")
 		(property "Reference" "C12"
-			(at 63.5 176.5362 0)
+			(at 67.31 177.8062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11015,7 +11184,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 63.5 179.0762 0)
+			(at 67.31 180.3462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11024,7 +11193,7 @@
 			)
 		)
 		(property "Footprint" "BowelProbe:Cap10uF"
-			(at 60.96 177.8 0)
+			(at 64.77 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11033,7 +11202,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 177.8 0)
+			(at 64.77 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11042,7 +11211,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 60.96 177.8 0)
+			(at 64.77 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11051,7 +11220,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 60.96 177.8 0)
+			(at 64.77 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11059,7 +11228,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 60.96 177.8 0)
+			(at 64.77 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11067,7 +11236,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 60.96 177.8 0)
+			(at 64.77 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11389,6 +11558,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 252.73 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c2a6c35-0f70-4bce-838b-fa9eb15602f6")
+		(property "Reference" "J8"
+			(at 255.016 161.544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 250.19 162.5601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BowelProbe:CT3149-0"
+			(at 252.73 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 252.73 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
+			(at 252.73 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 252.73 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 252.73 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 252.73 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fb66723-02c9-4236-acad-a01f70a20098")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 99.06 111.76 180)
 		(unit 1)
@@ -11551,7 +11820,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 97.79 177.8 0)
+		(at 101.6 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11560,7 +11829,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ea36bfd-3b22-446e-b47d-6071fafd275e")
 		(property "Reference" "C13"
-			(at 100.33 176.5362 0)
+			(at 104.14 177.8062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11569,7 +11838,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 100.33 179.0762 0)
+			(at 104.14 180.3462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11578,7 +11847,7 @@
 			)
 		)
 		(property "Footprint" "BowelProbe:Cap10uF"
-			(at 97.79 177.8 0)
+			(at 101.6 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11587,7 +11856,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 177.8 0)
+			(at 101.6 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11596,7 +11865,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 97.79 177.8 0)
+			(at 101.6 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11605,7 +11874,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 97.79 177.8 0)
+			(at 101.6 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11613,7 +11882,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 97.79 177.8 0)
+			(at 101.6 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11621,7 +11890,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 97.79 177.8 0)
+			(at 101.6 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11638,76 +11907,6 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Speaker")
-		(at 250.19 106.68 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f784de7-d1a4-4d6c-977f-2b646dde857d")
-		(property "Reference" "LS1"
-			(at 245.11 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Speaker"
-			(at 245.11 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.444 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Speaker"
-			(at 250.19 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c5dd7ca8-6b31-4e8c-a104-8ac0de03aeee")
-		)
-		(pin "1"
-			(uuid "ab11ff68-b76a-49ce-a601-e36fa4f4393a")
-		)
-		(instances
-			(project ""
-				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "LS1")
 					(unit 1)
 				)
 			)
@@ -11773,85 +11972,6 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 252.73 45.72 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "418e6fcf-067c-4cde-bde4-53cd2e8a81ee")
-		(property "Reference" "D2"
-			(at 251.46 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_Small"
-			(at 250.19 47.0534 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 252.73 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 252.73 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0768f233-7b74-442f-8644-bfc0ecd44765")
-		)
-		(pin "2"
-			(uuid "54349986-aa13-45c5-9269-0a79f0900415")
-		)
-		(instances
-			(project ""
-				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -12075,6 +12195,106 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 273.05 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4627ce34-212e-4154-8940-74d1f162c1e9")
+		(property "Reference" "J12"
+			(at 275.336 161.544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 270.51 162.5601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BowelProbe:CT3149-0"
+			(at 273.05 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 273.05 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
+			(at 273.05 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 273.05 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 273.05 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 273.05 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "688070c9-a01c-484d-a4e3-b2170a056897")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -12671,7 +12891,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 194.31 0)
+		(at 64.77 195.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12680,7 +12900,7 @@
 		(dnp no)
 		(uuid "4d198524-b88d-4aed-88c8-8255353dfa31")
 		(property "Reference" "#PWR068"
-			(at 60.96 200.66 0)
+			(at 64.77 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12689,7 +12909,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 198.12 0)
+			(at 64.77 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12697,7 +12917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 194.31 0)
+			(at 64.77 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12706,7 +12926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 194.31 0)
+			(at 64.77 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12715,7 +12935,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 194.31 0)
+			(at 64.77 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12730,6 +12950,106 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 278.13 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dadf6d4-38cc-4a75-aa2e-0bfd4a133cb2")
+		(property "Reference" "J13"
+			(at 280.416 161.544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 275.59 162.5601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BowelProbe:CT3149-0"
+			(at 278.13 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 278.13 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
+			(at 278.13 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 278.13 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 278.13 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 278.13 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ec530a0-55c4-4f3b-adf1-97843b2a157f")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -12753,7 +13073,7 @@
 				)
 			)
 		)
-		(property "Value" "TL072smd"
+		(property "Value" "TL072ACDR"
 			(at 464.82 177.8 0)
 			(effects
 				(font
@@ -12945,108 +13265,6 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 255.27 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "505c17ed-6b3c-4e44-a06e-ad00586b7f30")
-		(property "Reference" "R15"
-			(at 257.81 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 257.81 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BowelProbe:Resistor100"
-			(at 256.286 125.984 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 255.27 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" ""
-			(at 255.27 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 255.27 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 255.27 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 255.27 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "162a2832-4970-4f8b-8f6a-e4a43fd2bd83")
-		)
-		(pin "1"
-			(uuid "a8de33af-1f7c-4d2a-8ac6-dfa5cf6eeaee")
-		)
-		(instances
-			(project "bowelProbe"
-				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -13451,7 +13669,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 180.34 0)
+		(at 101.6 181.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13460,7 +13678,7 @@
 		(dnp no)
 		(uuid "57cf86ea-3414-426d-b6d2-c626ad48c30f")
 		(property "Reference" "#PWR071"
-			(at 97.79 186.69 0)
+			(at 101.6 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13469,7 +13687,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 184.15 0)
+			(at 101.6 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13477,7 +13695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 180.34 0)
+			(at 101.6 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13486,7 +13704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 180.34 0)
+			(at 101.6 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13495,7 +13713,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 180.34 0)
+			(at 101.6 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14153,7 +14371,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 24.13 177.8 0)
+		(at 27.94 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14162,7 +14380,7 @@
 		(fields_autoplaced yes)
 		(uuid "635e9c42-f0e2-4684-aa47-e4c39d39c7dd")
 		(property "Reference" "C11"
-			(at 26.67 176.5362 0)
+			(at 30.48 177.8062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14171,7 +14389,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 26.67 179.0762 0)
+			(at 30.48 180.3462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14180,7 +14398,7 @@
 			)
 		)
 		(property "Footprint" "BowelProbe:Cap10uF"
-			(at 24.13 177.8 0)
+			(at 27.94 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14189,7 +14407,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 177.8 0)
+			(at 27.94 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14198,7 +14416,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 24.13 177.8 0)
+			(at 27.94 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14207,7 +14425,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 24.13 177.8 0)
+			(at 27.94 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14215,7 +14433,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 24.13 177.8 0)
+			(at 27.94 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14223,7 +14441,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 24.13 177.8 0)
+			(at 27.94 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14831,6 +15049,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 257.81 167.64 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c014b7b-2757-4192-8a9a-f192fc604af9")
+		(property "Reference" "J16"
+			(at 260.096 169.926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 255.27 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BowelProbe:CT3149-0"
+			(at 257.81 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 257.81 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
+			(at 257.81 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 257.81 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 257.81 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 257.81 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80f35b06-e0e6-4274-9cc7-30430106b36e")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 240.03 76.2 270)
 		(unit 1)
@@ -14890,71 +15209,6 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "#PWR0100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 562.61 182.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "703e65a1-2c5b-44c0-9e77-93aa22b137ef")
-		(property "Reference" "#PWR092"
-			(at 562.61 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 562.61 179.324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 562.61 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 562.61 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 562.61 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09ff5267-8dda-4541-9b07-c37c6f000347")
-		)
-		(instances
-			(project "bowelProbe"
-				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -15702,71 +15956,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7dd5648e-1aaa-43e8-b4ee-1acf877e9159")
-		(property "Reference" "#PWR0108"
-			(at 255.27 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 255.27 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3bff1414-1580-419a-b37b-20779d539db6")
-		)
-		(instances
-			(project "bowelProbe"
-				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 472.44 240.03 0)
 		(mirror x)
 		(unit 1)
@@ -16123,6 +16312,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 278.13 167.64 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d56c6d1-6986-4172-b232-b7e414382e3b")
+		(property "Reference" "J20"
+			(at 280.416 169.926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 275.59 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BowelProbe:CT3149-0"
+			(at 278.13 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 278.13 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
+			(at 278.13 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 278.13 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 278.13 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 278.13 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c00f8f6-2e47-4be0-9fb2-88f861ce9498")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 209.55 90.17 270)
 		(mirror x)
@@ -16316,7 +16606,6 @@
 		)
 		(pin "23"
 			(uuid "c25b8a50-1237-4457-bb4f-2a68d564c4de")
-			(alternate "ADC0")
 		)
 		(pin "19"
 			(uuid "7a5d2ec7-e309-4eda-821c-9f14fe27319e")
@@ -16865,7 +17154,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 180.34 0)
+		(at 64.77 181.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16874,7 +17163,7 @@
 		(dnp no)
 		(uuid "9bb5ec01-33ce-41f3-891f-3e793842311d")
 		(property "Reference" "#PWR064"
-			(at 60.96 186.69 0)
+			(at 64.77 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16883,7 +17172,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 184.15 0)
+			(at 64.77 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16891,7 +17180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 180.34 0)
+			(at 64.77 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16900,7 +17189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 180.34 0)
+			(at 64.77 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16909,7 +17198,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 180.34 0)
+			(at 64.77 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17475,7 +17764,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 194.31 0)
+		(at 101.6 195.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17484,7 +17773,7 @@
 		(dnp no)
 		(uuid "a8c958d9-9c62-4bc3-a56d-84ec7327325a")
 		(property "Reference" "#PWR069"
-			(at 97.79 200.66 0)
+			(at 101.6 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17493,7 +17782,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 198.12 0)
+			(at 101.6 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17501,7 +17790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 194.31 0)
+			(at 101.6 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17510,7 +17799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 194.31 0)
+			(at 101.6 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17519,7 +17808,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 194.31 0)
+			(at 101.6 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17958,7 +18247,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 289.56 76.2 90)
+		(at 293.37 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17966,7 +18255,7 @@
 		(dnp no)
 		(uuid "af6a3759-f761-4f5e-8ec6-811b434f3b31")
 		(property "Reference" "C39"
-			(at 292.1 75.184 90)
+			(at 295.91 75.184 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17974,7 +18263,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 292.354 77.216 90)
+			(at 296.164 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17982,7 +18271,7 @@
 			)
 		)
 		(property "Footprint" "BowelProbe:Cap0.1uF"
-			(at 289.56 76.2 0)
+			(at 293.37 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17991,7 +18280,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 289.56 76.2 0)
+			(at 293.37 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18000,7 +18289,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 289.56 76.2 0)
+			(at 293.37 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18009,7 +18298,7 @@
 			)
 		)
 		(property "Order" ""
-			(at 289.56 76.2 0)
+			(at 293.37 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18018,7 +18307,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 289.56 76.2 0)
+			(at 293.37 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18026,7 +18315,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 289.56 76.2 0)
+			(at 293.37 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18034,7 +18323,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 289.56 76.2 0)
+			(at 293.37 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18325,6 +18614,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 247.65 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b556b345-6372-4dad-9390-d43edb413533")
+		(property "Reference" "J7"
+			(at 249.936 161.544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 245.11 162.5601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BowelProbe:CT3149-0"
+			(at 247.65 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 247.65 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
+			(at 247.65 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 247.65 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 247.65 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 247.65 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "981dcbee-2772-4b37-a6e8-a65ffabf4779")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 525.78 97.79 90)
 		(unit 1)
@@ -18426,7 +18815,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 24.13 191.77 0)
+		(at 27.94 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18435,7 +18824,7 @@
 		(fields_autoplaced yes)
 		(uuid "b605ebb8-24e5-4193-bb3d-128107c7f720")
 		(property "Reference" "C14"
-			(at 26.67 190.5062 0)
+			(at 30.48 191.7762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18444,7 +18833,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 26.67 193.0462 0)
+			(at 30.48 194.3162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18453,7 +18842,7 @@
 			)
 		)
 		(property "Footprint" "BowelProbe:Cap10uF"
-			(at 24.13 191.77 0)
+			(at 27.94 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18462,7 +18851,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 191.77 0)
+			(at 27.94 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18471,7 +18860,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 24.13 191.77 0)
+			(at 27.94 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18480,7 +18869,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 24.13 191.77 0)
+			(at 27.94 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18488,7 +18877,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 24.13 191.77 0)
+			(at 27.94 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18496,7 +18885,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 24.13 191.77 0)
+			(at 27.94 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18513,6 +18902,107 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 267.97 167.64 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b60a5630-3a50-49c3-af95-c2a46c1ade42")
+		(property "Reference" "J18"
+			(at 270.256 169.926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 265.43 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BowelProbe:CT3149-0"
+			(at 267.97 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 267.97 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
+			(at 267.97 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 267.97 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 267.97 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 267.97 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3ed3440-c381-4d98-bb67-6722b53fbdaa")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -18584,35 +19074,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 60.96 191.77 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 252.73 167.64 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8ec3691-8084-4513-93d1-93a5831631ff")
-		(property "Reference" "C15"
-			(at 63.5 190.5062 0)
+		(uuid "b7759c8e-458a-4f99-9898-691fa65650a9")
+		(property "Reference" "J15"
+			(at 255.016 169.926 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10u"
-			(at 63.5 193.0462 0)
+		(property "Value" "Conn_01x01"
+			(at 250.19 168.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "BowelProbe:Cap10uF"
-			(at 60.96 191.77 0)
+		(property "Footprint" "BowelProbe:CT3149-0"
+			(at 252.73 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18621,7 +19112,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 191.77 0)
+			(at 252.73 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18629,8 +19120,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 60.96 191.77 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 252.73 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
+			(at 252.73 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18639,7 +19139,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 60.96 191.77 0)
+			(at 252.73 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18647,7 +19147,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 60.96 191.77 0)
+			(at 252.73 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18655,7 +19155,98 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 60.96 191.77 0)
+			(at 252.73 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6a0ab3a-8061-4295-81b7-3d87b0bdf940")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 64.77 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8ec3691-8084-4513-93d1-93a5831631ff")
+		(property "Reference" "C15"
+			(at 67.31 191.7762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 67.31 194.3162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BowelProbe:Cap10uF"
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 64.77 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18790,106 +19381,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 252.73 38.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bd2ef148-a382-4f56-948a-9ddc3f5bb549")
-		(property "Reference" "R11"
-			(at 250.952 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 249.174 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BowelProbe:Resistor1k"
-			(at 251.714 37.846 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 252.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" ""
-			(at 252.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 252.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 252.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 252.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ef67a3a4-f24c-4209-9e08-5a3f9d6373ee")
-		)
-		(pin "1"
-			(uuid "fafc620c-926d-4533-8a8f-40dbca359bf0")
-		)
-		(instances
-			(project "bowelProbe"
-				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 501.65 85.09 180)
 		(unit 1)
@@ -18956,7 +19447,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 60.96 163.83 0)
+		(at 64.77 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18965,7 +19456,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf5823b1-6614-47dd-82a7-05ad0e523197")
 		(property "Reference" "C9"
-			(at 63.5 162.5662 0)
+			(at 67.31 163.8362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18974,7 +19465,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 63.5 165.1062 0)
+			(at 67.31 166.3762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18983,7 +19474,7 @@
 			)
 		)
 		(property "Footprint" "BowelProbe:Cap10uF"
-			(at 60.96 163.83 0)
+			(at 64.77 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18992,7 +19483,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 163.83 0)
+			(at 64.77 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19001,7 +19492,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 60.96 163.83 0)
+			(at 64.77 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19010,7 +19501,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 60.96 163.83 0)
+			(at 64.77 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19018,7 +19509,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 60.96 163.83 0)
+			(at 64.77 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19026,7 +19517,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 60.96 163.83 0)
+			(at 64.77 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19050,7 +19541,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 166.37 0)
+		(at 101.6 167.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19059,7 +19550,7 @@
 		(dnp no)
 		(uuid "c18bff3b-03ca-459a-8d0a-358973b18572")
 		(property "Reference" "#PWR070"
-			(at 97.79 172.72 0)
+			(at 101.6 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19068,7 +19559,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 170.18 0)
+			(at 101.6 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19076,7 +19567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 166.37 0)
+			(at 101.6 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19085,7 +19576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 166.37 0)
+			(at 101.6 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19094,7 +19585,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 166.37 0)
+			(at 101.6 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19116,7 +19607,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 429.26 135.89 0)
+		(at 429.26 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19125,7 +19616,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3a95285-865d-49a4-895c-f9d7ae251d21")
 		(property "Reference" "R8"
-			(at 431.8 134.6199 0)
+			(at 431.8 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19134,7 +19625,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 431.8 137.1599 0)
+			(at 431.8 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19143,7 +19634,7 @@
 			)
 		)
 		(property "Footprint" "BowelProbe:Resistor100"
-			(at 430.276 136.144 90)
+			(at 430.276 146.304 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19152,7 +19643,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 429.26 135.89 0)
+			(at 429.26 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19161,7 +19652,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 429.26 135.89 0)
+			(at 429.26 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19170,7 +19661,7 @@
 			)
 		)
 		(property "Order" ""
-			(at 429.26 135.89 0)
+			(at 429.26 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19179,7 +19670,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 429.26 135.89 0)
+			(at 429.26 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19187,7 +19678,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 429.26 135.89 0)
+			(at 429.26 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19195,7 +19686,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 429.26 135.89 0)
+			(at 429.26 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19582,71 +20073,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 252.73 33.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6f14717-c30d-4108-9477-f54081253aca")
-		(property "Reference" "#PWR0107"
-			(at 252.73 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 252.73 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b220187-0913-40b3-95bf-88cfdd37a72f")
-		)
-		(instances
-			(project "bowelProbe"
-				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
 		(at 300.99 165.1 0)
 		(unit 1)
@@ -19672,7 +20098,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BowelProbe:Dupont2x3"
 			(at 300.99 165.1 0)
 			(effects
 				(font
@@ -19728,7 +20154,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 97.79 163.83 0)
+		(at 101.6 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19737,7 +20163,7 @@
 		(fields_autoplaced yes)
 		(uuid "c737c0fa-16a0-467d-ba65-f277d378d859")
 		(property "Reference" "C10"
-			(at 100.33 162.5662 0)
+			(at 104.14 163.8362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19746,7 +20172,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 100.33 165.1062 0)
+			(at 104.14 166.3762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19755,7 +20181,7 @@
 			)
 		)
 		(property "Footprint" "BowelProbe:Cap10uF"
-			(at 97.79 163.83 0)
+			(at 101.6 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19764,7 +20190,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 163.83 0)
+			(at 101.6 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19773,7 +20199,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 97.79 163.83 0)
+			(at 101.6 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19782,7 +20208,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 97.79 163.83 0)
+			(at 101.6 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19790,7 +20216,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 97.79 163.83 0)
+			(at 101.6 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19798,7 +20224,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 97.79 163.83 0)
+			(at 101.6 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19837,7 +20263,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "71.5k"
 			(at 97.79 95.504 90)
 			(effects
 				(font
@@ -19845,7 +20271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BowelProbe:Resistor10k"
+		(property "Footprint" "BowelProbe:Resistor71.5k"
 			(at 98.044 98.044 90)
 			(effects
 				(font
@@ -19922,7 +20348,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 180.34 0)
+		(at 27.94 181.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19931,7 +20357,7 @@
 		(dnp no)
 		(uuid "cec26d2a-7aef-4b22-a71e-57af0148c35c")
 		(property "Reference" "#PWR063"
-			(at 24.13 186.69 0)
+			(at 27.94 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19940,7 +20366,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 184.15 0)
+			(at 27.94 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19948,7 +20374,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 180.34 0)
+			(at 27.94 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19957,7 +20383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 180.34 0)
+			(at 27.94 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19966,7 +20392,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 180.34 0)
+			(at 27.94 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20288,6 +20714,207 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 257.81 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2aef5e7-4996-409c-88a6-8749b99816e0")
+		(property "Reference" "J9"
+			(at 260.096 161.544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 255.27 162.5601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BowelProbe:CT3149-0"
+			(at 257.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 257.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
+			(at 257.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 257.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 257.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 257.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "351f7678-99fa-44a2-ae85-c9dda1f93c0e")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 273.05 167.64 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4960ab5-e356-47c7-b1c1-2ea666c7d236")
+		(property "Reference" "J19"
+			(at 275.336 169.926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 270.51 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BowelProbe:CT3149-0"
+			(at 273.05 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 273.05 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
+			(at 273.05 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 273.05 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 273.05 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 273.05 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e6275af8-a26f-43a6-a3a0-8211fd3cf5b2")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 436.88 87.63 270)
 		(mirror x)
@@ -20380,8 +21007,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 247.65 167.64 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8d46341-cf8f-4a97-adf5-c0aec08a8ed1")
+		(property "Reference" "J14"
+			(at 249.936 169.926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 245.11 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BowelProbe:CT3149-0"
+			(at 247.65 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 247.65 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
+			(at 247.65 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 247.65 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 247.65 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 247.65 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ec0633f-4095-41a8-99bf-0fd9a2aeb8f7")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 60.96 166.37 0)
+		(at 64.77 167.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20390,7 +21118,7 @@
 		(dnp no)
 		(uuid "d9d1149e-0428-4f7a-a7c0-1d1e79cd1e49")
 		(property "Reference" "#PWR066"
-			(at 60.96 172.72 0)
+			(at 64.77 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20399,7 +21127,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 170.18 0)
+			(at 64.77 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20407,7 +21135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 166.37 0)
+			(at 64.77 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20416,7 +21144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 166.37 0)
+			(at 64.77 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20425,7 +21153,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 166.37 0)
+			(at 64.77 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20447,7 +21175,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 436.88 143.51 0)
+		(at 435.61 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20455,7 +21183,7 @@
 		(dnp no)
 		(uuid "d9d363a9-f243-4154-92a8-e071c6a380ef")
 		(property "Reference" "J3"
-			(at 441.198 143.51 0)
+			(at 439.928 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20464,7 +21192,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 435.6101 146.05 90)
+			(at 434.3401 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20474,7 +21202,7 @@
 			)
 		)
 		(property "Footprint" "BowelProbe:CT3149-5"
-			(at 436.88 143.51 0)
+			(at 435.61 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20483,7 +21211,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 436.88 143.51 0)
+			(at 435.61 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20492,7 +21220,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 436.88 143.51 0)
+			(at 435.61 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20501,7 +21229,7 @@
 			)
 		)
 		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-5/6005536"
-			(at 436.88 143.51 0)
+			(at 435.61 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20510,7 +21238,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 436.88 143.51 0)
+			(at 435.61 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20518,7 +21246,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 436.88 143.51 0)
+			(at 435.61 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20526,7 +21254,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 436.88 143.51 0)
+			(at 435.61 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20540,6 +21268,106 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 267.97 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc81ad02-d87a-4eb3-8ae5-84541460b400")
+		(property "Reference" "J11"
+			(at 270.256 161.544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 265.43 162.5601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BowelProbe:CT3149-0"
+			(at 267.97 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 267.97 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
+			(at 267.97 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 267.97 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 267.97 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 267.97 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99693ca3-817a-4b82-abba-7418e523d509")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -20641,16 +21469,16 @@
 		)
 	)
 	(symbol
-		(lib_id "BowelProbe:SchottkyDiode")
-		(at 257.81 107.95 90)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 262.89 163.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dea16040-ce5e-478b-a486-cb3867ffafc5")
-		(property "Reference" "D3"
-			(at 258.318 105.41 90)
+		(uuid "de26a0be-8347-48fd-bccf-6cd005479583")
+		(property "Reference" "J10"
+			(at 265.176 161.544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20658,8 +21486,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SchottkyDiode"
-			(at 255.016 100.838 0)
+		(property "Value" "Conn_01x01"
+			(at 260.35 162.5601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20668,213 +21496,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "BowelProbe:SchottkyDiode"
-			(at 257.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/sdb160ws.pdf"
-			(at 257.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 257.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "4878-SDB160WS-AQ-ND"
-			(at 257.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SDB160WS-AQ/Diotec/view-part/?ref=snap"
-			(at 257.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
-			(at 257.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOD-323P Diotec"
-			(at 257.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SDB160WS-AQ/Diotec/view-part/?ref=eda"
-			(at 257.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 257.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "2023-08-16"
-			(at 257.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Diotec Semiconductor"
-			(at 257.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SDB160WS-AQ"
-			(at 257.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Schottky, SOD-323P, 60V, 1A, 150°C, AEC-Q101"
-			(at 257.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Diotec Semiconductor"
-			(at 257.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 257.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 257.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 257.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "C"
-			(uuid "3e0de538-0a10-425a-90b6-7027f8cb2cf3")
-		)
-		(pin "A"
-			(uuid "1426d596-16b6-4b33-a626-73e7e7152b58")
-		)
-		(instances
-			(project "bowelProbe"
-				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 24.13 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e06d7841-8ca5-44dc-a89f-df8089e6357a")
-		(property "Reference" "C8"
-			(at 26.67 162.5662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 26.67 165.1062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BowelProbe:Cap10uF"
-			(at 24.13 163.83 0)
+		(property "Footprint" "BowelProbe:CT3149-0"
+			(at 262.89 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20883,7 +21506,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 163.83 0)
+			(at 262.89 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20891,8 +21514,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 24.13 163.83 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 262.89 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
+			(at 262.89 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20901,7 +21533,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 24.13 163.83 0)
+			(at 262.89 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20909,7 +21541,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 24.13 163.83 0)
+			(at 262.89 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20917,7 +21549,98 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 24.13 163.83 0)
+			(at 262.89 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a54b0713-f43c-47e0-b0a7-8bc366f2b9d4")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 27.94 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e06d7841-8ca5-44dc-a89f-df8089e6357a")
+		(property "Reference" "C8"
+			(at 30.48 163.8362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 30.48 166.3762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BowelProbe:Cap10uF"
+			(at 27.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 27.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 27.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 27.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 27.94 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20934,6 +21657,107 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 262.89 167.64 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0a97f10-7eed-4a8f-8871-9735aabe22d8")
+		(property "Reference" "J17"
+			(at 265.176 169.926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 260.35 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BowelProbe:CT3149-0"
+			(at 262.89 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 262.89 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
+			(at 262.89 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 262.89 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 262.89 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 262.89 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9a97cba-dfd1-4aa6-8384-e6029231a15e")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -21352,7 +22176,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 97.79 191.77 0)
+		(at 101.6 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21361,7 +22185,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8670ce1-f57c-4999-95d3-f3acc1eb7104")
 		(property "Reference" "C16"
-			(at 100.33 190.5062 0)
+			(at 104.14 191.7762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21370,7 +22194,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 100.33 193.0462 0)
+			(at 104.14 194.3162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21379,7 +22203,7 @@
 			)
 		)
 		(property "Footprint" "BowelProbe:Cap10uF"
-			(at 97.79 191.77 0)
+			(at 101.6 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21388,7 +22212,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 191.77 0)
+			(at 101.6 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21397,7 +22221,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 97.79 191.77 0)
+			(at 101.6 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21406,7 +22230,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 97.79 191.77 0)
+			(at 101.6 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21414,7 +22238,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 97.79 191.77 0)
+			(at 101.6 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21422,7 +22246,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 97.79 191.77 0)
+			(at 101.6 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21535,7 +22359,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BowelProbe:microSD"
 			(at 213.36 160.02 0)
 			(effects
 				(font
@@ -22197,7 +23021,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 436.88 147.32 0)
+		(at 435.61 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22205,7 +23029,7 @@
 		(dnp no)
 		(uuid "f8b79ad0-6575-4c37-ba58-bfb4144fb073")
 		(property "Reference" "J4"
-			(at 441.198 147.32 0)
+			(at 439.928 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22214,7 +23038,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 435.6101 149.86 90)
+			(at 434.3401 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22224,7 +23048,7 @@
 			)
 		)
 		(property "Footprint" "BowelProbe:CT3149-5"
-			(at 436.88 147.32 0)
+			(at 435.61 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22233,7 +23057,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 436.88 147.32 0)
+			(at 435.61 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22242,7 +23066,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 436.88 147.32 0)
+			(at 435.61 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22251,7 +23075,7 @@
 			)
 		)
 		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-5/6005536"
-			(at 436.88 147.32 0)
+			(at 435.61 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22260,7 +23084,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 436.88 147.32 0)
+			(at 435.61 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22268,7 +23092,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 436.88 147.32 0)
+			(at 435.61 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22276,7 +23100,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 436.88 147.32 0)
+			(at 435.61 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22388,7 +23212,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 166.37 0)
+		(at 27.94 167.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22397,7 +23221,7 @@
 		(dnp no)
 		(uuid "fbedfb6d-cdda-46ad-a6c0-668d0ba1767e")
 		(property "Reference" "#PWR065"
-			(at 24.13 172.72 0)
+			(at 27.94 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22406,7 +23230,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 170.18 0)
+			(at 27.94 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22414,7 +23238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 166.37 0)
+			(at 27.94 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22423,7 +23247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 166.37 0)
+			(at 27.94 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22432,7 +23256,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 166.37 0)
+			(at 27.94 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)

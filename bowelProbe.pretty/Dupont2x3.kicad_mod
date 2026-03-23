@@ -1,0 +1,261 @@
+(footprint "Dupont2x3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.135 -3.937 0)
+		(layer "F.SilkS")
+		(uuid "0d449a1e-e003-4611-9e93-3a25420cca8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SULLINS_PPPC032LFBN-RC"
+		(at 9.66 3.556 0)
+		(layer "F.Fab")
+		(uuid "87ca1c43-dd83-4a43-b343-977056bd469c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/937/Female_Headers.100_DS.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7f9795c-145d-4920-85d1-edc4116a6124")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3a5ef4f-93f3-41cc-a823-4b3a9f949d15")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.06 -2.54)
+		(end 4.06 -2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76db4368-3568-45e4-8680-ac22209006bb")
+	)
+	(fp_line
+		(start -4.06 2.54)
+		(end -4.06 -2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70989647-dd4a-4cf3-8a21-09f905c59883")
+	)
+	(fp_line
+		(start 4.06 -2.54)
+		(end 4.06 2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aca0f4bc-d439-4ad8-8a8d-8163726800b2")
+	)
+	(fp_line
+		(start 4.06 2.54)
+		(end -4.06 2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "782d4129-77e2-442b-9a99-a9fb6fd2e076")
+	)
+	(fp_circle
+		(center 4.699 1.27)
+		(end 4.799 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7d8a854f-0841-4c3a-8f93-2b34bc37595a")
+	)
+	(fp_line
+		(start -4.31 -2.79)
+		(end 4.31 -2.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b9c1938b-6020-4022-bb97-a93266c173b2")
+	)
+	(fp_line
+		(start -4.31 2.79)
+		(end -4.31 -2.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a953a59-ee73-47b6-95e6-786bb2d534e8")
+	)
+	(fp_line
+		(start 4.31 -2.79)
+		(end 4.31 2.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "69389789-a658-4409-91d8-04292d3e4a65")
+	)
+	(fp_line
+		(start 4.31 2.79)
+		(end -4.31 2.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c64f17fb-3586-4a1b-bbde-f3bb49528f6f")
+	)
+	(fp_line
+		(start -4.06 -2.54)
+		(end 4.06 -2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ddf619e8-bf9c-422c-8a53-efab61894d5e")
+	)
+	(fp_line
+		(start -4.06 2.54)
+		(end -4.06 -2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8912c141-7235-4558-b033-efd6d064637e")
+	)
+	(fp_line
+		(start 4.06 -2.54)
+		(end 4.06 2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d856deef-5f41-4ed3-8da6-9ab42a199228")
+	)
+	(fp_line
+		(start 4.06 2.54)
+		(end -4.06 2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "106be1e6-2499-4eca-8f0f-e4c779364716")
+	)
+	(fp_circle
+		(center 4.699 1.27)
+		(end 4.799 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f7a74600-6de5-43ab-9ed5-6a64c1af1bec")
+	)
+	(pad "1" thru_hole rect
+		(at 2.54 1.27)
+		(size 1.605 1.605)
+		(drill 1.07)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "b363deba-bec2-492d-ac99-9a3879da3e30")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 -1.27)
+		(size 1.605 1.605)
+		(drill 1.07)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "19ae5e28-3043-4d89-9ebe-1943790324a4")
+	)
+	(pad "3" thru_hole circle
+		(at 0 1.27)
+		(size 1.605 1.605)
+		(drill 1.07)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "50255cd4-ee96-410b-9a78-68ee1fff5d41")
+	)
+	(pad "4" thru_hole circle
+		(at 0 -1.27)
+		(size 1.605 1.605)
+		(drill 1.07)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "e67c46bf-fabf-44c6-bd1d-5192c6e109b3")
+	)
+	(pad "5" thru_hole circle
+		(at -2.54 1.27)
+		(size 1.605 1.605)
+		(drill 1.07)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "7e82c877-5c23-4884-a788-fdb60fe9866f")
+	)
+	(pad "6" thru_hole circle
+		(at -2.54 -1.27)
+		(size 1.605 1.605)
+		(drill 1.07)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a0ca7893-38e7-421a-821c-18e8c6cd6200")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/bowelProbe_3D/Dupont2x3.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
