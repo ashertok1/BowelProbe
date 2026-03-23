@@ -1,0 +1,159 @@
+(footprint "Cap0.1uF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.53 -0.77 0)
+		(layer "F.SilkS")
+		(uuid "413ad206-c6dc-458c-8f12-e41131d23028")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Value" "CAPC0603X33N"
+		(at 2.28 0.77 0)
+		(layer "F.Fab")
+		(uuid "b3459b4b-7118-4b38-89ef-c1c22fedc6c4")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033C71C104KE14-01.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4cc5859d-e756-4539-b7a9-543202241c65")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b398f9bd-d6a8-4425-befc-753349aacad5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.718 -0.448)
+		(end 0.718 -0.448)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f935e420-6d56-4897-9b84-06e4fa56d5a7")
+	)
+	(fp_line
+		(start -0.718 0.448)
+		(end -0.718 -0.448)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5cfeae24-6278-4eff-981a-a3b3e97d44e1")
+	)
+	(fp_line
+		(start -0.718 0.448)
+		(end 0.718 0.448)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dd3ce9a6-5810-40ef-9c30-8c93da056ec5")
+	)
+	(fp_line
+		(start 0.718 0.448)
+		(end 0.718 -0.448)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0bd0f07e-80d4-4638-9566-5d4e5a695296")
+	)
+	(fp_line
+		(start -0.32 0.17)
+		(end -0.32 -0.17)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0e606b3-96f8-4ce0-a4c8-db22199215b9")
+	)
+	(fp_line
+		(start 0.32 -0.17)
+		(end -0.32 -0.17)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56e503f1-8343-42ef-9dff-44af957a8c69")
+	)
+	(fp_line
+		(start 0.32 0.17)
+		(end -0.32 0.17)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54e0f79e-ed22-4001-81b1-ffb12b88d77e")
+	)
+	(fp_line
+		(start 0.32 0.17)
+		(end 0.32 -0.17)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "87930bc6-8b1c-4e3a-820a-42d99ad3cfb7")
+	)
+	(pad "1" smd rect
+		(at -0.281 0)
+		(size 0.38 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "0b383cea-a66a-469f-bb68-f092ab419308")
+	)
+	(pad "2" smd rect
+		(at 0.281 0)
+		(size 0.38 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "67e97e0b-e1cc-4e88-bd8e-c25fde08fd88")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/bowelProbe_3D/Cap0.1uF.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

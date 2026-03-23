@@ -1,0 +1,201 @@
+(footprint "SchottkyDiode"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.275 -1.885 0)
+		(layer "F.SilkS")
+		(uuid "c74023a1-6d1d-4c4a-89fe-181470be0086")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DIO_SDB160WS-AQ"
+		(at 7.625 1.885 0)
+		(layer "F.Fab")
+		(uuid "8cb883f5-649a-4eba-914b-94dbcfc80bd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://diotec.com/request/datasheet/sdb160ws.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1be06d4-b183-43ec-86ce-9b2621a9d8f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c22b71c2-6ed7-4eb4-8fe5-42940714dfa1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.95 -0.87)
+		(end 0.95 -0.87)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e36f811d-e694-4b1e-887b-ae0989c057fb")
+	)
+	(fp_line
+		(start 0.95 0.87)
+		(end -0.95 0.87)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4baaf17-77b3-4126-b610-c524c7fe1e90")
+	)
+	(fp_circle
+		(center -2.2 0)
+		(end -2.1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "74e93f00-17ed-4acf-841f-8d81defc026c")
+	)
+	(fp_line
+		(start -1.9 -0.97)
+		(end -1.9 0.97)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e7c4f100-472e-4761-b9e1-c89a65e0f4f8")
+	)
+	(fp_line
+		(start -1.9 0.97)
+		(end 1.9 0.97)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b4a9e867-66a2-4e4d-8574-46b6e9d4ee65")
+	)
+	(fp_line
+		(start 1.9 -0.97)
+		(end -1.9 -0.97)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d1e5fb8a-7af2-4d8b-8889-5c1de7982ab3")
+	)
+	(fp_line
+		(start 1.9 0.97)
+		(end 1.9 -0.97)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "57aecf85-cee2-4708-a74a-7af4f4dfaeed")
+	)
+	(fp_line
+		(start -0.95 -0.625)
+		(end -0.95 0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a2961f5f-855f-4967-87e9-c25aee5db94b")
+	)
+	(fp_line
+		(start -0.95 0.625)
+		(end 0.95 0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a6ecc75-feeb-49c6-8f3d-0b298d5debf5")
+	)
+	(fp_line
+		(start 0.95 -0.625)
+		(end -0.95 -0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0faa5816-e0f4-4a6c-b30a-2b1c78839fa5")
+	)
+	(fp_line
+		(start 0.95 0.625)
+		(end 0.95 -0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "87196755-37a0-4783-a512-bfb1a8f1a21a")
+	)
+	(fp_circle
+		(center -2.2 0)
+		(end -2.1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e4be4f19-31ff-4497-97da-bc55f9bb1cd3")
+	)
+	(pad "A" smd rect
+		(at 1.25 0)
+		(size 0.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "100f4655-547c-475b-9bf7-8a85e5cd4d09")
+	)
+	(pad "C" smd rect
+		(at -0.65 0)
+		(size 2 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "7e6fa637-1233-40d1-b6c2-f0dae82428fa")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/bowelProbe_3D/SchottkyDiode.step"
+		(offset
+			(xyz -0.35 -0.1 0.35)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

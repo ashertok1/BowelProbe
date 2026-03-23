@@ -1,0 +1,159 @@
+(footprint "Cap1uF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.24 -1.08 0)
+		(layer "F.SilkS")
+		(uuid "9e129a3d-3d94-4373-8efe-c3a3dafc1f9b")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Value" "CAPC1608X94N"
+		(at 1.51 1.08 0)
+		(layer "F.Fab")
+		(uuid "377ecbee-b79a-4588-8a89-571d906a7e70")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0154184-1042-4838-ac76-e8c60cc3e78e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0903d404-c8b9-4433-bb55-4df955d04092")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.485 -0.74)
+		(end 1.485 -0.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0307ff8f-60f5-46d4-802c-8e5c0d7b2a1e")
+	)
+	(fp_line
+		(start -1.485 0.74)
+		(end -1.485 -0.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c37d85e6-7ae8-4abb-a8ba-30302b9b83b3")
+	)
+	(fp_line
+		(start -1.485 0.74)
+		(end 1.485 0.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc807a81-f8ce-4392-9b9b-5f392a3f1b74")
+	)
+	(fp_line
+		(start 1.485 0.74)
+		(end 1.485 -0.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0c59231-bcf2-4c54-be70-308617b398e3")
+	)
+	(fp_line
+		(start -0.88 0.48)
+		(end -0.88 -0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "63024695-77c0-48db-8729-52d37a8ea7f4")
+	)
+	(fp_line
+		(start 0.88 -0.48)
+		(end -0.88 -0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a13bde2a-99c9-4749-af09-b82596f04bb7")
+	)
+	(fp_line
+		(start 0.88 0.48)
+		(end -0.88 0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8bfc9733-d1e9-4af3-99c9-7d1d88e1fdbe")
+	)
+	(fp_line
+		(start 0.88 0.48)
+		(end 0.88 -0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b792bb0-33aa-43df-837f-e6ca918f7cf2")
+	)
+	(pad "1" smd rect
+		(at -0.775 0)
+		(size 0.92 0.98)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "20a61b4c-e307-4457-97fd-514c7fca089e")
+	)
+	(pad "2" smd rect
+		(at 0.775 0)
+		(size 0.92 0.98)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c761b3c5-e806-4102-9934-0ca4b73b9060")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/bowelProbe_3D/Cap1uF.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

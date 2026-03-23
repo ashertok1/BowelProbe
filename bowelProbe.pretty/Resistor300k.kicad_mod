@@ -1,0 +1,179 @@
+(footprint "Resistor300k"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.96 -1.45 0)
+		(layer "F.SilkS")
+		(uuid "afa76935-0640-48ab-97bb-f3f4020032b4")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Value" "RESC3116X65N"
+		(at 0.79 1.45 0)
+		(layer "F.Fab")
+		(uuid "801a2711-3da1-49bd-905d-8b8831062780")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98d572b4-15fd-40e9-aee3-bf8e3e5f07f1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7af66d7-340b-4fa5-99b5-6525856a12ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.67 -0.85)
+		(end 0.67 -0.85)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8da843fe-944b-47ee-8678-7f091efad673")
+	)
+	(fp_line
+		(start -0.67 0.85)
+		(end 0.67 0.85)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b011163-6d6d-40e3-9e07-c15514ccf65b")
+	)
+	(fp_line
+		(start -2.215 -1.115)
+		(end 2.215 -1.115)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e5f7b2c3-8be8-4435-9555-0955fca9b35f")
+	)
+	(fp_line
+		(start -2.215 1.115)
+		(end -2.215 -1.115)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e11f76d-2806-4609-a89b-839bc59f320d")
+	)
+	(fp_line
+		(start -2.215 1.115)
+		(end 2.215 1.115)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "543175f2-4c30-4a4c-9816-2197463b0308")
+	)
+	(fp_line
+		(start 2.215 1.115)
+		(end 2.215 -1.115)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0310f005-f53a-4caa-953e-2954045a6bbc")
+	)
+	(fp_line
+		(start -1.6 0.85)
+		(end -1.6 -0.85)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a98082d-9dd0-44e7-88ce-64def419538f")
+	)
+	(fp_line
+		(start 1.6 -0.85)
+		(end -1.6 -0.85)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0507a949-69f4-4f67-8992-73391324818e")
+	)
+	(fp_line
+		(start 1.6 0.85)
+		(end -1.6 0.85)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4018a0f-440a-4bd9-9659-4a677645285d")
+	)
+	(fp_line
+		(start 1.6 0.85)
+		(end 1.6 -0.85)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "197968bb-9be9-4d3d-9ee8-285ceee4be19")
+	)
+	(pad "1" smd rect
+		(at -1.48 0)
+		(size 0.97 1.73)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "31886622-2c48-4b11-b50d-9e4dc371a735")
+	)
+	(pad "2" smd rect
+		(at 1.48 0)
+		(size 0.97 1.73)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "46bf1dcb-3571-434c-8d08-7be3970262b4")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/bowelProbe_3D/Resistor300k.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

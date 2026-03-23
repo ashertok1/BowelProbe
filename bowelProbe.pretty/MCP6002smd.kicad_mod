@@ -1,0 +1,325 @@
+(footprint "MCP6002smd"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "MCP6002-E/MC ")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "70eaaa34-34fc-43ff-8121-546a48c137c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DFN8_2x3MC_MCH"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "14e4c065-6077-47f7-a7f9-d688df1069db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b9b416a-79ad-43cd-851d-eb5af72c2918")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "876fcd2a-c328-442e-80b9-7b5c6b6cd4c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.774364 1.1303)
+		(end 0.774364 1.1303)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc31eadd-e06a-46ed-b327-26e693476fac")
+	)
+	(fp_line
+		(start 0.774364 -1.1303)
+		(end -0.774364 -1.1303)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "360f48b9-1d9c-4432-a821-cc760301dfcf")
+	)
+	(fp_line
+		(start -2.052599 -1.1314)
+		(end -1.7526 -1.1314)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6104b295-a91b-435d-b144-8d8977e34c09")
+	)
+	(fp_line
+		(start -2.052599 1.1314)
+		(end -2.052599 -1.1314)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e592032-3fde-4822-92af-7469c2d981aa")
+	)
+	(fp_line
+		(start -2.052599 1.1314)
+		(end -1.7526 1.1314)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d32a8ea5-a4d4-49b9-931b-4013adb03320")
+	)
+	(fp_line
+		(start -1.7526 -1.2573)
+		(end 1.7526 -1.2573)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e3998b82-afff-424b-9260-72c5d12ca243")
+	)
+	(fp_line
+		(start -1.7526 -1.1314)
+		(end -1.7526 -1.2573)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c7c18128-63fa-42f1-986f-69e5190fc7d3")
+	)
+	(fp_line
+		(start -1.7526 1.2573)
+		(end -1.7526 1.1314)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c1c6aba3-b357-4a08-a381-78d7d9a201fe")
+	)
+	(fp_line
+		(start 1.7526 -1.2573)
+		(end 1.7526 -1.1314)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2b2f5334-b0cd-4c0a-9996-73e18945d646")
+	)
+	(fp_line
+		(start 1.7526 1.1314)
+		(end 1.7526 1.2573)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1abf8f48-9bf9-4a88-9940-3acd7fadb237")
+	)
+	(fp_line
+		(start 1.7526 1.2573)
+		(end -1.7526 1.2573)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2b7d26c7-f1a7-4046-9772-a597e83141fb")
+	)
+	(fp_line
+		(start 2.052599 -1.1314)
+		(end 1.7526 -1.1314)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "def4d59c-8f97-4362-a9f4-29a6c57693c3")
+	)
+	(fp_line
+		(start 2.052599 -1.1314)
+		(end 2.052599 1.1314)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a1aeaea-3ab5-4453-8e6f-99329a4d1d86")
+	)
+	(fp_line
+		(start 2.052599 1.1314)
+		(end 1.7526 1.1314)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f9a525e1-8639-4b91-8128-29de490107ee")
+	)
+	(fp_line
+		(start -1.4986 -1.0033)
+		(end -1.4986 1.0033)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b6699683-f6d9-47b1-b3f0-3fb2485632b2")
+	)
+	(fp_line
+		(start -1.4986 1.0033)
+		(end 1.4986 1.0033)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5daffbf-1478-47df-9e6d-04223de1fdce")
+	)
+	(fp_line
+		(start 1.4986 -1.0033)
+		(end -1.4986 -1.0033)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5bb9ab1c-1e81-495c-ba75-6c3c38826ecc")
+	)
+	(fp_line
+		(start 1.4986 1.0033)
+		(end 1.4986 -1.0033)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ddeb740f-442e-46d7-a37e-8c273a355f92")
+	)
+	(fp_arc
+		(start 0.3048 -1.0033)
+		(mid 0 -0.6985)
+		(end -0.3048 -1.0033)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ba24e3d7-5c3a-4f40-8f94-4f7b6871e485")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2fe907ad-3917-4e4c-8fe4-6f69302911ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.3946 -0.750001)
+		(size 0.807999 0.2548)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "91cdd409-8e00-4268-8268-49b16d1228ca")
+	)
+	(pad "2" smd rect
+		(at -1.3946 -0.25)
+		(size 0.807999 0.2548)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dd71d765-4a0d-4397-bf93-f7fb23fe0b12")
+	)
+	(pad "3" smd rect
+		(at -1.3946 0.25)
+		(size 0.807999 0.2548)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2a42e2fb-1997-4cb8-b6de-057042c528dd")
+	)
+	(pad "4" smd rect
+		(at -1.3946 0.750001)
+		(size 0.807999 0.2548)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2c880a57-2952-474d-9336-9fe7de1ec9c0")
+	)
+	(pad "5" smd rect
+		(at 1.3946 0.750001)
+		(size 0.807999 0.2548)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ec3e61a0-6e8d-4fb7-9027-82102aaf7630")
+	)
+	(pad "6" smd rect
+		(at 1.3946 0.25)
+		(size 0.807999 0.2548)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ffb7efff-2884-4514-8097-a8a4fb283466")
+	)
+	(pad "7" smd rect
+		(at 1.3946 -0.25)
+		(size 0.807999 0.2548)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "54771e1c-9894-47c4-9e0f-09559855f237")
+	)
+	(pad "8" smd rect
+		(at 1.3946 -0.750001)
+		(size 0.807999 0.2548)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b86579cd-705b-4685-b6bd-ff9f67dce72e")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 1.7526 1.5494)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "49a57e13-f333-47d1-995d-f8ffb03ecbe7")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/bowelProbe_3D/MCP6002smd.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
