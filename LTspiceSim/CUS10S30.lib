@@ -1,0 +1,34 @@
+*********************************************************************
+*  (C)  Copyright  TOSHIBA CORPORATION  2016
+*  Date                 :15/09/2016
+*  File Name            :CUS10S30.lib
+*  Part Number          :CUS10S30
+*  Parameter Ver.       :Ver.1
+*  Simulator            :PSpice
+*  Model Call Name      :CUS10S30
+*  TNOM                 :25 degree
+*  Pin Assign           :1=Anode 2=Cathode
+*********************************************************************
+.SUBCKT CUS10S30 1 2
+D1 11 2 CUS10S30
+J1 1 11 11 j1
+R1 11 2 1E+15
+.MODEL CUS10S30 D (
++ IS = 1.8338e-005
++ N = 0.94847
++ RS = 0.025763
++ BV = 30
++ IBV = 1E-10
++ CJO = 1.3454e-010
++ M = 0.66446
++ VJ = 0.75954
++ TT = 0
++ TNOM = 25
++ XTI = -20.7786 )
+.MODEL j1 NJF (
++ VTO = -15
++ BETA = 0.09713
++ LAMBDA = 50.6489
++ VTOTC = 0.1079
++ TNOM = 25 )
+.ENDS
