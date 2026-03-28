@@ -6036,7 +6036,7 @@
 	)
 	(rectangle
 		(start 201.93 152.4)
-		(end 242.57 179.07)
+		(end 242.57 196.85)
 		(stroke
 			(width 0)
 			(type default)
@@ -6088,7 +6088,7 @@
 	)
 	(text "Pin 1 - 5V\nPin 2 - 3V\nPin 3 - GND\nPin 4 - CLK\nPin 5 - DO\nPin 6 - DI\nPin 7 - CS\nPin 8 - CD"
 		(exclude_from_sim no)
-		(at 228.346 165.1 0)
+		(at 227.584 176.276 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6170,9 +6170,9 @@
 		)
 		(uuid "b89d2fbb-bfad-4e59-b6d8-9792989fb2a0")
 	)
-	(text "Long Power Trace Decoupling"
+	(text "Stitching Capacitors"
 		(exclude_from_sim no)
-		(at 49.022 152.654 0)
+		(at 40.386 152.908 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -6237,12 +6237,6 @@
 		(diameter 0)
 		(color 0 0 0 1)
 		(uuid "138d3eef-747f-4181-a5cc-7808fe79fbdf")
-	)
-	(junction
-		(at 64.77 176.53)
-		(diameter 0)
-		(color 255 0 0 1)
-		(uuid "154e8e25-e064-4518-8fa1-e7ec5c0c7a1e")
 	)
 	(junction
 		(at 419.1 24.13)
@@ -6329,12 +6323,6 @@
 		(uuid "5890c654-d6b2-4f94-8b4c-fc8a714f2750")
 	)
 	(junction
-		(at 27.94 190.5)
-		(diameter 0)
-		(color 132 132 132 1)
-		(uuid "58cc913b-4fd7-4312-8073-58ed847c7532")
-	)
-	(junction
 		(at 218.44 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6351,6 +6339,12 @@
 		(diameter 0)
 		(color 194 0 0 1)
 		(uuid "60c74766-0650-4c2f-b67f-e29a148a3165")
+	)
+	(junction
+		(at 27.94 176.53)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "6ec1afe5-fe54-4847-9463-184fdaa0382a")
 	)
 	(junction
 		(at 21.59 102.87)
@@ -6389,28 +6383,34 @@
 		(uuid "7c00fe1c-a810-4332-9ecb-66de293dd9cd")
 	)
 	(junction
+		(at 64.77 190.5)
+		(diameter 0)
+		(color 132 132 132 1)
+		(uuid "81864f0c-dd31-4bc2-809d-068e5cf703d0")
+	)
+	(junction
+		(at 64.77 176.53)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "92d80f1b-669a-4328-a288-771973b81349")
+	)
+	(junction
 		(at 21.59 43.18)
 		(diameter 0)
 		(color 194 0 0 1)
 		(uuid "93f840e3-2a04-4b61-bb94-e3ace8e8f316")
 	)
 	(junction
-		(at 101.6 176.53)
-		(diameter 0)
-		(color 255 0 0 1)
-		(uuid "968450ea-0ebe-470c-8246-13e82aedd6b3")
-	)
-	(junction
 		(at 27.94 162.56)
 		(diameter 0)
 		(color 194 0 0 1)
-		(uuid "a05961d1-2263-4abb-b43b-6604b5833f2b")
+		(uuid "97e11efc-0e2d-4f99-a42e-3de10b958e0e")
 	)
 	(junction
-		(at 27.94 176.53)
+		(at 101.6 162.56)
 		(diameter 0)
-		(color 255 0 0 1)
-		(uuid "a67014ad-a2a5-4be2-950b-d2c84fff5d47")
+		(color 194 0 0 1)
+		(uuid "9bcce72e-1f49-4cf9-8e85-00fa96f5f12f")
 	)
 	(junction
 		(at 544.83 198.12)
@@ -6461,6 +6461,12 @@
 		(uuid "c58ae32d-25b6-42be-8507-54bf978ec273")
 	)
 	(junction
+		(at 64.77 162.56)
+		(diameter 0)
+		(color 194 0 0 1)
+		(uuid "ca915044-9f77-47b0-8088-540fac811a89")
+	)
+	(junction
 		(at 419.1 29.21)
 		(diameter 0)
 		(color 255 0 0 1)
@@ -6473,16 +6479,22 @@
 		(uuid "cd0d3593-e1c8-48d2-8ab0-ee128168f3be")
 	)
 	(junction
+		(at 27.94 190.5)
+		(diameter 0)
+		(color 132 132 132 1)
+		(uuid "ce4c3c17-81bf-4ef8-b2d7-d383949e6d41")
+	)
+	(junction
+		(at 101.6 176.53)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "d47992ab-dd4f-4506-b36f-4af9dd6f499b")
+	)
+	(junction
 		(at 496.57 185.42)
 		(diameter 0)
 		(color 194 0 0 1)
 		(uuid "d49738d7-f900-4b44-8117-bab2ae0afb23")
-	)
-	(junction
-		(at 101.6 162.56)
-		(diameter 0)
-		(color 194 0 0 1)
-		(uuid "d87d2990-36cc-480e-a487-d873cc59ff40")
 	)
 	(junction
 		(at 434.34 185.42)
@@ -6506,7 +6518,7 @@
 		(at 101.6 190.5)
 		(diameter 0)
 		(color 132 132 132 1)
-		(uuid "df8d0699-d711-4681-8d25-bf92eb28c8ac")
+		(uuid "e0c1639d-b499-41f3-aa6d-564a4249eccb")
 	)
 	(junction
 		(at 516.89 97.79)
@@ -6515,30 +6527,18 @@
 		(uuid "e5a04bb7-3402-4f4b-8800-05b49d8d8141")
 	)
 	(junction
-		(at 64.77 162.56)
-		(diameter 0)
-		(color 194 0 0 1)
-		(uuid "ed105612-099a-4753-b990-022182c3df88")
-	)
-	(junction
-		(at 64.77 190.5)
-		(diameter 0)
-		(color 132 132 132 1)
-		(uuid "f0f00984-8166-4f8b-82d6-8d5aff75c94a")
-	)
-	(junction
 		(at 505.46 92.71)
 		(diameter 0)
 		(color 194 0 0 1)
 		(uuid "f3c772bf-36ad-4dff-9857-3915212dd4d5")
 	)
 	(no_connect
-		(at 422.91 252.73)
-		(uuid "b0d8689b-871b-4631-8d2d-8577ac2b7dfa")
+		(at 210.82 182.88)
+		(uuid "662b1503-5079-43b8-bfcd-3e8a42d988a0")
 	)
 	(no_connect
-		(at 422.91 250.19)
-		(uuid "d4c6b644-5dfb-4755-8b62-a8ee75431585")
+		(at 208.28 182.88)
+		(uuid "c8df0d68-2ffb-4451-9ee0-c71288b4eb08")
 	)
 	(no_connect
 		(at 506.73 203.2)
@@ -6547,10 +6547,6 @@
 	(no_connect
 		(at 208.28 172.72)
 		(uuid "dddafcb5-4527-4f50-9785-935e35e5bb73")
-	)
-	(no_connect
-		(at 422.91 247.65)
-		(uuid "ea2e5fef-46f6-45f1-be42-1f27744505ed")
 	)
 	(wire
 		(pts
@@ -6723,6 +6719,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "0bef2d88-6c47-4314-90bf-51bece302dec")
+	)
+	(wire
+		(pts
+			(xy 101.6 162.56) (xy 118.11 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(uuid "0ce0d81a-7084-4c25-abac-547bfff5261b")
 	)
 	(wire
 		(pts
@@ -7239,6 +7246,17 @@
 	)
 	(wire
 		(pts
+			(xy 422.91 252.73) (xy 420.37 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "326cd2ee-61ba-4734-a134-d1a31ec21722")
+	)
+	(wire
+		(pts
 			(xy 285.75 162.56) (xy 295.91 162.56)
 		)
 		(stroke
@@ -7524,17 +7542,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 176.53) (xy 101.6 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "4d752218-8954-4cb1-8c10-85d72b825c8c")
-	)
-	(wire
-		(pts
 			(xy 568.96 34.29) (xy 574.04 34.29)
 		)
 		(stroke
@@ -7600,7 +7607,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 176.53) (xy 64.77 176.53)
+			(xy 21.59 176.53) (xy 27.94 176.53)
 		)
 		(stroke
 			(width 0)
@@ -7757,7 +7764,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 162.56) (xy 101.6 162.56)
+			(xy 27.94 162.56) (xy 64.77 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7915,17 +7922,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 162.56) (xy 27.94 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(uuid "68c77960-a1d6-492f-8102-b79f6a6dd912")
-	)
-	(wire
-		(pts
 			(xy 285.75 167.64) (xy 295.91 167.64)
 		)
 		(stroke
@@ -8043,7 +8039,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 190.5) (xy 64.77 190.5)
+			(xy 21.59 190.5) (xy 27.94 190.5)
 		)
 		(stroke
 			(width 0)
@@ -8344,17 +8340,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 190.5) (xy 27.94 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 132 132 132 1)
-		)
-		(uuid "86ba6a6a-20b7-42a5-88c8-297da73415d8")
-	)
-	(wire
-		(pts
 			(xy 541.02 207.01) (xy 541.02 209.55)
 		)
 		(stroke
@@ -8397,7 +8382,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 162.56) (xy 64.77 162.56)
+			(xy 21.59 162.56) (xy 27.94 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8538,7 +8523,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 176.53) (xy 118.11 176.53)
+			(xy 64.77 176.53) (xy 101.6 176.53)
 		)
 		(stroke
 			(width 0)
@@ -9000,6 +8985,17 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 190.5) (xy 64.77 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(uuid "b1d88b34-fbe2-48c8-9a72-f4d01f0f656d")
+	)
+	(wire
+		(pts
 			(xy 417.83 104.14) (xy 424.18 104.14)
 		)
 		(stroke
@@ -9008,17 +9004,6 @@
 			(color 132 132 132 1)
 		)
 		(uuid "b26d1501-9f64-467f-b143-aa816502878c")
-	)
-	(wire
-		(pts
-			(xy 64.77 190.5) (xy 101.6 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 132 132 132 1)
-		)
-		(uuid "b27c39bd-b22a-4824-a420-c8679b5a4585")
 	)
 	(wire
 		(pts
@@ -9064,17 +9049,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 190.5) (xy 118.11 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 132 132 132 1)
-		)
-		(uuid "b64a3b3b-15b8-4f44-bc61-8856289b03f5")
-	)
-	(wire
-		(pts
 			(xy 425.45 97.79) (xy 426.72 97.79)
 		)
 		(stroke
@@ -9086,14 +9060,14 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 176.53) (xy 27.94 176.53)
+			(xy 27.94 176.53) (xy 64.77 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 255 0 0 1)
 		)
-		(uuid "b9057de5-b151-4e1f-80ec-254ac7e35097")
+		(uuid "b94a589b-26dc-4fbd-ae36-3349d922b0aa")
 	)
 	(wire
 		(pts
@@ -9169,6 +9143,17 @@
 			(type default)
 		)
 		(uuid "c39b84b1-91fd-4c73-97a2-ec402a3a51ee")
+	)
+	(wire
+		(pts
+			(xy 420.37 250.19) (xy 420.37 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "c41f8954-567f-4cda-b63d-36c7b45568b9")
 	)
 	(wire
 		(pts
@@ -9605,6 +9590,17 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 176.53) (xy 118.11 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "e7bebb6a-4bc7-474b-a88f-ad821206f686")
+	)
+	(wire
+		(pts
 			(xy 515.62 190.5) (xy 515.62 198.12)
 		)
 		(stroke
@@ -9612,6 +9608,16 @@
 			(type default)
 		)
 		(uuid "e869768b-806f-4b9f-99d2-8c424d220753")
+	)
+	(wire
+		(pts
+			(xy 422.91 247.65) (xy 422.91 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e937d53d-2bc7-47c0-8dcf-4607e078d1e5")
 	)
 	(wire
 		(pts
@@ -9752,6 +9758,17 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 190.5) (xy 118.11 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(uuid "f16201b1-9986-4a47-82b4-8267e1d7892a")
+	)
+	(wire
+		(pts
 			(xy 472.44 241.3) (xy 472.44 240.03)
 		)
 		(stroke
@@ -9837,7 +9854,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 162.56) (xy 118.11 162.56)
+			(xy 64.77 162.56) (xy 101.6 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9888,6 +9905,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "fd08f262-d691-4dc2-9ba4-3c8e92522fe5")
+	)
+	(wire
+		(pts
+			(xy 64.77 190.5) (xy 101.6 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(uuid "fe143bfa-4ee5-4a9d-b558-ff6c60c96f1c")
 	)
 	(wire
 		(pts
@@ -10056,7 +10084,7 @@
 		)
 		(uuid "2713189b-0e28-49f8-99b8-39daddf632f8")
 	)
-	(label "A3"
+	(label "A4"
 		(at 267.97 175.26 90)
 		(effects
 			(font
@@ -10116,7 +10144,7 @@
 		)
 		(uuid "3522464f-1882-4e6a-b888-56b7b1a3a453")
 	)
-	(label "A5"
+	(label "A6"
 		(at 278.13 175.26 90)
 		(effects
 			(font
@@ -10364,7 +10392,7 @@
 		)
 		(uuid "9df8400f-6b53-4105-ba13-c16850857161")
 	)
-	(label "A4"
+	(label "A5"
 		(at 273.05 175.26 90)
 		(effects
 			(font
@@ -10752,7 +10780,7 @@
 		)
 		(uuid "fd971b91-ffca-477a-85c1-17385702867e")
 	)
-	(label "A2"
+	(label "A3"
 		(at 262.89 175.26 90)
 		(effects
 			(font
@@ -11132,6 +11160,71 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 182.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11a62775-0240-4ceb-9545-6238bd15aac7")
+		(property "Reference" "#PWR0119"
+			(at 220.98 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 179.578 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f486308-0e86-4605-8d37-9f8c6d7f39a6")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -11522,6 +11615,135 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 27.94 193.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "250503f2-c70d-4632-b08a-854a209c77b6")
+		(property "Reference" "C14"
+			(at 31.75 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 33.528 194.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BowelProbe:Cap0.1uF"
+			(at 27.94 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+			(at 27.94 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 27.94 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 27.94 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 27.94 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 27.94 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 27.94 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM033C71C104KE14D"
+			(at 27.94 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 27.94 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa536966-4dc1-49ef-9a4f-a56565f1748b")
+		)
+		(pin "2"
+			(uuid "1657725c-2f75-44b6-abd1-b12adb2ae0bb")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 426.72 24.13 90)
 		(mirror x)
@@ -11899,35 +12121,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 64.77 179.07 0)
+		(lib_id "power:GND")
+		(at 215.9 182.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33db56b3-2802-4069-9f0a-e95286f718f7")
-		(property "Reference" "C12"
-			(at 67.31 177.8062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 67.31 180.3462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BowelProbe:Cap10uF"
-			(at 64.77 179.07 0)
+		(uuid "31075721-bbb9-4a56-9622-3ca7ec5289d9")
+		(property "Reference" "#PWR0117"
+			(at 215.9 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11935,8 +12138,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 64.77 179.07 0)
+		(property "Value" "GND"
+			(at 215.9 179.578 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11944,8 +12155,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 10V X5R 0402"
-			(at 64.77 179.07 0)
+		(property "Datasheet" ""
+			(at 215.9 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11953,49 +12164,8 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase-URL" ""
-			(at 64.77 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 64.77 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 64.77 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 64.77 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" "GRM155R61A106ME11D"
-			(at 64.77 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 64.77 179.07 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12004,15 +12174,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "46d00180-a282-43c0-bfcf-197328e19266")
-		)
-		(pin "2"
-			(uuid "3cb097cc-f527-484a-baef-73e9255f3ab0")
+			(uuid "e556458e-6fb5-40f2-a98c-6ffaac83a6b9")
 		)
 		(instances
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "C12")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -12271,6 +12438,71 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 420.37 250.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3710231e-2b1c-445d-9557-184adc190212")
+		(property "Reference" "#PWR0114"
+			(at 420.37 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 420.37 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 420.37 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 420.37 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 420.37 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "015751a2-6604-4129-9c83-a43ef856347e")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -12719,126 +12951,6 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 101.6 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ea36bfd-3b22-446e-b47d-6071fafd275e")
-		(property "Reference" "C13"
-			(at 104.14 177.8062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 104.14 180.3462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BowelProbe:Cap10uF"
-			(at 101.6 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10UF 10V X5R 0402"
-			(at 101.6 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 101.6 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 101.6 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 101.6 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 101.6 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" "GRM155R61A106ME11D"
-			(at 101.6 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 101.6 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29d2f295-0fb5-4cae-a2cd-b1406c405975")
-		)
-		(pin "2"
-			(uuid "52ee397b-9def-4972-b973-08d23439f625")
-		)
-		(instances
-			(project "bowelProbe"
-				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -14789,6 +14901,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 213.36 187.96 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "54042f7a-47cb-40a5-9d93-152dc334928a")
+		(property "Reference" "J21"
+			(at 214.63 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 214.63 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BowelProbe:microSD"
+			(at 213.36 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "01x08 holes to fit wires"
+			(at 213.36 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 213.36 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" ""
+			(at 213.36 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "216178fe-bd9d-4dca-bac2-7199e910580a")
+		)
+		(pin "3"
+			(uuid "d6900635-e4a4-4904-b22e-bd2b3184877e")
+		)
+		(pin "7"
+			(uuid "b9543bf8-dcb3-4f6c-918a-fe7fa4577349")
+		)
+		(pin "4"
+			(uuid "75464d0d-62f9-40ae-880e-dd03b87b5b1a")
+		)
+		(pin "1"
+			(uuid "ae2d3b2a-b231-4518-b6cb-6fd7b11ba9cb")
+		)
+		(pin "6"
+			(uuid "32b12ebc-d1d8-4bf4-8132-ca00cf8d0d31")
+		)
+		(pin "5"
+			(uuid "6b5b55d1-eec4-49bf-8fd6-e924ccc90025")
+		)
+		(pin "8"
+			(uuid "fcecce1f-618b-4022-8c79-e9c7e22044f4")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 436.88 107.95 0)
 		(unit 1)
@@ -14848,6 +15062,71 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 182.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "549e7cf5-f42c-4f8c-a086-a3e22e890da5")
+		(property "Reference" "#PWR0118"
+			(at 218.44 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 179.578 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fd55f01-fa49-42e5-9aba-9a8db3f47278")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -14976,6 +15255,71 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 182.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "557366ec-d5ee-48bf-9af2-00fe389a2b2d")
+		(property "Reference" "#PWR0113"
+			(at 205.74 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 179.578 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "490b7cd7-4082-4929-ae77-fe2a14a3291e")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -15788,126 +16132,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 27.94 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "635e9c42-f0e2-4684-aa47-e4c39d39c7dd")
-		(property "Reference" "C11"
-			(at 30.48 177.8062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 30.48 180.3462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BowelProbe:Cap10uF"
-			(at 27.94 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10UF 10V X5R 0402"
-			(at 27.94 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 27.94 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 27.94 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 27.94 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 27.94 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" "GRM155R61A106ME11D"
-			(at 27.94 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 27.94 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "735d713e-0ce4-4bed-9c3f-35b45ba6d5ee")
-		)
-		(pin "2"
-			(uuid "a1c90b2a-6e2d-4af5-97db-82935e131c5f")
-		)
-		(instances
-			(project "bowelProbe"
-				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BowelProbe:Cap4.7uF")
 		(at 30.48 115.57 270)
 		(mirror x)
@@ -16206,6 +16430,135 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 101.6 165.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "675ac56a-e303-494a-b04f-bc434aa568ef")
+		(property "Reference" "C10"
+			(at 105.41 163.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 107.188 166.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BowelProbe:Cap0.1uF"
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM033C71C104KE14D"
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52ca8df7-3940-4e88-83a4-439ed4c5d34c")
+		)
+		(pin "2"
+			(uuid "fc8860b1-d34d-448d-ab2d-3b1331cf4b4e")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -17639,6 +17992,135 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 101.6 179.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c696513-c476-4854-a4d0-5a8268a27c6c")
+		(property "Reference" "C13"
+			(at 105.41 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 107.188 180.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BowelProbe:Cap0.1uF"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM033C71C104KE14D"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e22122b1-7c67-4801-ba54-08e89f6a1fdf")
+		)
+		(pin "2"
+			(uuid "ff136c31-7f7c-4519-94d9-c3d0d877394c")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 472.44 240.03 0)
 		(mirror x)
@@ -17895,6 +18377,135 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 27.94 179.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8af817b9-246e-4dc4-adb5-0a1711f60b3f")
+		(property "Reference" "C11"
+			(at 31.75 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 33.528 180.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BowelProbe:Cap0.1uF"
+			(at 27.94 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+			(at 27.94 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 27.94 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 27.94 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 27.94 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 27.94 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 27.94 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM033C71C104KE14D"
+			(at 27.94 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 27.94 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "107c59cb-54d6-4e9e-a14d-ee91ce5ac8ac")
+		)
+		(pin "2"
+			(uuid "913e8a75-f501-466c-8bf2-eade6bd9aa54")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -19356,6 +19967,135 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 64.77 179.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1b9f319-1106-45a6-ba17-8a2e6ad73c36")
+		(property "Reference" "C12"
+			(at 68.58 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 70.358 180.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BowelProbe:Cap0.1uF"
+			(at 64.77 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+			(at 64.77 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 64.77 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 64.77 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 64.77 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 64.77 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 64.77 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM033C71C104KE14D"
+			(at 64.77 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 64.77 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3a4f1ab-3bc4-4b90-96c8-6edbaf931a45")
+		)
+		(pin "2"
+			(uuid "766f1d91-fda7-4e35-8dac-36285f8a8689")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -20874,126 +21614,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 27.94 193.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b605ebb8-24e5-4193-bb3d-128107c7f720")
-		(property "Reference" "C14"
-			(at 30.48 191.7762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 30.48 194.3162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BowelProbe:Cap10uF"
-			(at 27.94 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10UF 10V X5R 0402"
-			(at 27.94 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 27.94 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 27.94 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 27.94 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 27.94 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" "GRM155R61A106ME11D"
-			(at 27.94 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 27.94 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "023fc27f-9d73-441b-acba-2c74949cc78a")
-		)
-		(pin "2"
-			(uuid "63145ca8-bb95-409d-976c-541f752e367c")
-		)
-		(instances
-			(project "bowelProbe"
-				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 267.97 167.64 270)
 		(mirror x)
@@ -21176,6 +21796,135 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 101.6 193.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b73f1777-6832-44e9-a045-6ce8c8b06004")
+		(property "Reference" "C16"
+			(at 105.41 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 107.188 194.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BowelProbe:Cap0.1uF"
+			(at 101.6 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+			(at 101.6 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 101.6 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 101.6 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 101.6 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 101.6 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 101.6 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM033C71C104KE14D"
+			(at 101.6 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 101.6 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c20e0cb2-c79e-4683-9706-22bf707b011e")
+		)
+		(pin "2"
+			(uuid "ed5f5206-76ea-4f21-9ace-fc96a0fec793")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 252.73 167.64 270)
 		(mirror x)
@@ -21293,35 +22042,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 64.77 193.04 0)
+		(lib_id "power:GND")
+		(at 213.36 182.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8ec3691-8084-4513-93d1-93a5831631ff")
-		(property "Reference" "C15"
-			(at 67.31 191.7762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 67.31 194.3162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BowelProbe:Cap10uF"
-			(at 64.77 193.04 0)
+		(uuid "b8ff4c9b-cf6c-4913-ae52-883755289a1d")
+		(property "Reference" "#PWR0116"
+			(at 213.36 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21329,8 +22059,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 64.77 193.04 0)
+		(property "Value" "GND"
+			(at 213.36 179.578 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21338,8 +22076,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 10V X5R 0402"
-			(at 64.77 193.04 0)
+		(property "Datasheet" ""
+			(at 213.36 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21347,49 +22085,8 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase-URL" ""
-			(at 64.77 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 64.77 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 64.77 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 64.77 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" "GRM155R61A106ME11D"
-			(at 64.77 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 64.77 193.04 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21398,15 +22095,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "364787ee-a9fb-4f2d-999f-94e1e4ab722b")
-		)
-		(pin "2"
-			(uuid "a8b7aed5-496e-48a1-95d8-24a02d46641f")
+			(uuid "ab0f456e-4b63-488c-8409-b95c6234098d")
 		)
 		(instances
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "C15")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -21610,126 +22304,6 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 64.77 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf5823b1-6614-47dd-82a7-05ad0e523197")
-		(property "Reference" "C9"
-			(at 67.31 163.8362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 67.31 166.3762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BowelProbe:Cap10uF"
-			(at 64.77 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10UF 10V X5R 0402"
-			(at 64.77 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 64.77 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 64.77 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 64.77 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 64.77 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" "GRM155R61A106ME11D"
-			(at 64.77 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 64.77 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6deffaf-7346-42f8-aa88-f9fb7764def1")
-		)
-		(pin "2"
-			(uuid "44173426-a731-48c1-9b33-c3f04c76a1aa")
-		)
-		(instances
-			(project "bowelProbe"
-				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -22443,126 +23017,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 101.6 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c737c0fa-16a0-467d-ba65-f277d378d859")
-		(property "Reference" "C10"
-			(at 104.14 163.8362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 104.14 166.3762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BowelProbe:Cap10uF"
-			(at 101.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10UF 10V X5R 0402"
-			(at 101.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 101.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 101.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 101.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 101.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" "GRM155R61A106ME11D"
-			(at 101.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 101.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6621fd7-c8cb-4f12-89e4-2c3ed893c60e")
-		)
-		(pin "2"
-			(uuid "c1435425-deeb-41a6-bbe1-9ef56e3acddd")
-		)
-		(instances
-			(project "bowelProbe"
-				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 97.79 99.06 90)
 		(unit 1)
@@ -22947,6 +23401,135 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 64.77 193.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d14374a1-f85e-49f0-a937-46d5a54daabd")
+		(property "Reference" "C15"
+			(at 68.58 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 70.358 194.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BowelProbe:Cap0.1uF"
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM033C71C104KE14D"
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "596334f0-0a14-4820-8ff9-07be38c3617c")
+		)
+		(pin "2"
+			(uuid "db053351-c4b4-4496-9ef2-8811b19ea060")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -23732,6 +24315,135 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 64.77 165.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da5e4f4a-be1e-42e0-bbfb-73eb46220ccb")
+		(property "Reference" "C9"
+			(at 68.58 163.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 70.358 166.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BowelProbe:Cap0.1uF"
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM033C71C104KE14D"
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de538965-d285-4963-a0ad-548717382298")
+		)
+		(pin "2"
+			(uuid "73c9b698-c1c9-4c9b-b060-d1c4e99f2754")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 267.97 163.83 270)
 		(unit 1)
@@ -24145,126 +24857,6 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 27.94 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e06d7841-8ca5-44dc-a89f-df8089e6357a")
-		(property "Reference" "C8"
-			(at 30.48 163.8362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 30.48 166.3762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BowelProbe:Cap10uF"
-			(at 27.94 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10UF 10V X5R 0402"
-			(at 27.94 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 27.94 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 27.94 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 27.94 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 27.94 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" "GRM155R61A106ME11D"
-			(at 27.94 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 27.94 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87a20d05-e514-49a0-a5f8-66405684a9fc")
-		)
-		(pin "2"
-			(uuid "cf1ba190-2e81-46f5-9bd7-f855b62daa8d")
-		)
-		(instances
-			(project "bowelProbe"
-				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -24835,126 +25427,6 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 101.6 193.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8670ce1-f57c-4999-95d3-f3acc1eb7104")
-		(property "Reference" "C16"
-			(at 104.14 191.7762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 104.14 194.3162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BowelProbe:Cap10uF"
-			(at 101.6 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10UF 10V X5R 0402"
-			(at 101.6 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 101.6 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 101.6 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 101.6 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 101.6 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" "GRM155R61A106ME11D"
-			(at 101.6 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 101.6 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c43e524-4fe1-4793-b279-f17998bb93af")
-		)
-		(pin "2"
-			(uuid "5ae6df7f-fa92-45b0-969e-fad8bc88e45c")
-		)
-		(instances
-			(project "bowelProbe"
-				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -26264,6 +26736,135 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 27.94 165.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa1392c3-1132-4f76-8eb5-cf788814f976")
+		(property "Reference" "C8"
+			(at 31.75 163.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 33.528 166.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BowelProbe:Cap0.1uF"
+			(at 27.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+			(at 27.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 27.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 27.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 27.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 27.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 27.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM033C71C104KE14D"
+			(at 27.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 27.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "116de08e-0632-48f3-bcb8-a8e112f90b31")
+		)
+		(pin "2"
+			(uuid "ced8c650-d938-4eaa-8e9a-33ec4fb6d311")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 429.26 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26440,6 +27041,71 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 182.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd4c0e3b-893a-4ac1-8d1e-d775069c60b8")
+		(property "Reference" "#PWR0120"
+			(at 223.52 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 179.578 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "539c7c7e-0c94-4285-9f9f-03cf61a99410")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
