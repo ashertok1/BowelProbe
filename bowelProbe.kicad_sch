@@ -6065,8 +6065,8 @@
 		(uuid 067629ac-5c1f-4a72-ab73-862320a203cd)
 	)
 	(rectangle
-		(start 243.84 152.4)
-		(end 281.94 179.07)
+		(start 247.65 152.4)
+		(end 278.13 179.07)
 		(stroke
 			(width 0)
 			(type default)
@@ -6533,6 +6533,12 @@
 		(uuid "92d80f1b-669a-4328-a288-771973b81349")
 	)
 	(junction
+		(at 83.82 176.53)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "9379ce05-9b8b-4c79-8325-c88a927e5036")
+	)
+	(junction
 		(at 21.59 43.18)
 		(diameter 0)
 		(color 194 0 0 1)
@@ -6585,6 +6591,12 @@
 		(diameter 0)
 		(color 132 132 132 1)
 		(uuid "bee805c8-489a-4281-b06e-64fd11f71185")
+	)
+	(junction
+		(at 46.99 176.53)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "c31a776e-559d-4d7f-b44f-568d050bee86")
 	)
 	(junction
 		(at 468.63 250.19)
@@ -6683,6 +6695,10 @@
 		(uuid "36cab235-772b-47d5-a527-aa3dba10b9c6")
 	)
 	(no_connect
+		(at 262.89 93.98)
+		(uuid "60301dc9-1458-454d-8a13-17e5689ba3f1")
+	)
+	(no_connect
 		(at 210.82 184.15)
 		(uuid "662b1503-5079-43b8-bfcd-3e8a42d988a0")
 	)
@@ -6697,6 +6713,10 @@
 	(no_connect
 		(at 208.28 184.15)
 		(uuid "c8df0d68-2ffb-4451-9ee0-c71288b4eb08")
+	)
+	(no_connect
+		(at 265.43 93.98)
+		(uuid "d09da7f4-971c-4751-8459-a7a12fd70e68")
 	)
 	(no_connect
 		(at 290.83 66.04)
@@ -6983,7 +7003,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 66.04) (xy 241.3 66.04)
+			(xy 238.76 66.04) (xy 241.3 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7165,6 +7185,17 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 49.53) (xy 238.76 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1c9cb34f-6f3b-49ab-acd6-08c293eaa643")
+	)
+	(wire
+		(pts
 			(xy 215.9 170.18) (xy 215.9 173.99)
 		)
 		(stroke
@@ -7209,6 +7240,17 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 52.07) (xy 237.49 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2088625a-8f18-45d5-9021-ccd41d95cde0")
+	)
+	(wire
+		(pts
 			(xy 482.6 247.65) (xy 482.6 241.3)
 		)
 		(stroke
@@ -7250,6 +7292,17 @@
 			(color 132 132 132 1)
 		)
 		(uuid "26b84796-7840-4fd6-8622-46b93922f09e")
+	)
+	(wire
+		(pts
+			(xy 238.76 57.15) (xy 238.76 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "29173c5a-2cbd-4b5f-8ec3-ee07022fcf0d")
 	)
 	(wire
 		(pts
@@ -7314,17 +7367,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "2c500f81-17ca-4dfb-8bbe-ed9ec9c7ed80")
-	)
-	(wire
-		(pts
-			(xy 269.24 113.03) (xy 265.43 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "2d14b355-2741-48e8-b5a4-ba149941969f")
 	)
 	(wire
 		(pts
@@ -7700,17 +7742,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 113.03) (xy 265.43 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "4eaded49-4396-4634-a5a7-4ad121f36553")
-	)
-	(wire
-		(pts
 			(xy 429.26 149.86) (xy 429.26 151.13)
 		)
 		(stroke
@@ -7776,7 +7807,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 156.21) (xy 252.73 158.75)
+			(xy 257.81 156.21) (xy 257.81 158.75)
 		)
 		(stroke
 			(width 0)
@@ -7881,16 +7912,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 156.21) (xy 267.97 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "596c0841-c806-48e3-bad8-462a36ba5bc7")
-	)
-	(wire
-		(pts
 			(xy 458.47 182.88) (xy 458.47 194.31)
 		)
 		(stroke
@@ -7911,6 +7932,17 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 176.53) (xy 101.6 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "5c311812-8ee8-4fef-96ec-acfac64ad2d5")
+	)
+	(wire
+		(pts
 			(xy 27.94 162.56) (xy 64.77 162.56)
 		)
 		(stroke
@@ -7922,7 +7954,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 156.21) (xy 262.89 158.75)
+			(xy 267.97 156.21) (xy 267.97 158.75)
 		)
 		(stroke
 			(width 0)
@@ -8023,16 +8055,6 @@
 			(color 132 132 132 1)
 		)
 		(uuid "63a1f17e-9ed7-4348-ad2e-5896730ee664")
-	)
-	(wire
-		(pts
-			(xy 273.05 156.21) (xy 273.05 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "649987f4-b280-4db2-b332-7cdfc0657d91")
 	)
 	(wire
 		(pts
@@ -8228,18 +8250,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 123.19) (xy 262.89 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "781d835b-b501-4728-8acb-a25bbf34ed3a")
-	)
-	(wire
-		(pts
-			(xy 257.81 156.21) (xy 257.81 158.75)
+			(xy 262.89 156.21) (xy 262.89 158.75)
 		)
 		(stroke
 			(width 0)
@@ -8268,17 +8279,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "78acb506-99e4-400d-bf44-01efe4f6c2fb")
-	)
-	(wire
-		(pts
-			(xy 266.7 123.19) (xy 262.89 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "79072b7a-eea2-4552-8bb6-d0067222717b")
 	)
 	(wire
 		(pts
@@ -8322,6 +8322,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "7ce8617b-8bea-4fbd-83da-8e9aa7db7e37")
+	)
+	(wire
+		(pts
+			(xy 233.68 48.26) (xy 237.49 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "7d755176-4a9e-41c0-bdc5-c39c2d7e43cf")
 	)
 	(wire
 		(pts
@@ -8518,16 +8529,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 93.98) (xy 262.89 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "895458ce-11ad-41a5-bfe7-97d671c0f29e")
-	)
-	(wire
-		(pts
 			(xy 21.59 162.56) (xy 27.94 162.56)
 		)
 		(stroke
@@ -8536,6 +8537,17 @@
 			(color 194 0 0 1)
 		)
 		(uuid "89c87038-cffd-40df-9cd5-577e22b36097")
+	)
+	(wire
+		(pts
+			(xy 46.99 176.53) (xy 64.77 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "8a12a038-1ff8-44e8-bf51-582a09d71195")
 	)
 	(wire
 		(pts
@@ -8669,7 +8681,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 176.53) (xy 101.6 176.53)
+			(xy 64.77 176.53) (xy 83.82 176.53)
 		)
 		(stroke
 			(width 0)
@@ -8967,17 +8979,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 93.98) (xy 265.43 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 194 0 1)
-		)
-		(uuid "a753509c-1510-4cc0-bcd6-4c09b3f44710")
-	)
-	(wire
-		(pts
 			(xy 500.38 184.15) (xy 500.38 185.42)
 		)
 		(stroke
@@ -9085,6 +9086,17 @@
 			(color 194 194 0 1)
 		)
 		(uuid "ae6c2333-588f-4610-9a57-4730f93c9d87")
+	)
+	(wire
+		(pts
+			(xy 237.49 59.69) (xy 237.49 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "ae79cf7e-723f-471c-b0be-2b8ffd0339a7")
 	)
 	(wire
 		(pts
@@ -9196,7 +9208,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 176.53) (xy 64.77 176.53)
+			(xy 27.94 176.53) (xy 46.99 176.53)
 		)
 		(stroke
 			(width 0)
@@ -9513,6 +9525,17 @@
 			(type default)
 		)
 		(uuid "dbf47089-93bd-456e-a197-4dc202d89b54")
+	)
+	(wire
+		(pts
+			(xy 238.76 44.45) (xy 242.57 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "dc532027-c79c-4198-bfbe-d089e50e4128")
 	)
 	(wire
 		(pts
@@ -10033,17 +10056,6 @@
 		(uuid "ffd6d325-4b60-4ad2-8d5c-731368d80c8d")
 	)
 	(label "+5V"
-		(at 266.7 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "004161a3-4517-469d-81df-db36b94146c6")
-	)
-	(label "+5V"
 		(at 217.17 72.39 0)
 		(effects
 			(font
@@ -10053,6 +10065,17 @@
 			(justify left bottom)
 		)
 		(uuid "0084e3fd-c765-430a-95bd-fe1365e7a536")
+	)
+	(label "+5V"
+		(at 242.57 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "013dcc7f-1ef2-4b4f-ab1b-4a05cb737271")
 	)
 	(label "+5V"
 		(at 21.59 176.53 0)
@@ -10065,8 +10088,8 @@
 		)
 		(uuid "0580b8af-2a1d-4d23-a7c7-bfa5efed5c8c")
 	)
-	(label "D3"
-		(at 237.49 66.04 0)
+	(label "CD"
+		(at 238.76 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10240,7 +10263,7 @@
 		(uuid "4537730f-f2b5-4470-a901-ee420586a297")
 	)
 	(label "D0"
-		(at 252.73 156.21 270)
+		(at 257.81 156.21 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10250,7 +10273,7 @@
 		(uuid "499cec9e-20d0-4ce3-a68b-d933fdc80b7b")
 	)
 	(label "D2"
-		(at 262.89 156.21 270)
+		(at 267.97 156.21 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10270,16 +10293,6 @@
 		)
 		(uuid "5393c7c4-e136-483d-8a62-34624f7b4305")
 	)
-	(label "CD"
-		(at 262.89 100.33 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5bfd5a1b-60e5-4d15-9982-b147a8c24d6b")
-	)
 	(label "nSS_Sin"
 		(at 483.87 36.83 0)
 		(effects
@@ -10289,16 +10302,6 @@
 			(justify left bottom)
 		)
 		(uuid "612dbbb8-4977-45bc-84a8-387cc76ad33c")
-	)
-	(label "nSS"
-		(at 265.43 100.33 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6435e4ac-8daf-46fe-b7e0-76b51b5456de")
 	)
 	(label "nReset"
 		(at 285.75 167.64 0)
@@ -10372,7 +10375,7 @@
 		)
 		(uuid "7a7734e4-aea1-49d3-b246-9aee9bfeeab9")
 	)
-	(label "D4"
+	(label "nSS"
 		(at 237.49 68.58 0)
 		(effects
 			(font
@@ -10478,7 +10481,7 @@
 		(uuid "a265a2b6-6b5f-4b60-be40-ad465dc729ce")
 	)
 	(label "D1"
-		(at 257.81 156.21 270)
+		(at 262.89 156.21 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10497,16 +10500,6 @@
 		)
 		(uuid "a3c92ae2-6614-44b4-9a94-eee693dd1f5b")
 	)
-	(label "D3"
-		(at 267.97 156.21 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a62a2524-dfb6-4bb4-8a3e-1e0a59f83978")
-	)
 	(label "Vbuffer"
 		(at 462.28 194.31 0)
 		(effects
@@ -10516,17 +10509,6 @@
 			(justify left bottom)
 		)
 		(uuid "a7e51bd3-d8b3-4f65-9ce9-be26d2e4fdd1")
-	)
-	(label "+5V"
-		(at 269.24 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "a8ec57cb-f04d-46d4-a2cf-ab93aebae0cc")
 	)
 	(label "Vamplified"
 		(at 530.86 90.17 180)
@@ -10568,6 +10550,17 @@
 		)
 		(uuid "b10a70fb-9202-4b30-ae4f-5b164817e353")
 	)
+	(label "+5V"
+		(at 233.68 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2d99905-1c9b-4bfc-902f-782b9b7aeebb")
+	)
 	(label "CD"
 		(at 223.52 173.99 90)
 		(effects
@@ -10577,16 +10570,6 @@
 			(justify left bottom)
 		)
 		(uuid "b3a61442-d848-4318-afed-524c7903cc2a")
-	)
-	(label "D4"
-		(at 273.05 156.21 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b78e5508-70bd-4cef-bd8d-2a45354ceba2")
 	)
 	(label "A5"
 		(at 262.89 49.53 270)
@@ -12848,7 +12831,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 257.81 163.83 270)
+		(at 262.89 163.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12856,7 +12839,7 @@
 		(dnp no)
 		(uuid "3c2a6c35-0f70-4bce-838b-fa9eb15602f6")
 		(property "Reference" "J8"
-			(at 260.096 161.544 90)
+			(at 265.176 161.544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12865,7 +12848,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 255.27 162.5601 90)
+			(at 260.35 162.5601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12875,7 +12858,7 @@
 			)
 		)
 		(property "Footprint" "BowelProbe:CT3149-0"
-			(at 257.81 163.83 0)
+			(at 262.89 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12884,7 +12867,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 163.83 0)
+			(at 262.89 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12893,7 +12876,7 @@
 			)
 		)
 		(property "Description" "01x01 hole to fit wire"
-			(at 257.81 163.83 0)
+			(at 262.89 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12902,7 +12885,7 @@
 			)
 		)
 		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
-			(at 257.81 163.83 0)
+			(at 262.89 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12911,7 +12894,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 257.81 163.83 0)
+			(at 262.89 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12919,7 +12902,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 257.81 163.83 0)
+			(at 262.89 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12927,7 +12910,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 257.81 163.83 0)
+			(at 262.89 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12935,7 +12918,7 @@
 			)
 		)
 		(property "Sim.Pin" ""
-			(at 257.81 163.83 0)
+			(at 262.89 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12943,7 +12926,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" ""
-			(at 257.81 163.83 0)
+			(at 262.89 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14762,132 +14745,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 262.89 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "529de9cb-94d1-4b9f-9941-2a22c257bb33")
-		(property "Reference" "R6"
-			(at 264.668 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 266.446 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BowelProbe:Resistor10k"
-			(at 263.906 115.824 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 262.89 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 1% 1/10W 0603"
-			(at 262.89 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" ""
-			(at 262.89 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 262.89 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 262.89 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 262.89 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 262.89 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" "RC0603FR-0710KL"
-			(at 262.89 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 262.89 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "292163c9-be67-4132-96bc-7886d6f912af")
-		)
-		(pin "1"
-			(uuid "43b4653d-7b8a-4be8-8383-a5000ba8297d")
-		)
-		(instances
-			(project "bowelProbe"
-				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
 		(at 213.36 189.23 90)
 		(mirror x)
@@ -15313,6 +15170,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 237.49 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "567fe1f1-d0e6-423e-94bf-6702dfc7f7e9")
+		(property "Reference" "R6"
+			(at 233.934 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 235.712 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BowelProbe:Resistor10k"
+			(at 238.506 56.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
+			(at 237.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 237.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 237.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 237.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 237.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 237.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "RC0603FR-0710KL"
+			(at 237.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 237.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b14c6c8-c892-4339-b71d-104dca0db16d")
+		)
+		(pin "1"
+			(uuid "7c04f10a-7c87-48e0-b55e-fd51f85df736")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 101.6 181.61 0)
 		(mirror y)
@@ -15579,6 +15562,72 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 181.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5962cdff-2dc4-47a3-aa51-77a75c0e573a")
+		(property "Reference" "#PWR0115"
+			(at 83.82 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a43ee0f-dcd8-4f62-823e-df48a70695a3")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -15897,7 +15946,7 @@
 		(dnp no)
 		(uuid "5f2d4e9b-f2d3-4869-8bdf-dd13337e2776")
 		(property "Reference" "R16"
-			(at 267.462 102.108 0)
+			(at 264.668 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15906,7 +15955,7 @@
 			)
 		)
 		(property "Value" "47"
-			(at 268.224 103.886 0)
+			(at 265.43 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17558,7 +17607,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 265.43 105.41 0)
+		(at 238.76 53.34 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17566,7 +17616,7 @@
 		(dnp no)
 		(uuid "755e9f59-4978-480c-ab42-99219ab9d29c")
 		(property "Reference" "R5"
-			(at 261.874 105.41 90)
+			(at 241.046 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17574,7 +17624,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 263.652 105.41 90)
+			(at 242.824 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17582,7 +17632,7 @@
 			)
 		)
 		(property "Footprint" "BowelProbe:Resistor10k"
-			(at 266.446 105.664 90)
+			(at 237.744 53.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17591,7 +17641,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 105.41 0)
+			(at 238.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17600,7 +17650,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1% 1/10W 0603"
-			(at 265.43 105.41 0)
+			(at 238.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17609,7 +17659,7 @@
 			)
 		)
 		(property "Order" ""
-			(at 265.43 105.41 0)
+			(at 238.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17618,7 +17668,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 265.43 105.41 0)
+			(at 238.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17626,7 +17676,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 265.43 105.41 0)
+			(at 238.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17634,7 +17684,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 265.43 105.41 0)
+			(at 238.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17642,7 +17692,7 @@
 			)
 		)
 		(property "Sim.Pin" ""
-			(at 265.43 105.41 0)
+			(at 238.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17650,7 +17700,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" "RC0603FR-0710KL"
-			(at 265.43 105.41 0)
+			(at 238.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17659,7 +17709,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 265.43 105.41 0)
+			(at 238.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21298,7 +21348,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 252.73 163.83 270)
+		(at 257.81 163.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -21306,7 +21356,7 @@
 		(dnp no)
 		(uuid "b556b345-6372-4dad-9390-d43edb413533")
 		(property "Reference" "J7"
-			(at 255.016 161.544 90)
+			(at 260.096 161.544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21315,7 +21365,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 250.19 162.5601 90)
+			(at 255.27 162.5601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21325,7 +21375,7 @@
 			)
 		)
 		(property "Footprint" "BowelProbe:CT3149-0"
-			(at 252.73 163.83 0)
+			(at 257.81 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21334,7 +21384,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 163.83 0)
+			(at 257.81 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21343,7 +21393,7 @@
 			)
 		)
 		(property "Description" "01x01 hole to fit wire"
-			(at 252.73 163.83 0)
+			(at 257.81 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21352,7 +21402,7 @@
 			)
 		)
 		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
-			(at 252.73 163.83 0)
+			(at 257.81 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21361,7 +21411,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 252.73 163.83 0)
+			(at 257.81 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21369,7 +21419,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 252.73 163.83 0)
+			(at 257.81 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21377,7 +21427,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 252.73 163.83 0)
+			(at 257.81 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21385,7 +21435,7 @@
 			)
 		)
 		(property "Sim.Pin" ""
-			(at 252.73 163.83 0)
+			(at 257.81 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21393,7 +21443,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" ""
-			(at 252.73 163.83 0)
+			(at 257.81 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22053,6 +22103,201 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 83.82 179.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbc9aa88-3ed4-4f7a-b4ed-cd8c9a3ba664")
+		(property "Reference" "C44"
+			(at 87.63 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 89.408 180.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BowelProbe:Cap0.1uF"
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM033C71C104KE14D"
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0aa6e19a-175c-4d31-9763-f215637bd4dd")
+		)
+		(pin "2"
+			(uuid "7b18040b-7521-495c-a540-89e2549ad121")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 181.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd1ef714-bc33-4825-bff3-1839cf519e35")
+		(property "Reference" "#PWR0112"
+			(at 46.99 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16d7ca2a-6ece-48b1-9c08-9b7beffe7216")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 501.65 85.09 180)
 		(unit 1)
@@ -22178,6 +22423,135 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 46.99 179.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c336880d-2a92-4756-8f42-d562955a410e")
+		(property "Reference" "C43"
+			(at 50.8 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 52.578 180.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BowelProbe:Cap0.1uF"
+			(at 46.99 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+			(at 46.99 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 46.99 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 46.99 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 46.99 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 46.99 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 46.99 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM033C71C104KE14D"
+			(at 46.99 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 46.99 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5198f821-a1db-4156-9909-0e9eeffc3ca5")
+		)
+		(pin "2"
+			(uuid "57ce02ed-9442-493b-923b-b8b33913b713")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -23474,7 +23848,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 262.89 163.83 270)
+		(at 267.97 163.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -23482,7 +23856,7 @@
 		(dnp no)
 		(uuid "d2aef5e7-4996-409c-88a6-8749b99816e0")
 		(property "Reference" "J9"
-			(at 265.176 161.544 90)
+			(at 270.256 161.544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23491,7 +23865,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 260.35 162.5601 90)
+			(at 265.43 162.5601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23501,7 +23875,7 @@
 			)
 		)
 		(property "Footprint" "BowelProbe:CT3149-0"
-			(at 262.89 163.83 0)
+			(at 267.97 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23510,7 +23884,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 163.83 0)
+			(at 267.97 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23519,7 +23893,7 @@
 			)
 		)
 		(property "Description" "01x01 hole to fit wire"
-			(at 262.89 163.83 0)
+			(at 267.97 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23528,7 +23902,7 @@
 			)
 		)
 		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
-			(at 262.89 163.83 0)
+			(at 267.97 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23537,7 +23911,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 262.89 163.83 0)
+			(at 267.97 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23545,7 +23919,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 262.89 163.83 0)
+			(at 267.97 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23553,7 +23927,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 262.89 163.83 0)
+			(at 267.97 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23561,7 +23935,7 @@
 			)
 		)
 		(property "Sim.Pin" ""
-			(at 262.89 163.83 0)
+			(at 267.97 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23569,7 +23943,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" ""
-			(at 262.89 163.83 0)
+			(at 267.97 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24135,122 +24509,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 273.05 163.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc81ad02-d87a-4eb3-8ae5-84541460b400")
-		(property "Reference" "J11"
-			(at 275.336 161.544 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 270.51 162.5601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "BowelProbe:CT3149-0"
-			(at 273.05 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 273.05 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "01x01 hole to fit wire"
-			(at 273.05 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
-			(at 273.05 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 273.05 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 273.05 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 273.05 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 273.05 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" ""
-			(at 273.05 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "99693ca3-817a-4b82-abba-7418e523d509")
-		)
-		(instances
-			(project "bowelProbe"
-				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 514.35 36.83 270)
 		(unit 1)
@@ -24432,122 +24690,6 @@
 			(project ""
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 267.97 163.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "de26a0be-8347-48fd-bccf-6cd005479583")
-		(property "Reference" "J10"
-			(at 270.256 161.544 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 265.43 162.5601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "BowelProbe:CT3149-0"
-			(at 267.97 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "01x01 hole to fit wire"
-			(at 267.97 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
-			(at 267.97 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 267.97 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 267.97 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 267.97 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 267.97 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" ""
-			(at 267.97 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a54b0713-f43c-47e0-b0a7-8bc366f2b9d4")
-		)
-		(instances
-			(project "bowelProbe"
-				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "J10")
 					(unit 1)
 				)
 			)
