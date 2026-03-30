@@ -139,7 +139,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -501,7 +501,7 @@
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
+      "pos_files": "PCBA_Files/",
       "specctra_dsn": "",
       "step": "bowelProbe.step",
       "svg": "",
@@ -698,6 +698,12 @@
           "group_by": false,
           "label": "Manufacturer Product Number",
           "name": "Manufacturer Product Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC PN",
+          "name": "LCSC PN",
           "show": true
         }
       ],

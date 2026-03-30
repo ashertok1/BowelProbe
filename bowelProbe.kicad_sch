@@ -10827,7 +10827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 10V X5R 0402"
+		(property "Description" "10V 10uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 472.44 243.84 0)
 			(effects
 				(font
@@ -10887,6 +10887,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 472.44 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C408132"
 			(at 472.44 243.84 0)
 			(effects
 				(font
@@ -11085,7 +11094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 10V X5R 0402"
+		(property "Description" "10V 10uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 488.95 48.26 0)
 			(effects
 				(font
@@ -11136,6 +11145,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 488.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C408132"
 			(at 488.95 48.26 0)
 			(effects
 				(font
@@ -11400,7 +11418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE STANDARD 85V 215MA SOT233"
+		(property "Description" "-55℃~+150℃ 1.25V@150mA 215mA 5nA@75V 85V Independent SOT-23 Diodes - General Purpose ROHS"
 			(at 547.37 200.66 0)
 			(effects
 				(font
@@ -11451,6 +11469,15 @@
 			)
 		)
 		(property "Manufacturer Product Number" "BAS116-7-F"
+			(at 547.37 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C151331"
 			(at 547.37 200.66 0)
 			(effects
 				(font
@@ -11654,7 +11681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 64.77 193.04 0)
 			(effects
 				(font
@@ -11714,6 +11741,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
 			(at 64.77 193.04 0)
 			(effects
 				(font
@@ -11782,7 +11818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 47 OHM 1% 1/16W 0402"
+		(property "Description" "-55℃~+155℃ 47Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 270.51 96.52 0)
 			(effects
 				(font
@@ -11801,6 +11837,15 @@
 			)
 		)
 		(property "Manufacturer Product Number" "RC0402FR-0747RL"
+			(at 270.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C137973"
 			(at 270.51 96.52 0)
 			(effects
 				(font
@@ -11936,7 +11981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 10V X5R 0402"
+		(property "Description" "10V 10uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 433.07 104.14 0)
 			(effects
 				(font
@@ -11987,6 +12032,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 433.07 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C408132"
 			(at 433.07 104.14 0)
 			(effects
 				(font
@@ -12053,7 +12107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 10V X5R 0402"
+		(property "Description" "10V 10uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 563.88 30.48 0)
 			(effects
 				(font
@@ -12113,6 +12167,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 563.88 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C408132"
 			(at 563.88 30.48 0)
 			(effects
 				(font
@@ -12312,7 +12375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 300K OHM 1% 1/4W 1206"
+		(property "Description" "-55℃~+155℃ 200V 250mW 300kΩ Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
 			(at 541.02 203.2 0)
 			(effects
 				(font
@@ -12372,6 +12435,15 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
+			(at 541.02 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C191172"
 			(at 541.02 203.2 0)
 			(effects
 				(font
@@ -12441,7 +12513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 427.99 34.29 0)
 			(effects
 				(font
@@ -12501,6 +12573,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 427.99 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
 			(at 427.99 34.29 0)
 			(effects
 				(font
@@ -12569,7 +12650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 47 OHM 1% 1/16W 0402"
+		(property "Description" "-55℃~+155℃ 47Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 284.48 83.82 0)
 			(effects
 				(font
@@ -12588,6 +12669,15 @@
 			)
 		)
 		(property "Manufacturer Product Number" "RC0402FR-0747RL"
+			(at 284.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C137973"
 			(at 284.48 83.82 0)
 			(effects
 				(font
@@ -12721,7 +12811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 10V X5R 0402"
+		(property "Description" "10V 10uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 505.46 88.9 0)
 			(effects
 				(font
@@ -12772,6 +12862,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 505.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C408132"
 			(at 505.46 88.9 0)
 			(effects
 				(font
@@ -12899,6 +12998,14 @@
 				)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 262.89 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0fb66723-02c9-4236-acad-a01f70a20098")
 		)
@@ -12956,7 +13063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 4.7PF 50V C0G/NP0 0402"
+		(property "Description" "4.7pF 50V C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 99.06 111.76 0)
 			(effects
 				(font
@@ -13007,6 +13114,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 99.06 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C161327"
 			(at 99.06 111.76 0)
 			(effects
 				(font
@@ -13074,7 +13190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 18PF 50V C0G/NP0 0603"
+		(property "Description" "18pF 50V C0G 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 241.3 97.79 0)
 			(effects
 				(font
@@ -13101,6 +13217,15 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
+			(at 241.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2179138"
 			(at 241.3 97.79 0)
 			(effects
 				(font
@@ -13236,7 +13361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 4.7UF 16V X7R 0805"
+		(property "Description" "16V 4.7uF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 109.22 121.92 0)
 			(effects
 				(font
@@ -13350,6 +13475,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 109.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C408144"
 			(at 109.22 121.92 0)
 			(effects
 				(font
@@ -13481,7 +13615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10K OHM 1% 1/10W 0603"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 495.3 36.83 0)
 			(effects
 				(font
@@ -13541,6 +13675,15 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
+			(at 495.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C98220"
 			(at 495.3 36.83 0)
 			(effects
 				(font
@@ -13738,7 +13881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 16V X7R 0603"
+		(property "Description" "16V 1uF X7R ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 223.52 74.93 0)
 			(effects
 				(font
@@ -13798,6 +13941,15 @@
 			)
 		)
 		(property "Manufacturer" "KYOCERA AVX"
+			(at 223.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2177011"
 			(at 223.52 74.93 0)
 			(effects
 				(font
@@ -13991,6 +14143,14 @@
 				)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 21.59 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a9811764-4a81-4f4c-a20b-45716d2d1208")
 		)
@@ -14047,7 +14207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 16V X7R 0603"
+		(property "Description" "16V 1uF X7R ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 30.48 105.41 0)
 			(effects
 				(font
@@ -14098,6 +14258,15 @@
 			)
 		)
 		(property "Manufacturer" "KYOCERA AVX"
+			(at 30.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2177011"
 			(at 30.48 105.41 0)
 			(effects
 				(font
@@ -14167,7 +14336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC OPAMP JFET 2 CIRCUIT 8SOIC"
+		(property "Description" "-15V~15V 0℃~+70℃ 1.4mA 13V/us 18nV/√Hz@1kHz 18uV/℃ 2 30V 3MHz 3mV 5pA 65pA 70dB SOIC-8 FET Input Amplifiers ROHS"
 			(at 434.34 185.42 0)
 			(effects
 				(font
@@ -14218,6 +14387,15 @@
 			)
 		)
 		(property "Manufacturer Product Number" "TL072ACDR"
+			(at 434.34 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C163525"
 			(at 434.34 185.42 0)
 			(effects
 				(font
@@ -14305,7 +14483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 433.07 196.85 0)
 			(effects
 				(font
@@ -14365,6 +14543,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 433.07 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
 			(at 433.07 196.85 0)
 			(effects
 				(font
@@ -14561,7 +14748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 568.96 30.48 0)
 			(effects
 				(font
@@ -14621,6 +14808,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 568.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
 			(at 568.96 30.48 0)
 			(effects
 				(font
@@ -14706,6 +14902,14 @@
 			)
 		)
 		(property "Manufacturer Product Number" ""
+			(at 213.36 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC PN" ""
 			(at 213.36 189.23 0)
 			(effects
 				(font
@@ -14921,7 +15125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 501.65 88.9 0)
 			(effects
 				(font
@@ -14981,6 +15185,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 501.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
 			(at 501.65 88.9 0)
 			(effects
 				(font
@@ -15112,7 +15325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10K OHM 1% 1/10W 0603"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 237.49 55.88 0)
 			(effects
 				(font
@@ -15172,6 +15385,15 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
+			(at 237.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C98220"
 			(at 237.49 55.88 0)
 			(effects
 				(font
@@ -15306,7 +15528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 47 OHM 1% 1/16W 0402"
+		(property "Description" "-55℃~+155℃ 47Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 215.9 167.64 0)
 			(effects
 				(font
@@ -15325,6 +15547,15 @@
 			)
 		)
 		(property "Manufacturer Product Number" "RC0402FR-0747RL"
+			(at 215.9 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C137973"
 			(at 215.9 167.64 0)
 			(effects
 				(font
@@ -15395,7 +15626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE SCHOTTKY 30V 1A USC"
+		(property "Description" "1 Independent 1A 230mV@100mA 30V 500uA@30V 5A SC-76(SOD-323) Schottky Diodes ROHS"
 			(at 562.61 210.82 0)
 			(effects
 				(font
@@ -15446,6 +15677,15 @@
 			)
 		)
 		(property "Manufacturer Product Number" "CUS10S30,H3F"
+			(at 562.61 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C146335"
 			(at 562.61 210.82 0)
 			(effects
 				(font
@@ -15579,7 +15819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FIXED IND 10UH 10MA 1.7 OHM SMD"
+		(property "Description" "10mA 10uH 1Ω 30@2MHz 30MHz ±5% 0603 Inductors (SMD) ROHS"
 			(at 307.34 81.28 0)
 			(effects
 				(font
@@ -15606,6 +15846,15 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
+			(at 307.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C275361"
 			(at 307.34 81.28 0)
 			(effects
 				(font
@@ -15675,7 +15924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC DDS 25MHZ 10BIT 10MSOP"
+		(property "Description" "-40℃~+105℃ 10 2.3V~5.5V 25MHz MSOP-10 Direct Digital Synthesis (DDS) ROHS"
 			(at 433.07 33.02 0)
 			(effects
 				(font
@@ -15726,6 +15975,15 @@
 			)
 		)
 		(property "Manufacturer Product Number" "AD9833BRMZ"
+			(at 433.07 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C1519069"
 			(at 433.07 33.02 0)
 			(effects
 				(font
@@ -15883,7 +16141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 47 OHM 1% 1/16W 0402"
+		(property "Description" "-55℃~+155℃ 47Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 267.97 96.52 0)
 			(effects
 				(font
@@ -15902,6 +16160,15 @@
 			)
 		)
 		(property "Manufacturer Product Number" "RC0402FR-0747RL"
+			(at 267.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C137973"
 			(at 267.97 96.52 0)
 			(effects
 				(font
@@ -15971,7 +16238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 10V X5R 0402"
+		(property "Description" "10V 10uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 429.26 196.85 0)
 			(effects
 				(font
@@ -16022,6 +16289,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 429.26 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C408132"
 			(at 429.26 196.85 0)
 			(effects
 				(font
@@ -16288,7 +16564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 4.7UF 16V X7R 0805"
+		(property "Description" "16V 4.7uF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 30.48 115.57 0)
 			(effects
 				(font
@@ -16410,6 +16686,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C408144"
+			(at 30.48 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5ff4d21-1b9a-4780-b1e1-bdd50a76fe28")
 		)
@@ -16471,7 +16756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 10V X5R 0402"
+		(property "Description" "10V 10uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 71.12 68.58 0)
 			(effects
 				(font
@@ -16522,6 +16807,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C408132"
 			(at 71.12 68.58 0)
 			(effects
 				(font
@@ -16591,7 +16885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 101.6 165.1 0)
 			(effects
 				(font
@@ -16651,6 +16945,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
 			(at 101.6 165.1 0)
 			(effects
 				(font
@@ -16848,7 +17151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 16V X7R 0603"
+		(property "Description" "16V 1uF X7R ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 233.68 69.85 0)
 			(effects
 				(font
@@ -16908,6 +17211,15 @@
 			)
 		)
 		(property "Manufacturer" "KYOCERA AVX"
+			(at 233.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2177011"
 			(at 233.68 69.85 0)
 			(effects
 				(font
@@ -16976,7 +17288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1M OHM 1% 1/4W 1206"
+		(property "Description" "-55℃~+155℃ 1MΩ 200V 250mW Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
 			(at 92.71 111.76 0)
 			(effects
 				(font
@@ -17036,6 +17348,15 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C108083"
 			(at 92.71 111.76 0)
 			(effects
 				(font
@@ -17233,7 +17554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 477.52 243.84 0)
 			(effects
 				(font
@@ -17293,6 +17614,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 477.52 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
 			(at 477.52 243.84 0)
 			(effects
 				(font
@@ -17359,7 +17689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 300.99 85.09 0)
 			(effects
 				(font
@@ -17419,6 +17749,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 300.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
 			(at 300.99 85.09 0)
 			(effects
 				(font
@@ -17551,7 +17890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10K OHM 1% 1/10W 0603"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 238.76 53.34 0)
 			(effects
 				(font
@@ -17611,6 +17950,15 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
+			(at 238.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C98220"
 			(at 238.76 53.34 0)
 			(effects
 				(font
@@ -17680,7 +18028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 436.88 104.14 0)
 			(effects
 				(font
@@ -17740,6 +18088,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 436.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
 			(at 436.88 104.14 0)
 			(effects
 				(font
@@ -17811,7 +18168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE SCHOTTKY 60V 1A SOD323F"
+		(property "Description" "-55℃~+150℃ 1 Independent 100uA@60V 1A 22A 60V 640mV@1A SOD-323HE Schottky Diodes"
 			(at 87.63 111.76 0)
 			(effects
 				(font
@@ -17970,6 +18327,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C6215959"
+			(at 87.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "C"
 			(uuid "44d65815-d0ca-4d67-8f57-6644e9370a8f")
 		)
@@ -18031,7 +18397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 101.6 179.07 0)
 			(effects
 				(font
@@ -18091,6 +18457,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
 			(at 101.6 179.07 0)
 			(effects
 				(font
@@ -18422,7 +18797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 27.94 179.07 0)
 			(effects
 				(font
@@ -18482,6 +18857,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 27.94 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
 			(at 27.94 179.07 0)
 			(effects
 				(font
@@ -18552,7 +18936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 16V X7R 0603"
+		(property "Description" "16V 1uF X7R ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 82.55 114.3 0)
 			(effects
 				(font
@@ -18603,6 +18987,15 @@
 			)
 		)
 		(property "Manufacturer" "KYOCERA AVX"
+			(at 82.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2177011"
 			(at 82.55 114.3 0)
 			(effects
 				(font
@@ -18738,7 +19131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC MCU 8BIT 32KB FLASH 32VQFN"
+		(property "Description" "-40℃~+85℃ 1.8V~5.5V 10bit 1KB 20MHz 23 2KB 32KB 8 Bit AVR Built-in FLASH VQFN-32(5x5) Microcontrollers (MCU/MPU/SOC) ROHS"
 			(at 261.62 58.42 0)
 			(effects
 				(font
@@ -18765,6 +19158,15 @@
 			)
 		)
 		(property "Manufacturer Product Number" "ATMEGA328P-MUR"
+			(at 261.62 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2651951"
 			(at 261.62 58.42 0)
 			(effects
 				(font
@@ -18935,7 +19337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 6.8K OHM 1% 1/4W 1206"
+		(property "Description" "-55℃~+155℃ 200V 250mW 6.8kΩ Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
 			(at 433.07 92.71 0)
 			(effects
 				(font
@@ -18995,6 +19397,15 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
+			(at 433.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C246053"
 			(at 433.07 92.71 0)
 			(effects
 				(font
@@ -19064,7 +19475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC OPAMP GP 2 CIRCUIT 8DFN"
+		(property "Description" "-40℃~+125℃ 1.8V~6V 100uA 1MHz 1pA 1pA 2 23mA 28nV/√Hz@1kHz 2uV/℃ 4.5mV 600V/ms 6V 76dB Rail-to-Rail Input, Rail-to-Rail Output DFN-8(2x3) Operational Amplifier ROHS"
 			(at 422.91 246.38 0)
 			(effects
 				(font
@@ -19115,6 +19526,15 @@
 			)
 		)
 		(property "Manufacturer Product Number" "MCP6002-E/MC"
+			(at 422.91 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C185041"
 			(at 422.91 246.38 0)
 			(effects
 				(font
@@ -19439,6 +19859,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C41156791"
+			(at 87.63 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5b7b760c-1cdc-4312-9c51-8dad31f8aba5")
 		)
@@ -19569,7 +19998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10K OHM 1% 1/10W 0603"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 260.35 43.18 0)
 			(effects
 				(font
@@ -19629,6 +20058,15 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
+			(at 260.35 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C98220"
 			(at 260.35 43.18 0)
 			(effects
 				(font
@@ -19895,7 +20333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 64.77 179.07 0)
 			(effects
 				(font
@@ -19955,6 +20393,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 64.77 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
 			(at 64.77 179.07 0)
 			(effects
 				(font
@@ -20091,7 +20538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC REG BOOST SEPIC ADJ 1A 8DFN"
+		(property "Description" "-40℃~+125℃@(TJ) 1 1A 2MHz 3V~40V 6uA Adjustable Boost Boost、SEPIC、Inverting Built-in DFN-8(2x3) DC-DC Converters ROHS"
 			(at 80.01 101.6 0)
 			(effects
 				(font
@@ -20142,6 +20589,15 @@
 			)
 		)
 		(property "Manufacturer Product Number" "LT8330IDDB#TRMPBF"
+			(at 80.01 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C673746"
 			(at 80.01 101.6 0)
 			(effects
 				(font
@@ -20297,7 +20753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 31.75 68.58 0)
 			(effects
 				(font
@@ -20348,6 +20804,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 31.75 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
 			(at 31.75 68.58 0)
 			(effects
 				(font
@@ -20416,7 +20881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 10V X5R 0402"
+		(property "Description" "10V 10uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 500.38 181.61 0)
 			(effects
 				(font
@@ -20467,6 +20932,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 500.38 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C408132"
 			(at 500.38 181.61 0)
 			(effects
 				(font
@@ -20659,6 +21133,14 @@
 				)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 21.59 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9129809e-50f1-4b72-b323-b21839e67dfe")
 		)
@@ -20779,7 +21261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 293.37 76.2 0)
 			(effects
 				(font
@@ -20839,6 +21321,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 293.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
 			(at 293.37 76.2 0)
 			(effects
 				(font
@@ -20972,7 +21463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 30K OHM 1% 1/4W 1206"
+		(property "Description" "-55℃~+155℃ 200V 250mW 30kΩ Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
 			(at 516.89 93.98 0)
 			(effects
 				(font
@@ -21040,6 +21531,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C137314"
+			(at 516.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eb628b2c-442c-48db-a16b-cd4391d30db7")
 		)
@@ -21099,7 +21599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 427.99 40.64 0)
 			(effects
 				(font
@@ -21159,6 +21659,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 427.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
 			(at 427.99 40.64 0)
 			(effects
 				(font
@@ -21286,6 +21795,14 @@
 				)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 257.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "981dcbee-2772-4b37-a6e8-a65ffabf4779")
 		)
@@ -21341,7 +21858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1.8K OHM 1% 1/4W 1206"
+		(property "Description" "-55℃~+155℃ 1.8kΩ 200V 250mW Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
 			(at 525.78 97.79 0)
 			(effects
 				(font
@@ -21401,6 +21918,15 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
+			(at 525.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C137372"
 			(at 525.78 97.79 0)
 			(effects
 				(font
@@ -21522,6 +22048,14 @@
 			)
 		)
 		(property "Manufacturer Product Number" ""
+			(at 262.89 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC PN" ""
 			(at 262.89 167.64 0)
 			(effects
 				(font
@@ -21717,7 +22251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC AUDIO 2 CIRCUIT 8SOIC"
+		(property "Description" "-18V~-2.5V、2.5V~18V -40℃~+85℃ 0.00008% 106dB 2-Channel 5mA SOIC-8 Audio Amplifiers ROHS"
 			(at 438.15 92.71 0)
 			(effects
 				(font
@@ -21768,6 +22302,15 @@
 			)
 		)
 		(property "Manufacturer Product Number" "OPA2134UA/2K5"
+			(at 438.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C87361"
 			(at 438.15 92.71 0)
 			(effects
 				(font
@@ -21855,7 +22398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 83.82 179.07 0)
 			(effects
 				(font
@@ -21915,6 +22458,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
 			(at 83.82 179.07 0)
 			(effects
 				(font
@@ -22181,7 +22733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 46.99 179.07 0)
 			(effects
 				(font
@@ -22241,6 +22793,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 46.99 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
 			(at 46.99 179.07 0)
 			(effects
 				(font
@@ -22310,7 +22871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 100 OHM 1% 1/2W 0603"
+		(property "Description" "-55℃~+155℃ 100Ω 250mW Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 429.26 146.05 0)
 			(effects
 				(font
@@ -22370,6 +22931,15 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
+			(at 429.26 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3995643"
 			(at 429.26 146.05 0)
 			(effects
 				(font
@@ -22439,7 +23009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 544.83 203.2 0)
 			(effects
 				(font
@@ -22499,6 +23069,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 544.83 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
 			(at 544.83 203.2 0)
 			(effects
 				(font
@@ -22567,7 +23146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC REG LINEAR 5V 1.5A TO220"
+		(property "Description" "0℃~+125℃@(Tj) 1 1.5A 2V@(1A) 35V 5V 68dB@(120Hz) 8mA Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
 			(at 52.07 67.31 0)
 			(effects
 				(font
@@ -22716,6 +23295,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C111887"
+			(at 52.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "66c1d6f0-51bc-4a52-bff6-e2d8f805d2b6")
 		)
@@ -22806,7 +23393,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c6f52846-c04b-409e-a7de-2c25c5b1f9be")
 		(property "Reference" "J11"
@@ -22876,6 +23463,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C6148500"
+			(at 300.99 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -22948,7 +23543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 71.5K OHM 1% 1/8W 0805"
+		(property "Description" "-55℃~+155℃ 125mW 150V 71.5kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS"
 			(at 97.79 99.06 0)
 			(effects
 				(font
@@ -23008,6 +23603,15 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
+			(at 97.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C276313"
 			(at 97.79 99.06 0)
 			(effects
 				(font
@@ -23341,7 +23945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 6.8K OHM 1% 1/4W 1206"
+		(property "Description" "-55℃~+155℃ 200V 250mW 6.8kΩ Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
 			(at 433.07 82.55 0)
 			(effects
 				(font
@@ -23401,6 +24005,15 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
+			(at 433.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C246053"
 			(at 433.07 82.55 0)
 			(effects
 				(font
@@ -23528,6 +24141,14 @@
 				)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 267.97 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "351f7678-99fa-44a2-ae85-c9dda1f93c0e")
 		)
@@ -23645,6 +24266,14 @@
 				)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 267.97 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e6275af8-a26f-43a6-a3a0-8211fd3cf5b2")
 		)
@@ -23701,7 +24330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 2200PF 50V X7R 0402"
+		(property "Description" "2.2nF 50V X7R ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 436.88 87.63 0)
 			(effects
 				(font
@@ -23752,6 +24381,15 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
+			(at 436.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2168449"
 			(at 436.88 87.63 0)
 			(effects
 				(font
@@ -23945,6 +24583,14 @@
 				)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 435.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "91fc4a91-9a08-4e5d-9bdf-906189cc9787")
 		)
@@ -24003,7 +24649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 64.77 165.1 0)
 			(effects
 				(font
@@ -24063,6 +24709,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
 			(at 64.77 165.1 0)
 			(effects
 				(font
@@ -24199,7 +24854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE SCHOTTKY 30V 1A USC"
+		(property "Description" "1 Independent 1A 230mV@100mA 30V 500uA@30V 5A SC-76(SOD-323) Schottky Diodes ROHS"
 			(at 562.61 195.58 0)
 			(effects
 				(font
@@ -24250,6 +24905,15 @@
 			)
 		)
 		(property "Manufacturer Product Number" "CUS10S30,H3F"
+			(at 562.61 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C146335"
 			(at 562.61 195.58 0)
 			(effects
 				(font
@@ -24378,6 +25042,14 @@
 				)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 257.81 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c9a97cba-dfd1-4aa6-8384-e6029231a15e")
 		)
@@ -24436,7 +25108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CRYSTAL 16.0000MHZ 9PF SMD"
+		(property "Description" "-20℃~+75℃ 16MHz 60Ω 9pF ±10ppm ±9ppm SMD3225-4P Crystals ROHS"
 			(at 191.77 90.17 0)
 			(effects
 				(font
@@ -24463,6 +25135,15 @@
 			)
 		)
 		(property "Manufacturer Product Number" "TSX-3225 16.0000MF09Z-AC3"
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2650454"
 			(at 191.77 90.17 0)
 			(effects
 				(font
@@ -24697,6 +25378,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 59.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "607fd303-221e-4ebe-b788-ecb809f0ef72")
 		)
@@ -24912,6 +25601,14 @@
 				)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 213.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "93c75887-6c63-4e0f-bd81-69bde271a4a7")
 		)
@@ -24988,7 +25685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 1K OHM 1% 1/4W 0805"
+		(property "Description" "-55℃~+155℃ 125mW 150V 1kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS"
 			(at 26.67 64.77 0)
 			(effects
 				(font
@@ -25048,6 +25745,15 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
+			(at 26.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C844939"
 			(at 26.67 64.77 0)
 			(effects
 				(font
@@ -25117,7 +25823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC OPAMP GP 1 CIRCUIT SC70-5"
+		(property "Description" "-2.75V~-1.25V、1.25V~2.75V -40℃~+125℃ 1 1.7V/us 100dB 10pA 1MHz 1uV/℃ 2.5V~5.5V 30nV/√Hz@1kHz 3pA 40mA 4mV 70uA 9V Rail-to-Rail Output SC-70-5 Operational Amplifier ROHS"
 			(at 519.43 34.29 0)
 			(effects
 				(font
@@ -25136,6 +25842,15 @@
 			)
 		)
 		(property "Manufacturer Product Number" "LMV321AIDCKR"
+			(at 519.43 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C484731"
 			(at 519.43 34.29 0)
 			(effects
 				(font
@@ -25213,7 +25928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 496.57 181.61 0)
 			(effects
 				(font
@@ -25281,6 +25996,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C85923"
+			(at 496.57 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4cd2416d-7cae-4dd0-9829-d8fab1fd7188")
 		)
@@ -25339,7 +26063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 18PF 50V C0G/NP0 0603"
+		(property "Description" "18pF 50V C0G 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 214.63 90.17 0)
 			(effects
 				(font
@@ -25366,6 +26090,15 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
+			(at 214.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2179138"
 			(at 214.63 90.17 0)
 			(effects
 				(font
@@ -25432,7 +26165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 10V X5R 0402"
+		(property "Description" "10V 10uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 422.91 24.13 0)
 			(effects
 				(font
@@ -25500,6 +26233,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C408132"
+			(at 422.91 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2cf63b1a-0f4a-4121-a35a-8c73d176c76c")
 		)
@@ -25558,7 +26300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 1K OHM 1% 1/4W 0805"
+		(property "Description" "-55℃~+155℃ 125mW 150V 1kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS"
 			(at 554.99 198.12 0)
 			(effects
 				(font
@@ -25618,6 +26360,15 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
+			(at 554.99 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C844939"
 			(at 554.99 198.12 0)
 			(effects
 				(font
@@ -25749,7 +26500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 422.91 29.21 0)
 			(effects
 				(font
@@ -25809,6 +26560,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 422.91 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
 			(at 422.91 29.21 0)
 			(effects
 				(font
@@ -26068,6 +26828,14 @@
 				)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 435.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5ce67428-6276-4c2d-93da-97b076d64e9f")
 		)
@@ -26126,7 +26894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 27.94 165.1 0)
 			(effects
 				(font
@@ -26194,6 +26962,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C85923"
+			(at 27.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "116de08e-0632-48f3-bcb8-a8e112f90b31")
 		)
@@ -26252,7 +27029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1000PF 50V X7R 0603"
+		(property "Description" "1nF 50V X7R ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 429.26 97.79 0)
 			(effects
 				(font
@@ -26303,6 +27080,15 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
+			(at 429.26 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2167183"
 			(at 429.26 97.79 0)
 			(effects
 				(font
