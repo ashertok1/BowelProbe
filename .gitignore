@@ -6,6 +6,8 @@ LTspiceSim/*.txt
 *.raw
 *.log
 *.csv
+!bowelProbe-PickAndPlace.csv
+!bowelProbeBOM.csv
 *.bin
 
 *.bak
