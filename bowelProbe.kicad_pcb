@@ -660,7 +660,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG6010CEJ,115"
+		(property "Value" "SchottkyDiode"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "bfe6ef69-f6ff-45e5-8298-1754bbe27838")
@@ -671,7 +671,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6010CEJ.pdf"
+		(property "Datasheet" "https://diotec.com/request/datasheet/sdb160ws.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -683,7 +683,7 @@
 				)
 			)
 		)
-		(property "Description" "1 Independent 10A 1A 50uA@60V 60V 660mV@1A SOD-323F Schottky Diodes ROHS "
+		(property "Description" "1 Independent 10A 1A 50uA@60V 60V 660mV@1A SOD-323F Schottky Diodes ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -786,7 +786,7 @@
 				)
 			)
 		)
-		(property "MF" "Nexperia"
+		(property "MF" "Diotec Semiconductor"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -799,7 +799,7 @@
 				)
 			)
 		)
-		(property "MP" ""
+		(property "MP" "SDB160WS-AQ"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -890,7 +890,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Product Number" "PMEG6010CEJ,115"
+		(property "Manufacturer Product Number" "SDB160WS-AQ"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3530,7 +3530,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP6002-E/MC"
+		(property "Value" "MCP6002T-E/MC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3554,7 +3554,7 @@
 				)
 			)
 		)
-		(property "Description" "-40℃~+125℃ 1.8V~6V 100uA 1MHz 1pA 1pA 2 23mA 28nV/√Hz@1kHz 2uV/℃ 4.5mV 600V/ms 6V 76dB Rail-to-Rail Input, Rail-to-Rail Output DFN-8(2x3) Operational Amplifier ROHS"
+		(property "Description" "-40℃~+125℃ 1.8V~6V 100uA 1MHz 1pA 1pA 2 23mA 28nV/√Hz@1kHz 2uV/℃ 4.5mV 600V/ms 6V 76dB Rail-to-Rail Input, Rail-to-Rail Output DFN-8-EP(2x3) Operational Amplifier ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3644,7 +3644,7 @@
 				)
 			)
 		)
-		(property "LCSC PN" "C185041"
+		(property "LCSC PN" "C623660"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20323,7 +20323,7 @@
 				)
 			)
 		)
-		(property "Value" "TSX-3225 16.0000MF09Z-AC3"
+		(property "Value" "TSX-3225 16.0000MF18X-AC3"
 			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20348,7 +20348,7 @@
 				)
 			)
 		)
-		(property "Description" "-20℃~+75℃ 16MHz 60Ω 9pF ±10ppm ±9ppm SMD3225-4P Crystals ROHS"
+		(property "Description" "-40℃~+85℃ 16MHz 60Ω 9pF ±10ppm ±18ppm SMD3225-4P Crystals ROHS"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -20386,7 +20386,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Product Number" "TSX-3225 16.0000MF09Z-AC3"
+		(property "Manufacturer Product Number" "TSX-3225 16.0000MF18X-AC3"
 			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20399,7 +20399,7 @@
 				)
 			)
 		)
-		(property "LCSC PN" "C2650454"
+		(property "LCSC PN" "C1986974"
 			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22057,8 +22057,18 @@
 			(uuid "bbc61275-b8c0-4456-94b9-caa113c7226c")
 		)
 		(fp_line
-			(start -3.8 -3.8)
+			(start 2.5 -3.8)
 			(end 3.8 -3.8)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "331cac52-366a-4dfa-b3b3-be52f9d977e6")
+		)
+		(fp_line
+			(start -3.8 -3.8)
+			(end -2.5 -3.8)
 			(stroke
 				(width 0.1524)
 				(type solid)
@@ -22077,8 +22087,18 @@
 			(uuid "b190ad14-640d-4b9c-8f6c-43d235b833c3")
 		)
 		(fp_line
-			(start -3.8 3.8)
+			(start 2.5 3.8)
 			(end 3.8 3.8)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "727b9783-89d1-42f2-9b26-983444a12b10")
+		)
+		(fp_line
+			(start -3.8 3.8)
+			(end -2.5 3.8)
 			(stroke
 				(width 0.1524)
 				(type solid)
