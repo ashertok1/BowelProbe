@@ -537,7 +537,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "PCBA_Files/bowelProbe.csv",
+    "bom_export_filename": "PCBA_Files/bowelProbeBOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
