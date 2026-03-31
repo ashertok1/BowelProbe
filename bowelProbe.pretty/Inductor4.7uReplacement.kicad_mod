@@ -1,0 +1,133 @@
+(footprint "Inductor4.7uReplacement"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.508 -5.4864 0)
+		(layer "F.SilkS")
+		(uuid "206aac45-92d7-40ba-bffe-d647b7e184a7")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0703"
+		(at -0.9144 5.3086 0)
+		(layer "F.Fab")
+		(uuid "778e1570-1d78-4ff7-a891-e78be6aa6d4a")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRF0703.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fc01160-ad97-4bad-bf7c-0331154047cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fe43332-4feb-4f75-8494-9dabbbd74b94")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.8 -3.8)
+		(end -3.8 3.8)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d606af64-c133-4fda-a269-ff4359822998")
+	)
+	(fp_line
+		(start -3.8 -3.8)
+		(end 3.8 -3.8)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e304fec5-4c6a-4697-8cb1-fabca52c07c4")
+	)
+	(fp_line
+		(start -3.8 3.8)
+		(end 3.8 3.8)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5883bc8d-80f1-4747-ba0a-8dc9b7a42c32")
+	)
+	(fp_line
+		(start 3.8 -3.8)
+		(end 3.8 3.8)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46ec5138-ea74-42ff-b14f-57756b759579")
+	)
+	(pad "1" smd rect
+		(at -1.1 -2.75)
+		(size 1.4 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "85fe2465-a6e4-4c37-a249-3b9056a85b69")
+	)
+	(pad "2" smd rect
+		(at 1.1 -2.75)
+		(size 1.4 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "e5a943ca-bcbf-4d2e-ac3d-e4b49347adb8")
+	)
+	(pad "3" smd rect
+		(at 1.1 2.65)
+		(size 1.4 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c6856b86-7c28-4618-a678-1017fcd2b2bc")
+	)
+	(pad "4" smd rect
+		(at -1.1 2.65)
+		(size 1.4 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "f787cace-1fc6-4437-823a-d33f141efb97")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/bowelProbe_3D/Inductor4.7uReplacement.STP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

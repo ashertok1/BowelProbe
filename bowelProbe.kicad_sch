@@ -19662,7 +19662,7 @@
 				)
 			)
 		)
-		(property "Value" "LPD5030-472MRC"
+		(property "Value" "SRF0703-4R7M"
 			(at 96.266 125.73 0)
 			(effects
 				(font
@@ -19671,7 +19671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "BowelProbe:InductorCoupled"
+		(property "Footprint" "BowelProbe:Inductor4.7uReplacement"
 			(at 87.63 125.73 0)
 			(effects
 				(font
@@ -19681,7 +19681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.coilcraft.com/getmedia/83478c05-4e24-4a3e-8ebe-bfce7101fc50/lpd5030.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRF0703.pdf"
 			(at 87.63 125.73 0)
 			(effects
 				(font
@@ -19690,7 +19690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Coupled Inductors LPD5030 Low Profile 20% 111mOhms"
+		(property "Description" "3.09A 3.78A 4.7uH 40.6mΩ ±20% SMD-4P,7.6x7.6mm Power Inductors ROHS"
 			(at 87.63 125.73 0)
 			(effects
 				(font
@@ -19699,7 +19699,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Coilcraft"
+		(property "MF" "Bourns"
 			(at 87.63 125.73 0)
 			(effects
 				(font
@@ -19841,7 +19841,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Coilcraft"
+		(property "Manufacturer" "Bourns"
 			(at 87.63 125.73 0)
 			(effects
 				(font
@@ -19850,7 +19850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "LPD5030-472MRC"
+		(property "Manufacturer Product Number" "SRF0703-4R7M"
 			(at 87.63 125.73 0)
 			(effects
 				(font
@@ -19859,7 +19859,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C41156791"
+		(property "LCSC PN" "C7084454"
 			(at 87.63 125.73 0)
 			(effects
 				(font
