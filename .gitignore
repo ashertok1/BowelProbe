@@ -6,6 +6,8 @@ LTspiceSim/*.txt
 *.raw
 *.log
 *.csv
+!bowelProbe-PickAndPlace.csv
+!bowelProbeBOM.csv
 *.bin
 
 *.bak
@@ -18,3 +20,4 @@ _autosave-*
 *.lck
 
 .DS_Store
+bowelProbe3D.step
