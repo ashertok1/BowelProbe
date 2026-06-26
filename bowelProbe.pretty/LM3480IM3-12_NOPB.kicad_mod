@@ -1,0 +1,286 @@
+(footprint "LM3480IM3-12_NOPB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.016555 -3.303755 0)
+		(layer "F.SilkS")
+		(uuid "167c96a9-6082-4da5-a851-734168fb97c6")
+		(effects
+			(font
+				(size 1.640874 1.640874)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT95P251X112-3N"
+		(at 11.06247 3.10258 0)
+		(layer "F.Fab")
+		(uuid "988487d8-3122-4266-85a6-630a89254643")
+		(effects
+			(font
+				(size 1.642 1.642)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm3480.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1782138667606&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flm3480"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bb726d0-aee3-48ef-8685-28f7c60d6533")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d7ba484-cb34-4e22-8b0f-ea1c47383b49")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.4478 -0.6604)
+		(end -1.4478 0.2794)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "71cb15e4-b120-4544-b264-f876396bf144")
+	)
+	(fp_line
+		(start -0.6096 -0.6604)
+		(end -1.4478 -0.6604)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79b5d746-c21b-4ecd-9ec0-b8217dc2f14e")
+	)
+	(fp_line
+		(start 1.4478 -0.6604)
+		(end 0.6096 -0.6604)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "976c67fd-00ca-40a4-b1e0-32c7796e7425")
+	)
+	(fp_line
+		(start 1.4478 0.2794)
+		(end 1.4478 -0.6604)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ded38859-55f1-49ab-939d-fad0021f57f9")
+	)
+	(fp_line
+		(start -1.4478 -0.6604)
+		(end -1.4478 0.6604)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7ccd53bc-416b-4782-8eaf-ae8409687227")
+	)
+	(fp_line
+		(start -1.4478 0.6604)
+		(end 1.4478 0.6604)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8bc5b0fc-f918-4bbb-8762-0e565b62ac9a")
+	)
+	(fp_line
+		(start -1.1938 0.6604)
+		(end -1.1938 1.3208)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b356471b-6ebb-4b68-aef3-cee5918d64c5")
+	)
+	(fp_line
+		(start -1.1938 1.3208)
+		(end -0.6858 1.3208)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0639291-1c16-4fc4-8e9a-7875245620d5")
+	)
+	(fp_line
+		(start -0.6858 0.6604)
+		(end -1.1938 0.6604)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01d391ce-6fce-401d-ac7e-1c0f80bf37b7")
+	)
+	(fp_line
+		(start -0.6858 1.3208)
+		(end -0.6858 0.6604)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb10fadc-054b-4cff-a38b-50cac188e18d")
+	)
+	(fp_line
+		(start -0.254 -1.3208)
+		(end -0.254 -0.6604)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "acc28814-2248-4fdd-973f-83fdd95df809")
+	)
+	(fp_line
+		(start -0.254 -0.6604)
+		(end 0.254 -0.6604)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01e1a45b-b53c-44bd-8244-54717186b36c")
+	)
+	(fp_line
+		(start 0.254 -1.3208)
+		(end -0.254 -1.3208)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "809dc0ce-e47d-4ba2-90e0-29390c90fbee")
+	)
+	(fp_line
+		(start 0.254 -0.6604)
+		(end 0.254 -1.3208)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4bcc341-af9a-4be4-825d-43a727a9b982")
+	)
+	(fp_line
+		(start 0.6858 0.6604)
+		(end 0.6858 1.3208)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71d93a16-4b05-4a67-8c47-932595ead3b1")
+	)
+	(fp_line
+		(start 0.6858 1.3208)
+		(end 1.1938 1.3208)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "66f7a3db-6141-4caa-b2fc-dc629fdcc0ff")
+	)
+	(fp_line
+		(start 1.1938 0.6604)
+		(end 0.6858 0.6604)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0820ec8f-7696-444f-8a8a-522fee0e87b5")
+	)
+	(fp_line
+		(start 1.1938 1.3208)
+		(end 1.1938 0.6604)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f4b3624-f0b5-4662-96e3-e012a9f61e69")
+	)
+	(fp_line
+		(start 1.4478 -0.6604)
+		(end -1.4478 -0.6604)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4142dced-eee0-43e0-8623-a1f84fc54968")
+	)
+	(fp_line
+		(start 1.4478 0.6604)
+		(end 1.4478 -0.6604)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "848dc670-8b51-4cd3-b046-05ff89c6e6af")
+	)
+	(pad "1" smd rect
+		(at -0.9398 1.0922)
+		(size 0.5588 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "8c299730-93a2-4c1f-9990-51b5db330d17")
+	)
+	(pad "2" smd rect
+		(at 0.9398 1.0922)
+		(size 0.5588 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "2e75043d-b02c-48a9-ad0b-c382b05cee25")
+	)
+	(pad "3" smd rect
+		(at 0 -1.0922)
+		(size 0.5588 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "daa2b572-b29f-4a30-b144-4af4502f6774")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/bowelProbe_3D/LM3480IM3-12_NOPB.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

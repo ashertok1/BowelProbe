@@ -1,0 +1,220 @@
+(footprint "TLV76050DBZR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.405 -2.915 0)
+		(layer "F.SilkS")
+		(uuid "2a9c5a7e-2aef-4459-a4b6-2e6da8e95c5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT95P237X112-3N"
+		(at 7.49 2.715 0)
+		(layer "F.Fab")
+		(uuid "e5f2c5b8-57b4-4d23-a4b1-7745600e0fc7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv760.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1782127258879&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftlv760"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95c79820-08ab-4802-addc-d357d05ba4dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3557b58-7541-454e-aefb-a1802436e251")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 -1.559)
+		(end 0.7 -1.559)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "183dfcac-768d-49eb-b8ab-4336234ab8ff")
+	)
+	(fp_line
+		(start 0.7 -1.559)
+		(end 0.7 -0.62)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18825c76-f61a-468b-9c6e-41a2febb639b")
+	)
+	(fp_line
+		(start 0.7 1.559)
+		(end -0.7 1.559)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5432006a-0385-4c09-a5bd-c7efe3455880")
+	)
+	(fp_line
+		(start 0.7 1.559)
+		(end 0.7 0.62)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dddd451d-9d9e-4aa4-ab69-d68ebd7508cd")
+	)
+	(fp_circle
+		(center -2.71 -0.9)
+		(end -2.61 -0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0eb53ce9-c4a6-4cc6-b45f-1be31c7e112a")
+	)
+	(fp_line
+		(start -1.925 -1.77)
+		(end 1.925 -1.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1464d5ab-ea1f-49f7-8e89-566a9cef5f89")
+	)
+	(fp_line
+		(start -1.925 1.77)
+		(end -1.925 -1.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "45dd9dff-e5af-48c3-a82f-533372be81a2")
+	)
+	(fp_line
+		(start 1.925 -1.77)
+		(end 1.925 1.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a01f7b38-1831-4bc9-9ea7-5ddcbf76165d")
+	)
+	(fp_line
+		(start 1.925 1.77)
+		(end -1.925 1.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dc401c55-7c6d-4c68-8e30-a28854a9f911")
+	)
+	(fp_line
+		(start -0.7 -1.52)
+		(end -0.7 1.52)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c49bf48e-28b0-4d01-b192-8c3047927607")
+	)
+	(fp_line
+		(start -0.7 1.52)
+		(end 0.7 1.52)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d1b8d9f-c542-443a-aa5c-f36d110ece98")
+	)
+	(fp_line
+		(start 0.7 -1.52)
+		(end -0.7 -1.52)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d1589e7-3bde-4b47-a9de-e47d5f74a689")
+	)
+	(fp_line
+		(start 0.7 1.52)
+		(end 0.7 -1.52)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b199882-bb5c-4d20-a351-046d03cbd5aa")
+	)
+	(pad "1" smd roundrect
+		(at -1.055 -0.95)
+		(size 1.24 0.59)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "0290f5a6-5045-4048-b10e-221c84f6bbb6")
+	)
+	(pad "2" smd roundrect
+		(at -1.055 0.95)
+		(size 1.24 0.59)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "e9aea6ba-ac4b-4995-ae2b-da414bba1357")
+	)
+	(pad "3" smd roundrect
+		(at 1.055 0)
+		(size 1.24 0.59)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "0d96f51f-d724-422e-8542-850db9c35ed6")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/bowelProbe_3D/TLV76050DBZR.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

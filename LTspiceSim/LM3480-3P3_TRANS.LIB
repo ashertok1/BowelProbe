@@ -1,0 +1,146 @@
+*$
+* LM3480-3P3
+*****************************************************************************
+* (C) Copyright 2017 Texas Instruments Incorporated. All rights reserved.
+*****************************************************************************
+** This model is designed as an aid for customers of Texas Instruments.
+** TI and its licensors and suppliers make no warranties, either expressed
+** or implied, with respect to this model, including the warranties of
+** merchantability or fitness for a particular purpose. The model is
+** provided solely on an "as is" basis. The entire risk as to its quality
+** and performance is with the customer.
+*****************************************************************************
+*
+** Released by: WEBENCH Design Center, Texas Instruments Inc.
+* Part: LM3480-3P3
+* Date: 18MAY2017
+* Model Type: Transient
+* Simulator: PSPICE
+* Simulator Version: 16.2.0.s003
+* EVM Order Number:
+* EVM Users Guide:
+* Datasheet: SNVS011H –JUNE 1999–REVISED SEPTEMBER 2015
+*
+* Model Version: Final 1.00
+*
+*****************************************************************************
+*
+* Updates:
+*
+* Final 1.00
+* Release to Web
+*
+*****************************************************************************
+* Model Usage Notes:
+*
+* 1. The following features have been modeled
+*      a. Start-up behaviour is modeled
+*      b. Line transients is modeled
+*      c. Load transients is modeled
+*      d. Drop-out voltage is modeled
+*      e. PSRR is modeled only till 1st pole and 1st Zero (Model limitation)
+*      f. Current limit is modeled
+* 2. Quiescent current, noise characteristics and temperature effects are not modeled
+*
+*****************************************************************************
+
+*$
+.SUBCKT LM3480-3P3_TRAN GND VIN VOUT  
+E_E11         V_FBK 0 VALUE { V(FB, GND) }
+E_E6         VOUT1 0 VALUE { V(VOUT, GND) }
+X_H3    N549444 VZZ 0 VSEN LM3480-3P3_H3 
+C_C4         0 N434534  0.7u  
+E_U1_ABM4         U1_N16777545 0 VALUE { V(U1_VSOFT)  
++ * (ABS(V(VOUT1)) + 1e-6)  
++ / (ABS(V(V_FBK)) + 1e-6)  }
+X_U1_U13         VIN_INT U1_N16777367 U1_N16780421 VIN_OK COMPHYS_BASIC_GEN
++  PARAMS:  VDD=1 VSS=0 VTHRESH=0.5
+R_U1_R4         U1_N16777545 U1_N16777414  10 TC=0,0 
+E_U1_E1         U1_DROP 0 TABLE { V(LOAD, 0) } 
++ ( (0,600m) (20m,760m) (40m 810m) (60m 850m) (80m 880m) (100m 900m) )
+C_U1_C2         0 U1_N16777414  1n  
+R_U1_R3         0 U1_VSOFT  1G  
+E_U1_ABM6         U1_N16805621 0 VALUE { {IF(V(VIN_OK)>0.5,0.6,0)}    }
+E_U1_E12         U1_N16777607 GND VALUE { V(U1_N16777612, 0) }
+C_U1_C4         0 U1_VSOFT  100u  TC=0,0 
+R_U1_R5         U1_N16777607 N434296  10 TC=0,0 
+C_U1_C3         GND N434296  1n  
+V_U1_V3         U1_N16780421 0 100m
+V_U1_V4         U1_N16777367 0 1
+G_U1_ABMI1         U1_N16805621 U1_VSOFT VALUE { {IF(V(U1_VSOFT)>0.24, 3.6,
++  100u*0.24/V(U1_STUTIME))}    }
+X_U1_U14         U1_VSOFT U1_N16805621 dclamp 
+E_U1_E2         U1_STUTIME 0 TABLE { V(LOAD, 0) } 
++ ( (0,760u) (100m,1080u) )
+R_U1_R2         0 U1_N16777414  1G  
+E_U1_ABM5         U1_N16777612 0 VALUE { MIN(V(U1_N16777414),  
++ MAX(V(VIN_INT) -V(U1_DROP), 0))   }
+X_H2    VZZ N661965 LOAD 0 LM3480-3P3_H2 
+X_F1    N435184 N549444 N434354 VYY LM3480-3P3_F1 
+X_S2    N434534 0 VIN N434354 LM3480-3P3_S2 
+E_E8         VIN_INT 0 VALUE { V(VIN, GND) }
+R_R1         VXX N434354  {RINP}  
+C_C6         VSEN N434296  1u  
+R_R2         N434296 VXX  {PSRR*RINP}  
+E_E10         N435188 GND VALUE { V(N561452, 0) }
+E_ABM1         N561452 0 VALUE { {MIN(V(N691921), (V(Vzz_INT)+(ILIM*ROUT)))}   
++  }
+C_C5         GND N434354  1n  
+C_C1         VXX N434354  {1/(6.28*RINP*POLE)}  
+R_R6         N435188 VYY  10 TC=0,0 
+E_E7         VZZ_INT 0 VALUE { V(VZZ, GND) }
+C_C2         VXX N434296  {1/(6.28*PSRR*RINP*ZERO*1)}  
+C_C3         GND VYY  1n  
+R_R5         N435184 VYY  {ROUT}  
+E_E9         N691921 0 VALUE { V(VXX, GND) }
+R_R3         GND FB  181.818k  
+V_Vload         N661965 VOUT 0Vdc
+R_R4         FB VOUT  818.182k  
+R_R8         VIN_OK N434534  50 TC=0,0 
+.IC         V(U1_VSOFT )=0
+*$
+.PARAM  psrr=316.22u venb=0.9 ilim=200m pole=20 zero=1k rinp=1e6 rinpl=1e7
++  ttrn=70u rout=222.22m vref=0.6 ehys=0.5 drop=350m
+*$
+.ENDS LM3480-3P3_TRAN
+*$
+.subckt LM3480-3P3_H3 1 2 3 4  
+H_H3         3 4 VH_H3 2.3
+VH_H3         1 2 0V
+.ends LM3480-3P3_H3
+*$
+.subckt LM3480-3P3_H2 1 2 3 4  
+H_H2         3 4 VH_H2 1
+VH_H2         1 2 0V
+.ends LM3480-3P3_H2
+*$
+.subckt LM3480-3P3_F1 1 2 3 4  
+F_F1         3 4 VF_F1 1
+VF_F1         1 2 0V
+.ends LM3480-3P3_F1
+*$
+.subckt LM3480-3P3_S2 1 2 3 4  
+S_S2         3 4 1 2 _S2
+RS_S2         1 2 1G
+.MODEL         _S2 VSWITCH Roff=1MEG Ron=10 Voff=0.0V Von=0.8V
+.ends LM3480-3P3_S2
+*$
+.SUBCKT COMPHYS_BASIC_GEN INP INM HYS OUT PARAMS: VDD=1 VSS=0 VTHRESH=0.5	
+EIN INP1 INM1 INP INM 1 
+EHYS INP1 INP2 VALUE { IF( V(1) > {VTHRESH},-V(HYS),0) }
+EOUT OUT 0 VALUE { IF( V(INP2)>V(INM1), {VDD} ,{VSS}) }
+R1 OUT 1 1
+C1 1 0 5n
+RINP1 INP1 0 1K
+.ENDS COMPHYS_BASIC_GEN
+*$
+
+.subckt dclamp 1 2
+d1 1 2 dcl
+.model dcl d
++ is=1e-015
++ tt=1e-011
++ rs=0.0001
++ n=0.001
+.ends dclamp
+$
