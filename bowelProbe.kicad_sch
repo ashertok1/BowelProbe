@@ -11056,23 +11056,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 238.76 254) (xy 406.4 253.365) (xy 406.4 13.335) (xy 238.76 13.97)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-				(color 255 255 0 0.1)
-			)
-			(fill
-				(type color)
-				(color 255 255 0 0.1)
-			)
-			(uuid 710dd127-8d68-40a6-a603-750baf252ed2)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 19.05 166.37) (xy 62.23 166.37) (xy 62.23 147.32) (xy 143.51 147.32) (xy 143.51 13.97) (xy 19.05 13.97)
 			)
 			(stroke
@@ -11084,7 +11067,24 @@
 				(type color)
 				(color 0 0 255 0.1)
 			)
-			(uuid b101eed8-93d9-42c6-a341-c3027772d9f1)
+			(uuid 265bff3f-4c27-45d0-aab5-ce9610fefc38)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 238.76 254) (xy 406.4 253.365) (xy 406.4 13.335) (xy 238.76 13.97)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 255 255 0 0.1)
+			)
+			(fill
+				(type color)
+				(color 255 255 0 0.1)
+			)
+			(uuid 42725658-0ddf-4720-afa7-d36a55d7bc51)
 		)
 	)
 	(rule_area
@@ -11101,7 +11101,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid ded22ab9-f671-4ecd-b6e6-8262f3722e03)
+			(uuid fd4a852c-cc93-492e-958b-da08c0c9bce2)
 		)
 	)
 	(symbol
@@ -13111,7 +13111,7 @@
 				)
 			)
 		)
-		(property "Value" "LM3480IM3-12_NOPB"
+		(property "Value" "LM3480IM3-12/NOPB"
 			(at 171.45 170.18 0)
 			(effects
 				(font
@@ -13138,7 +13138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-40℃~+125℃@(Tj) 1 1.2V@(100mA) 100mA 12V 30V 360uVrms Fixed Over Current Protection Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
 			(at 171.45 177.8 0)
 			(effects
 				(font
@@ -13274,6 +13274,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C130175"
+			(at 171.45 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 171.45 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -15386,7 +15404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-40℃~+125℃@(Tj) 1 1.2V@(100mA) 100mA 30V 5V 5mA Fixed Over Current Protection、Over Temperature Protection Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
 			(at 171.45 210.82 0)
 			(effects
 				(font
@@ -15472,6 +15490,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2867465"
+			(at 171.45 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 171.45 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
