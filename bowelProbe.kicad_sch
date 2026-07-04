@@ -6579,7 +6579,7 @@
 	)
 	(rectangle
 		(start 429.26 154.94)
-		(end 551.18 256.54)
+		(end 565.15 256.54)
 		(stroke
 			(width 0)
 			(type solid)
@@ -6593,7 +6593,7 @@
 	)
 	(rectangle
 		(start 430.53 217.17)
-		(end 549.91 255.27)
+		(end 562.61 255.27)
 		(stroke
 			(width 0)
 			(type default)
@@ -6758,7 +6758,7 @@
 	)
 	(text "TN"
 		(exclude_from_sim no)
-		(at 485.14 222.758 0)
+		(at 497.84 222.758 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7071,6 +7071,12 @@
 		(uuid "1582106a-9939-47cc-a5dc-f9a66cd42abf")
 	)
 	(junction
+		(at 481.33 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "162b2598-d6cf-4d74-9424-17e62908bd62")
+	)
+	(junction
 		(at 331.47 46.99)
 		(diameter 0)
 		(color 255 0 0 1)
@@ -7111,12 +7117,6 @@
 		(diameter 0)
 		(color 72 0 0 1)
 		(uuid "3546975a-04b4-4584-a9da-74fab7dcd361")
-	)
-	(junction
-		(at 471.17 241.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f3d612e-fa00-4d9a-996c-9a39cb3792aa")
 	)
 	(junction
 		(at 466.09 101.6)
@@ -7173,6 +7173,12 @@
 		(uuid "511e58a5-0f0d-470e-986e-c0ad3af7ba0c")
 	)
 	(junction
+		(at 471.17 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5196f88a-bfec-47fe-98c7-c2e4f1527e16")
+	)
+	(junction
 		(at 490.22 179.07)
 		(diameter 0)
 		(color 194 0 0 1)
@@ -7209,7 +7215,7 @@
 		(uuid "60c74766-0650-4c2f-b67f-e29a148a3165")
 	)
 	(junction
-		(at 538.48 233.68)
+		(at 551.18 233.68)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "62cbdf9b-4748-46f3-bd3c-38c2ac07ae44")
@@ -7227,7 +7233,7 @@
 		(uuid "6cf1190d-f287-40b6-b00c-02f6a1af4c7f")
 	)
 	(junction
-		(at 485.14 233.68)
+		(at 497.84 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d9f229a-964e-4c41-953b-e089340a8bdc")
@@ -7275,7 +7281,7 @@
 		(uuid "808e30bc-435b-4129-9bf6-617c79bd7083")
 	)
 	(junction
-		(at 530.86 238.76)
+		(at 543.56 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "812005ca-91c7-4a18-86f6-f00dbd96e281")
@@ -7287,7 +7293,7 @@
 		(uuid "82ea20a3-3536-4e79-8856-48e853d673e1")
 	)
 	(junction
-		(at 533.4 233.68)
+		(at 546.1 233.68)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "83790a86-5f6a-4997-a072-b97c019d910d")
@@ -7960,6 +7966,17 @@
 	)
 	(wire
 		(pts
+			(xy 481.33 247.65) (xy 481.33 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "107dd470-6c54-4dbf-a971-ada837acb9f3")
+	)
+	(wire
+		(pts
 			(xy 494.03 185.42) (xy 494.03 186.69)
 		)
 		(stroke
@@ -7992,7 +8009,7 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 238.76) (xy 485.14 241.3)
+			(xy 497.84 238.76) (xy 497.84 241.3)
 		)
 		(stroke
 			(width 0)
@@ -8315,7 +8332,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 227.33) (xy 533.4 226.06)
+			(xy 546.1 227.33) (xy 546.1 226.06)
 		)
 		(stroke
 			(width 0)
@@ -8552,7 +8569,7 @@
 	)
 	(wire
 		(pts
-			(xy 530.86 241.3) (xy 530.86 238.76)
+			(xy 543.56 241.3) (xy 543.56 238.76)
 		)
 		(stroke
 			(width 0)
@@ -8584,7 +8601,7 @@
 	)
 	(wire
 		(pts
-			(xy 538.48 233.68) (xy 538.48 232.41)
+			(xy 551.18 233.68) (xy 551.18 232.41)
 		)
 		(stroke
 			(width 0)
@@ -8647,7 +8664,7 @@
 	)
 	(wire
 		(pts
-			(xy 478.79 233.68) (xy 478.79 241.3)
+			(xy 491.49 233.68) (xy 491.49 241.3)
 		)
 		(stroke
 			(width 0)
@@ -8668,7 +8685,7 @@
 	)
 	(wire
 		(pts
-			(xy 487.68 238.76) (xy 485.14 238.76)
+			(xy 500.38 238.76) (xy 497.84 238.76)
 		)
 		(stroke
 			(width 0)
@@ -9484,7 +9501,7 @@
 	)
 	(wire
 		(pts
-			(xy 528.32 238.76) (xy 530.86 238.76)
+			(xy 541.02 238.76) (xy 543.56 238.76)
 		)
 		(stroke
 			(width 0)
@@ -9524,7 +9541,7 @@
 	)
 	(wire
 		(pts
-			(xy 543.56 227.33) (xy 547.37 227.33)
+			(xy 556.26 227.33) (xy 560.07 227.33)
 		)
 		(stroke
 			(width 0)
@@ -9585,6 +9602,16 @@
 			(type default)
 		)
 		(uuid "70a38f8a-f2dd-47d8-acdb-853057d0b846")
+	)
+	(wire
+		(pts
+			(xy 480.06 241.3) (xy 481.33 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70a7e614-2048-44c9-8621-4a853184eb16")
 	)
 	(wire
 		(pts
@@ -9827,7 +9854,7 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 236.22) (xy 487.68 236.22)
+			(xy 497.84 236.22) (xy 500.38 236.22)
 		)
 		(stroke
 			(width 0)
@@ -9996,6 +10023,16 @@
 	)
 	(wire
 		(pts
+			(xy 481.33 241.3) (xy 481.33 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b37d829-e46b-4aa6-96b7-b5045f65eda6")
+	)
+	(wire
+		(pts
 			(xy 477.52 176.53) (xy 481.33 176.53)
 		)
 		(stroke
@@ -10083,7 +10120,7 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 241.3) (xy 530.86 241.3)
+			(xy 497.84 241.3) (xy 543.56 241.3)
 		)
 		(stroke
 			(width 0)
@@ -10143,6 +10180,16 @@
 			(color 0 194 0 1)
 		)
 		(uuid "97856c34-5c9e-4958-9a27-cf5f5f4656ce")
+	)
+	(wire
+		(pts
+			(xy 481.33 241.3) (xy 491.49 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "978a5f37-4344-4fdd-8d1d-fc564ba42522")
 	)
 	(wire
 		(pts
@@ -10326,7 +10373,7 @@
 	)
 	(wire
 		(pts
-			(xy 487.68 233.68) (xy 485.14 233.68)
+			(xy 500.38 233.68) (xy 497.84 233.68)
 		)
 		(stroke
 			(width 0)
@@ -10639,7 +10686,7 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 233.68) (xy 478.79 233.68)
+			(xy 497.84 233.68) (xy 491.49 233.68)
 		)
 		(stroke
 			(width 0)
@@ -10656,16 +10703,6 @@
 			(type default)
 		)
 		(uuid "b18e0835-ff0b-406c-9301-20a139ef13e1")
-	)
-	(wire
-		(pts
-			(xy 471.17 241.3) (xy 478.79 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1a33500-933e-43f9-92c5-a9b640d76412")
 	)
 	(wire
 		(pts
@@ -10691,7 +10728,7 @@
 	)
 	(wire
 		(pts
-			(xy 528.32 233.68) (xy 533.4 233.68)
+			(xy 541.02 233.68) (xy 546.1 233.68)
 		)
 		(stroke
 			(width 0)
@@ -10735,7 +10772,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 233.68) (xy 533.4 232.41)
+			(xy 546.1 233.68) (xy 546.1 232.41)
 		)
 		(stroke
 			(width 0)
@@ -10767,7 +10804,7 @@
 	)
 	(wire
 		(pts
-			(xy 538.48 227.33) (xy 538.48 226.06)
+			(xy 551.18 227.33) (xy 551.18 226.06)
 		)
 		(stroke
 			(width 0)
@@ -11001,7 +11038,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 233.68) (xy 538.48 233.68)
+			(xy 546.1 233.68) (xy 551.18 233.68)
 		)
 		(stroke
 			(width 0)
@@ -11302,7 +11339,7 @@
 	)
 	(wire
 		(pts
-			(xy 530.86 238.76) (xy 542.29 238.76)
+			(xy 543.56 238.76) (xy 554.99 238.76)
 		)
 		(stroke
 			(width 0)
@@ -11499,6 +11536,16 @@
 			(color 132 132 132 1)
 		)
 		(uuid "e0986759-3859-4372-b3e7-04a029b031e1")
+	)
+	(wire
+		(pts
+			(xy 471.17 241.3) (xy 472.44 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ca69c4-42dc-4165-85e6-4243da249f3f")
 	)
 	(wire
 		(pts
@@ -11734,7 +11781,7 @@
 	)
 	(wire
 		(pts
-			(xy 543.56 233.68) (xy 543.56 227.33)
+			(xy 556.26 233.68) (xy 556.26 227.33)
 		)
 		(stroke
 			(width 0)
@@ -12010,7 +12057,7 @@
 	)
 	(wire
 		(pts
-			(xy 538.48 233.68) (xy 543.56 233.68)
+			(xy 551.18 233.68) (xy 556.26 233.68)
 		)
 		(stroke
 			(width 0)
@@ -12117,7 +12164,7 @@
 		(uuid "0580b8af-2a1d-4d23-a7c7-bfa5efed5c8c")
 	)
 	(label "PDout"
-		(at 478.79 241.3 180)
+		(at 491.49 241.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12240,7 +12287,7 @@
 		(uuid "250eb8f3-d79b-454f-8b03-c103d81bdb2a")
 	)
 	(label "PDoutBuf"
-		(at 542.29 238.76 180)
+		(at 554.99 238.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13004,7 +13051,7 @@
 		(uuid "f20cb82e-ff59-493b-b37f-6e1a856973b7")
 	)
 	(label "+5V"
-		(at 547.37 227.33 180)
+		(at 560.07 227.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13047,23 +13094,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 13.97 166.37) (xy 57.15 166.37) (xy 57.15 147.32) (xy 138.43 147.32) (xy 138.43 13.97) (xy 13.97 13.97)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-				(color 0 0 255 0.1)
-			)
-			(fill
-				(type color)
-				(color 0 0 255 0.1)
-			)
-			(uuid 7e3eacae-5f97-4121-9837-95005dbdf6d6)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 327.66 133.6675) (xy 495.3 133.0325) (xy 495.3 36.195) (xy 327.66 36.83)
 			)
 			(stroke
@@ -13075,7 +13105,24 @@
 				(type color)
 				(color 255 255 0 0.1)
 			)
-			(uuid a59be495-c1be-4674-a3de-38bd635d3639)
+			(uuid 3ecc80ee-5771-4fb5-aed7-e84cacca9d5f)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 13.97 166.37) (xy 57.15 166.37) (xy 57.15 147.32) (xy 138.43 147.32) (xy 138.43 13.97) (xy 13.97 13.97)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 0 0 255 0.1)
+			)
+			(fill
+				(type color)
+				(color 0 0 255 0.1)
+			)
+			(uuid 571d00aa-e8c6-4718-b53f-f04f82928904)
 		)
 	)
 	(rule_area
@@ -13092,7 +13139,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid dee9eb23-2e49-49ef-91d3-e65590cf7a0f)
+			(uuid 771afa9e-7286-43af-9cf7-c893f7bde1d4)
 		)
 	)
 	(symbol
@@ -13819,6 +13866,143 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 466.09 241.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09ed149a-5253-4816-8a3b-e68b768a4b51")
+		(property "Reference" "R21"
+			(at 468.376 237.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30k"
+			(at 468.376 239.522 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BowelProbe:Resistor30k"
+			(at 466.344 240.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 466.09 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 200V 250mW 30kΩ Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
+			(at 466.09 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 466.09 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 466.09 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 466.09 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 466.09 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 466.09 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "RC1206FR-0730KL"
+			(at 466.09 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 466.09 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C137314"
+			(at 466.09 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c4dd0c36-e528-436d-9ed9-c3590ca2ace1")
+		)
+		(pin "1"
+			(uuid "9c3f7242-385a-463b-9ef5-6edef10c9df8")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 193.04 308.61 0)
 		(unit 1)
@@ -13885,7 +14069,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 533.4 226.06 0)
+		(at 546.1 226.06 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13894,7 +14078,7 @@
 		(dnp no)
 		(uuid "0c3e6de9-edef-4a46-9bb8-e4a5e13e9409")
 		(property "Reference" "#PWR0135"
-			(at 533.4 219.71 0)
+			(at 546.1 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13903,7 +14087,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 533.4 220.98 90)
+			(at 546.1 220.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13911,7 +14095,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 533.4 226.06 0)
+			(at 546.1 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13920,7 +14104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 533.4 226.06 0)
+			(at 546.1 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13929,7 +14113,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 533.4 226.06 0)
+			(at 546.1 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16033,7 +16217,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 538.48 226.06 0)
+		(at 551.18 226.06 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16042,7 +16226,7 @@
 		(dnp no)
 		(uuid "31af4baa-a010-4f34-b975-30dacda93db1")
 		(property "Reference" "#PWR0136"
-			(at 538.48 219.71 0)
+			(at 551.18 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16051,7 +16235,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 538.48 220.98 90)
+			(at 551.18 220.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16059,7 +16243,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 538.48 226.06 0)
+			(at 551.18 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16068,7 +16252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 538.48 226.06 0)
+			(at 551.18 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16077,7 +16261,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 538.48 226.06 0)
+			(at 551.18 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16935,7 +17119,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 485.14 236.22 270)
+		(at 497.84 236.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16943,7 +17127,7 @@
 		(dnp no)
 		(uuid "3b2ecf84-b808-4b72-9ba4-6acdc5bb2666")
 		(property "Reference" "#PWR0134"
-			(at 478.79 236.22 0)
+			(at 491.49 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16952,7 +17136,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 481.584 236.22 0)
+			(at 494.284 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16960,7 +17144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 485.14 236.22 0)
+			(at 497.84 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16969,7 +17153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 485.14 236.22 0)
+			(at 497.84 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16978,7 +17162,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 485.14 236.22 0)
+			(at 497.84 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22103,7 +22287,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 533.4 229.87 180)
+		(at 546.1 229.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22111,7 +22295,7 @@
 		(dnp no)
 		(uuid "6c713154-fc7b-4452-970c-80af4d15d24f")
 		(property "Reference" "C55"
-			(at 532.384 227.33 90)
+			(at 545.084 227.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22119,7 +22303,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 534.416 227.076 90)
+			(at 547.116 227.076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22127,7 +22311,7 @@
 			)
 		)
 		(property "Footprint" "BowelProbe:Cap10uF"
-			(at 533.4 229.87 0)
+			(at 546.1 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22136,7 +22320,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 533.4 229.87 0)
+			(at 546.1 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22145,7 +22329,7 @@
 			)
 		)
 		(property "Description" "10V 10uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 533.4 229.87 0)
+			(at 546.1 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22154,7 +22338,7 @@
 			)
 		)
 		(property "Order" ""
-			(at 533.4 229.87 0)
+			(at 546.1 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22163,7 +22347,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 533.4 229.87 0)
+			(at 546.1 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22171,7 +22355,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 533.4 229.87 0)
+			(at 546.1 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22179,7 +22363,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 533.4 229.87 0)
+			(at 546.1 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22187,7 +22371,7 @@
 			)
 		)
 		(property "Sim.Pin" ""
-			(at 533.4 229.87 0)
+			(at 546.1 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22195,7 +22379,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" "GRM155R61A106ME11D"
-			(at 533.4 229.87 0)
+			(at 546.1 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22204,7 +22388,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 533.4 229.87 0)
+			(at 546.1 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22213,7 +22397,7 @@
 			)
 		)
 		(property "LCSC PN" "C408132"
-			(at 533.4 229.87 0)
+			(at 546.1 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23475,135 +23659,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 471.17 245.11 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ac99462-23af-4791-bec5-59a04f3d9cd0")
-		(property "Reference" "C28"
-			(at 468.63 243.8335 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1u"
-			(at 468.63 245.618 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "BowelProbe:Cap1uF"
-			(at 471.17 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 471.17 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "16V 1uF X7R ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 471.17 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 471.17 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 471.17 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 471.17 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 471.17 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" "0603YC105JAT2A"
-			(at 471.17 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KYOCERA AVX"
-			(at 471.17 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C2177011"
-			(at 471.17 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09cc5849-2887-41b6-bc21-be8ab1362f44")
-		)
-		(pin "2"
-			(uuid "46c3c071-c995-4cef-8196-0e219e24cd46")
-		)
-		(instances
-			(project "bowelProbe"
-				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 101.6 379.73 0)
 		(mirror y)
 		(unit 1)
@@ -24771,7 +24826,7 @@
 	)
 	(symbol
 		(lib_id "BowelProbe:Buffer")
-		(at 487.68 233.68 0)
+		(at 500.38 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24780,7 +24835,7 @@
 		(fields_autoplaced yes)
 		(uuid "8edec5fc-5e3e-4607-9ac9-e17cce0f3182")
 		(property "Reference" "U12"
-			(at 508 223.52 0)
+			(at 520.7 223.52 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24788,7 +24843,7 @@
 			)
 		)
 		(property "Value" "Buffer"
-			(at 508 226.06 0)
+			(at 520.7 226.06 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24796,7 +24851,7 @@
 			)
 		)
 		(property "Footprint" "BowelProbe:Buffer"
-			(at 487.68 233.68 0)
+			(at 500.38 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24806,7 +24861,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmv321a.pdf"
-			(at 487.68 233.68 0)
+			(at 500.38 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24816,7 +24871,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 487.68 233.68 0)
+			(at 500.38 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25418,6 +25473,71 @@
 			(project ""
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 481.33 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9726ba11-abc2-462b-b6c9-18d29ae0e969")
+		(property "Reference" "#PWR0137"
+			(at 481.33 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 481.33 252.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 481.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 481.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 481.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3324f1c0-0f82-4671-a68b-f14d9d21b780")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -27053,6 +27173,141 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 471.17 245.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa1779f8-4484-47f7-9533-86c0057a8748")
+		(property "Reference" "C57"
+			(at 469.138 243.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 468.884 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BowelProbe:Cap0.1uF"
+			(at 471.17 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 471.17 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 471.17 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 471.17 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 471.17 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 471.17 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 471.17 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 471.17 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM033C71C104KE14D"
+			(at 471.17 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 471.17 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
+			(at 471.17 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da31c096-2c4e-4920-8176-7455976aeb38")
+		)
+		(pin "2"
+			(uuid "90ddda7f-6b97-495a-8ae4-0e2ca4958317")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 152.4 332.74 0)
 		(mirror y)
 		(unit 1)
@@ -28037,6 +28292,141 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 481.33 245.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2f7e07b-fafe-45e3-b2f7-f74ba2af5c8e")
+		(property "Reference" "C58"
+			(at 479.298 243.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 479.044 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BowelProbe:Cap0.1uF"
+			(at 481.33 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 481.33 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 481.33 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 481.33 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 481.33 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 481.33 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 481.33 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 481.33 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM033C71C104KE14D"
+			(at 481.33 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 481.33 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
+			(at 481.33 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ba588b3-52ea-4779-b2ea-175db3c34090")
+		)
+		(pin "2"
+			(uuid "5e61f71c-f406-4510-b101-04aaa6e4a5a4")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 421.64 71.12 0)
 		(mirror y)
 		(unit 1)
@@ -28945,7 +29335,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 485.14 228.6 90)
+		(at 497.84 228.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -28953,7 +29343,7 @@
 		(dnp yes)
 		(uuid "b90d9646-be69-4e93-95b2-6923a9546726")
 		(property "Reference" "J25"
-			(at 485.14 224.536 0)
+			(at 497.84 224.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28962,7 +29352,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 487.68 229.8699 90)
+			(at 500.38 229.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28972,7 +29362,7 @@
 			)
 		)
 		(property "Footprint" "BowelProbe:CT3149-2"
-			(at 485.14 228.6 0)
+			(at 497.84 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28981,7 +29371,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 485.14 228.6 0)
+			(at 497.84 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28990,7 +29380,7 @@
 			)
 		)
 		(property "Description" "01x01 hole to fit wire"
-			(at 485.14 228.6 0)
+			(at 497.84 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28999,7 +29389,7 @@
 			)
 		)
 		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-2/5114523?gclsrc=aw.ds&gad_source=1&gad_campaignid=17336967819&gbraid=0AAAAADrbLlgHwoldOY3BTWvIRXP-Ifk7O&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ6--plL5JvhXOV0g7-njs8DvOH5W1-zYAgOYW2KRe7TUxWEWHSgDDMaAp6TEALw_wcB"
-			(at 485.14 228.6 90)
+			(at 497.84 228.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29008,7 +29398,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 485.14 228.6 0)
+			(at 497.84 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29016,7 +29406,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 485.14 228.6 0)
+			(at 497.84 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29024,7 +29414,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 485.14 228.6 0)
+			(at 497.84 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29032,7 +29422,7 @@
 			)
 		)
 		(property "Sim.Pin" ""
-			(at 485.14 228.6 0)
+			(at 497.84 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29040,7 +29430,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" ""
-			(at 485.14 228.6 0)
+			(at 497.84 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29048,7 +29438,7 @@
 			)
 		)
 		(property "LCSC PN" ""
-			(at 485.14 228.6 0)
+			(at 497.84 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29216,7 +29606,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 538.48 229.87 180)
+		(at 551.18 229.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29224,7 +29614,7 @@
 		(dnp no)
 		(uuid "baca10ca-849d-4761-8621-51f0f9b20883")
 		(property "Reference" "C56"
-			(at 537.464 227.33 90)
+			(at 550.164 227.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29232,7 +29622,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 539.496 227.076 90)
+			(at 552.196 227.076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29240,7 +29630,7 @@
 			)
 		)
 		(property "Footprint" "BowelProbe:Cap0.1uF"
-			(at 538.48 229.87 0)
+			(at 551.18 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29249,7 +29639,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 538.48 229.87 0)
+			(at 551.18 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29258,7 +29648,7 @@
 			)
 		)
 		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 538.48 229.87 0)
+			(at 551.18 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29267,7 +29657,7 @@
 			)
 		)
 		(property "Order" ""
-			(at 538.48 229.87 0)
+			(at 551.18 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29276,7 +29666,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 538.48 229.87 0)
+			(at 551.18 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29284,7 +29674,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 538.48 229.87 0)
+			(at 551.18 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29292,7 +29682,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 538.48 229.87 0)
+			(at 551.18 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29300,7 +29690,7 @@
 			)
 		)
 		(property "Sim.Pin" ""
-			(at 538.48 229.87 0)
+			(at 551.18 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29308,7 +29698,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" "GRM033C71C104KE14D"
-			(at 538.48 229.87 0)
+			(at 551.18 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29317,7 +29707,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 538.48 229.87 0)
+			(at 551.18 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29326,7 +29716,7 @@
 			)
 		)
 		(property "LCSC PN" "C85923"
-			(at 538.48 229.87 0)
+			(at 551.18 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30797,6 +31187,143 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 476.25 241.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd1e2679-48ce-4201-9874-6924029d94a6")
+		(property "Reference" "R24"
+			(at 478.028 237.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30k"
+			(at 478.028 239.522 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BowelProbe:Resistor30k"
+			(at 476.504 240.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 476.25 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 200V 250mW 30kΩ Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
+			(at 476.25 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 476.25 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 476.25 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 476.25 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 476.25 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 476.25 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "RC1206FR-0730KL"
+			(at 476.25 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 476.25 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C137314"
+			(at 476.25 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0ee1c73-0332-4d75-b47b-3c3d24fab59a")
+		)
+		(pin "1"
+			(uuid "638273f7-2a9f-405a-9a27-8557afc1d0ec")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -33415,142 +33942,6 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 466.09 241.3 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f3859876-0c6c-4cdb-bcf1-a52185d39746")
-		(property "Reference" "R21"
-			(at 466.09 237.744 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 466.09 239.522 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BowelProbe:Resistor10k"
-			(at 465.836 240.284 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 466.09 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 466.09 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" ""
-			(at 466.09 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 466.09 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 466.09 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 466.09 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 466.09 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" "RC0603FR-0710KL"
-			(at 466.09 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 466.09 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C98220"
-			(at 466.09 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b126cf47-f2d3-4c7b-8244-c1b2db638884")
-		)
-		(pin "1"
-			(uuid "66f8f445-329c-4a81-96dc-ef3266e52a53")
-		)
-		(instances
-			(project "bowelProbe"
-				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
-					(reference "R21")
 					(unit 1)
 				)
 			)
