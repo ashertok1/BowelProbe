@@ -1,4 +1,4 @@
-25310508437128754
+25315857316566609
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -560,6 +560,20 @@ L7905CV-DG
 3
 3
 BowelProbe
+LM319MX_NOPB
+
+
+0
+14
+14
+BowelProbe
+LM393ADR
+
+
+0
+8
+8
+BowelProbe
 LM3480IM3-12_NOPB
 
 
@@ -678,6 +692,13 @@ Resistor300k
 0
 2
 2
+BowelProbe
+SN74LVC1G86DBVR
+
+
+0
+5
+5
 BowelProbe
 SchottkyDiode
 
