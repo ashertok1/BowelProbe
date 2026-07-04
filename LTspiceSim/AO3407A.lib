@@ -1,0 +1,56 @@
+*=============================================================
+* AO3407A - Generic LTspice-safe PMOS model (3-pin)
+* NOT manufacturer model - behavioral approximation
+*
+* Pins:
+*   D = Drain
+*   G = Gate
+*   S = Source
+*
+* Use:
+*   X1 D G S AO3407A
+*=============================================================
+
+.SUBCKT AO3407A D G S
+
+*-------------------------------------------------------------
+* PMOS transistor
+* Body is tied internally to Source (S S)
+*-------------------------------------------------------------
+M1 D G S S PMOS_CORE
+
+*-------------------------------------------------------------
+* Body diode (Drain -> Source)
+*-------------------------------------------------------------
+D1 D S DIODE_BODY
+
+.ENDS AO3407A
+
+
+*=============================================================
+* MOSFET CORE MODEL (no parentheses formatting issues)
+*=============================================================
+.model PMOS_CORE PMOS
++ LEVEL=1
++ VTO=-2
++ KP=18
++ LAMBDA=0.02
++ RD=0.02
++ RS=0.02
++ CGSO=2e-10
++ CGDO=1e-10
++ CBD=1e-10
++ CBS=1e-10
++ IS=1e-14
+
+
+*=============================================================
+* BODY DIODE MODEL
+*=============================================================
+.model DIODE_BODY D
++ IS=1e-10
++ N=1.1
++ RS=0.02
++ BV=35
++ IBV=1m
++ CJO=1e-10

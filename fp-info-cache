@@ -1,4 +1,4 @@
-25315857316566609
+25321206932657126
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -385,12 +385,26 @@ AD9833BRMZ
 10
 10
 BowelProbe
+AO3407A
+
+
+0
+3
+3
+BowelProbe
 ATmega328P
 
 ATMEGA328P-MUR 
 0
 33
 33
+BowelProbe
+BZT52B12
+
+
+0
+2
+2
 BowelProbe
 Buffer
 
@@ -681,6 +695,13 @@ Resistor71.5k
 BowelProbe
 Resistor100
 
+
+0
+2
+2
+BowelProbe
+Resistor100k
+<b>RESISTOR</b>
 
 0
 2
