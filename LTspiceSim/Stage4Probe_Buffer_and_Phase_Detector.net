@@ -1,0 +1,40 @@
+* C:\Users\jason\OneDrive\Documents\GitHub\BowelProbe\LTspiceSim\Stage4Probe_Buffer_and_Phase_Detector.asc
+V1 0 nVss 12
+V2 nVdd5 0 5 Rser=312m
+V3 nVdd12 0 12 Rser=0.05
+R1 nProbe 0 100 tol=1 pwr=0.5
+R§Probe N001 nProbe 218
+XU1 nProbe nBuffer2 nVdd12 nVss nBuffer2 TL07XH_TL08XH
+C1 nVdd12 0 0.1µ V=16 Irms=0.6 Rser=0.05
+C2 0 nVdd12 10µ V=10 Irms=1.25 Rser=5m
+C3 nVss 0 0.1µ V=16 Irms=0.6 Rser=0.05
+C4 0 nVss 10µ V=10 Irms=1.25 Rser=5m
+VAmplified nAmplified 0 SINE(0 5 500)
+XU2 nAmplified 0 nVdd12 nVss NC_01 A 0 LM311
+XU3 nProbe 0 nVdd12 nVss NC_02 B 0 LM311
+XU4 N002 A B nVdd5 0 SN74LVC1G86
+C5 nVdd12 0 0.1µ V=16 Irms=0.6 Rser=0.05
+C6 0 nVdd12 10µ V=10 Irms=1.25 Rser=5m
+C7 nVdd12 0 0.1µ V=16 Irms=0.6 Rser=0.05
+C8 0 nVdd12 10µ V=10 Irms=1.25 Rser=5m
+C9 nVss 0 0.1µ V=16 Irms=0.6 Rser=0.05
+C10 0 nVss 10µ V=10 Irms=1.25 Rser=5m
+C11 nVss 0 0.1µ V=16 Irms=0.6 Rser=0.05
+C12 0 nVss 10µ V=10 Irms=1.25 Rser=5m
+R2 nVdd5 A 10k
+R3 nVdd5 B 10k
+C13 nVdd5 0 0.1µ V=16 Irms=0.6 Rser=0.05
+C14 0 nVdd5 10µ V=10 Irms=1.25 Rser=5m
+R4 N003 N002 30k
+C15 N003 0 .1µ
+C16 nAmplified N001 1µ
+R5 nPD N003 30k
+C17 nPD 0 .1µ
+.tran 0 500m 0 1m startup
+.include tl07xh_tl08xh.txt
+.include lm311.lib
+.include SN74LVC1G86.lib
+.lib C:\Users\jason\OneDrive\Documents\GitHub\BowelProbe\LTspiceSim\lm311.lib
+.lib C:\Users\jason\OneDrive\Documents\GitHub\BowelProbe\LTspiceSim\SN74LVC1G86.lib
+.backanno
+.end
