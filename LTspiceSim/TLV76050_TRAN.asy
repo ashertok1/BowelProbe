@@ -1,0 +1,17 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -64 -40 80 40
+WINDOW 0 8 -40 Bottom 2
+SYMATTR Prefix X
+SYMATTR Value TLV76050_TRAN
+SYMATTR ModelFile C:\Users\jason\OneDrive\Documents\GitHub\BowelProbe\LTspiceSim\TLV76050_TRANS.LIB
+WINDOW 3 8 40 Top 2
+PIN -64 0 LEFT 8
+PINATTR PinName GND
+PINATTR SpiceOrder 1
+PIN 80 -16 RIGHT 8
+PINATTR PinName VIN
+PINATTR SpiceOrder 2
+PIN 80 16 RIGHT 8
+PINATTR PinName VOUT
+PINATTR SpiceOrder 3
