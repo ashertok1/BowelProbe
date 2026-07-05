@@ -7534,6 +7534,16 @@
 	)
 	(text "TN"
 		(exclude_from_sim no)
+		(at 226.568 375.412 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1406f366-6b2f-4ad8-a312-661b3f863f7d")
+	)
+	(text "TN"
+		(exclude_from_sim no)
 		(at 457.2 252.222 0)
 		(effects
 			(font
@@ -7625,6 +7635,16 @@
 			(justify left)
 		)
 		(uuid "44db7d49-e345-4646-9e67-f4758a5b1886")
+	)
+	(text "TN"
+		(exclude_from_sim no)
+		(at 207.772 338.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "459ee340-43a0-424d-a7bb-958fffa1f29e")
 	)
 	(text "Voltage Divider"
 		(exclude_from_sim no)
@@ -7794,6 +7814,16 @@
 	)
 	(text "TN"
 		(exclude_from_sim no)
+		(at 139.7 330.454 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "caa24ab6-5c80-434f-9875-342c2889f25e")
+	)
+	(text "TN"
+		(exclude_from_sim no)
 		(at 388.62 127.762 0)
 		(effects
 			(font
@@ -7909,6 +7939,12 @@
 		(uuid "184c0840-9b11-4c99-9eac-ea2e080103cd")
 	)
 	(junction
+		(at 133.35 332.74)
+		(diameter 0)
+		(color 72 0 0 1)
+		(uuid "19d34052-8a22-4d26-8b67-fe9149818d16")
+	)
+	(junction
 		(at 349.25 116.84)
 		(diameter 0)
 		(color 132 132 132 1)
@@ -7949,6 +7985,12 @@
 		(diameter 0)
 		(color 72 0 0 1)
 		(uuid "3546975a-04b4-4584-a9da-74fab7dcd361")
+	)
+	(junction
+		(at 181.61 293.37)
+		(diameter 0)
+		(color 72 0 0 1)
+		(uuid "4013917a-781e-488a-9fe0-3fdfbe903f10")
 	)
 	(junction
 		(at 466.09 101.6)
@@ -8059,6 +8101,12 @@
 		(uuid "63fe28a0-1059-44f1-bd33-67e069d345ae")
 	)
 	(junction
+		(at 185.42 297.18)
+		(diameter 0)
+		(color 72 0 0 1)
+		(uuid "66f25cf5-dcd9-4001-ae4c-d04cf8085435")
+	)
+	(junction
 		(at 204.47 313.69)
 		(diameter 0)
 		(color 194 0 0 1)
@@ -8105,6 +8153,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77760d06-a360-4041-a28e-71032c2c1fa3")
+	)
+	(junction
+		(at 167.64 280.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b7d825e-f159-4db9-9ed9-abcafce99aaf")
 	)
 	(junction
 		(at 204.47 381)
@@ -8654,6 +8708,17 @@
 			(color 194 0 0 1)
 		)
 		(uuid "09748525-7bfe-49dd-be68-c4b59b230606")
+	)
+	(wire
+		(pts
+			(xy 186.69 297.18) (xy 185.42 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 72 0 0 1)
+		)
+		(uuid "0a1b6895-55ea-4751-bcd5-7f70cbba83a3")
 	)
 	(wire
 		(pts
@@ -9352,7 +9417,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 313.69) (xy 133.35 344.17)
+			(xy 133.35 313.69) (xy 133.35 332.74)
 		)
 		(stroke
 			(width 0)
@@ -9606,6 +9671,17 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 332.74) (xy 133.35 344.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 72 0 0 1)
+		)
+		(uuid "3abc535b-28dc-4829-8a32-0a49295163bb")
+	)
+	(wire
+		(pts
 			(xy 100.33 76.2) (xy 102.87 76.2)
 		)
 		(stroke
@@ -9634,6 +9710,17 @@
 			(type default)
 		)
 		(uuid "3cfdc412-f401-46a7-b6ec-00fa2afcfd41")
+	)
+	(wire
+		(pts
+			(xy 134.62 332.74) (xy 133.35 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 72 0 0 1)
+		)
+		(uuid "3dcdea40-9574-4420-b143-a0df8ddf60b6")
 	)
 	(wire
 		(pts
@@ -9797,7 +9884,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 293.37) (xy 185.42 293.37)
+			(xy 167.64 293.37) (xy 181.61 293.37)
 		)
 		(stroke
 			(width 0)
@@ -10264,7 +10351,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 276.86) (xy 161.29 280.67)
+			(xy 161.29 278.13) (xy 161.29 280.67)
 		)
 		(stroke
 			(width 0)
@@ -10614,6 +10701,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 280.67) (xy 181.61 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a617dcd-d640-47da-8eb4-271883eba100")
+	)
+	(wire
+		(pts
 			(xy 331.47 46.99) (xy 332.74 46.99)
 		)
 		(stroke
@@ -10750,6 +10847,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 0 1)
 		)
 		(uuid "82b8c0e0-0bd0-4e91-9057-b1cad77e6f39")
 	)
@@ -11032,6 +11130,17 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 293.37) (xy 185.42 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 72 0 0 1)
+		)
+		(uuid "92890d32-32b6-478a-aa05-4a2eb6131d19")
+	)
+	(wire
+		(pts
 			(xy 345.44 176.53) (xy 345.44 171.45)
 		)
 		(stroke
@@ -11197,6 +11306,17 @@
 			(color 132 132 132 1)
 		)
 		(uuid "9b5cb84a-e3c1-47bb-97a5-d048528f5907")
+	)
+	(wire
+		(pts
+			(xy 161.29 270.51) (xy 161.29 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "9bca1ff7-8cbb-4ebf-b79d-d69ef45daeed")
 	)
 	(wire
 		(pts
@@ -11510,7 +11630,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 299.72) (xy 185.42 293.37)
+			(xy 185.42 299.72) (xy 185.42 297.18)
 		)
 		(stroke
 			(width 0)
@@ -11648,6 +11768,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "b2db6504-6c46-4031-bf25-c0d8a9441564")
+	)
+	(wire
+		(pts
+			(xy 181.61 290.83) (xy 181.61 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 72 0 0 1)
+		)
+		(uuid "b34afd30-d48e-46d7-be20-86572088a2dd")
 	)
 	(wire
 		(pts
@@ -12198,6 +12329,17 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 297.18) (xy 193.04 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "d2978c1b-74dd-4714-a588-a3caa7efbb42")
+	)
+	(wire
+		(pts
 			(xy 78.74 36.83) (xy 78.74 48.26)
 		)
 		(stroke
@@ -12216,6 +12358,16 @@
 			(type default)
 		)
 		(uuid "d30237a7-c98c-4cba-8e80-f4995647c468")
+	)
+	(wire
+		(pts
+			(xy 181.61 283.21) (xy 181.61 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d30237d6-a65e-4f16-b931-e28d53d0194f")
 	)
 	(wire
 		(pts
@@ -12259,6 +12411,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "d6778f97-ac6b-48ae-8be0-7863820de5eb")
+	)
+	(wire
+		(pts
+			(xy 185.42 297.18) (xy 185.42 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 72 0 0 1)
+		)
+		(uuid "d6e57f86-e97f-4826-b1ff-78a789986005")
 	)
 	(wire
 		(pts
@@ -14049,6 +14212,23 @@
 	(rule_area
 		(polyline
 			(pts
+				(xy 327.66 133.6675) (xy 495.3 133.0325) (xy 495.3 36.195) (xy 327.66 36.83)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 255 255 0 0.1)
+			)
+			(fill
+				(type color)
+				(color 255 255 0 0.1)
+			)
+			(uuid 05cd4e33-36c1-4a4b-8f21-9205581eaeb5)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
 				(xy 237.49 406.4) (xy 237.49 257.81) (xy 125.73 257.81) (xy 125.73 350.52) (xy 13.97 350.52) (xy 13.97 406.4)
 			)
 			(stroke
@@ -14060,7 +14240,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid a18081fa-26eb-440c-b996-728c105782a7)
+			(uuid 548824fb-7d4a-433f-b82d-cba41c2d8118)
 		)
 	)
 	(rule_area
@@ -14077,24 +14257,7 @@
 				(type color)
 				(color 0 0 255 0.1)
 			)
-			(uuid a2ada2b7-1910-42a8-aaa4-c57cea038773)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 327.66 133.6675) (xy 495.3 133.0325) (xy 495.3 36.195) (xy 327.66 36.83)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-				(color 255 255 0 0.1)
-			)
-			(fill
-				(type color)
-				(color 255 255 0 0.1)
-			)
-			(uuid ea9300e7-994a-4289-be68-c32d3eaf99d8)
+			(uuid 5ff34652-25c8-4e46-8a0e-5fd12a024ff2)
 		)
 	)
 	(symbol
@@ -14279,7 +14442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 Independent 11.8V~12.2V 12V 20Ω 500mW 90nA@8V 90Ω SOD-123 Zener Diodes ROHS"
 			(at 167.64 287.02 0)
 			(effects
 				(font
@@ -14415,6 +14578,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C545349"
+			(at 167.64 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "LGE"
+			(at 167.64 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -18754,6 +18935,71 @@
 			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 297.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f652a8a-70dc-4920-8c9f-6d7dc8556520")
+		(property "Reference" "#PWR0138"
+			(at 199.39 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71e19de2-87b6-4955-870d-589b647871f8")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -25327,7 +25573,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0℃~+70℃ 150nA 2 36V 4.3mA 500uV 80ns 80ns DTL、RTL、TTL ±15V SOIC-14 Comparators ROHS"
+			(at 468.63 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C7941"
+			(at 468.63 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 468.63 167.64 0)
 			(effects
 				(font
@@ -26091,7 +26355,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-2.75V~-1.25V、1.25V~2.75V -40℃~+125℃ 1 1.7V/us 100dB 10pA 1MHz 1uV/℃ 2.5V~5.5V 30nV/√Hz@1kHz 3pA 40mA 4mV 70uA 9V Rail-to-Rail Output SC-70-5 Operational Amplifier ROHS"
+			(at 500.38 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C484731"
+			(at 500.38 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 500.38 233.68 0)
 			(effects
 				(font
@@ -26378,7 +26660,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-40℃~+125℃ 1 1.65V~5.5V 10uA 32mA 32mA 4ns@5V,50pF 74LVC Series Overvoltage-tolerant input、Rear drive protection、Level shifting、Local shutdown mode XOR Gate SOT-23-5 Logic Gates ROHS"
+			(at 444.5 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C402161"
+			(at 444.5 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 444.5 233.68 0)
 			(effects
 				(font
@@ -31101,6 +31401,135 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 189.23 297.18 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc5271f4-5e00-431e-bf60-cc42fcdfa608")
+		(property "Reference" "C59"
+			(at 190.754 292.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 191.008 294.132 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BowelProbe:Cap0.1uF"
+			(at 189.23 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 16V X7S ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 189.23 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 189.23 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 189.23 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 189.23 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 189.23 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM033C71C104KE14D"
+			(at 189.23 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 189.23 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C85923"
+			(at 189.23 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39846823-527a-46c1-b4bf-32237f755064")
+		)
+		(pin "2"
+			(uuid "97b2b37c-2459-4e35-8dc0-1b7edb549abd")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 152.4 322.58 0)
 		(unit 1)
@@ -32282,6 +32711,266 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 161.29 274.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6f9563d-aca4-45bb-b6c0-61ffee7526bf")
+		(property "Reference" "R25"
+			(at 164.846 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 164.846 273.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BowelProbe:Resistor10k"
+			(at 162.306 274.574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 161.29 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 161.29 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 161.29 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 161.29 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 161.29 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 161.29 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "RC0603FR-0710KL"
+			(at 161.29 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 161.29 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C98220"
+			(at 161.29 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a026664e-2d9d-46b1-9ed6-0d518609720d")
+		)
+		(pin "1"
+			(uuid "c0ac1475-6b03-42b1-909f-39781fd4c806")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 139.7 332.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "c72005fb-8118-49c9-a5a2-e4bc01b18666")
+		(property "Reference" "J26"
+			(at 143.764 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 138.4301 330.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BowelProbe:CT3149-2"
+			(at 139.7 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "01x01 hole to fit wire"
+			(at 139.7 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-2/5114523?gclsrc=aw.ds&gad_source=1&gad_campaignid=17336967819&gbraid=0AAAAADrbLlgHwoldOY3BTWvIRXP-Ifk7O&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ6--plL5JvhXOV0g7-njs8DvOH5W1-zYAgOYW2KRe7TUxWEWHSgDDMaAp6TEALw_wcB"
+			(at 139.7 332.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 139.7 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 139.7 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 139.7 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 139.7 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" ""
+			(at 139.7 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 139.7 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39c4c49f-ffc2-4bd5-ab2b-3ebe1b20d123")
+		)
+		(instances
+			(project "bowelProbe"
+				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 209.55 364.49 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32459,7 +33148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 P-Channel 16nC@10V 2.5V 30V 4.3A 48mΩ@10V 830pF 92pF SOT-23 MOSFETs ROHS"
 			(at 158.75 288.29 0)
 			(effects
 				(font
@@ -32575,6 +33264,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C15155"
+			(at 158.75 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 158.75 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -35688,7 +36395,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 161.29 273.05 0)
+		(at 181.61 287.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35697,7 +36404,7 @@
 		(fields_autoplaced yes)
 		(uuid "f69dd49a-5ffc-44f7-81ab-347b76038914")
 		(property "Reference" "R1"
-			(at 163.83 271.7799 0)
+			(at 184.15 285.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35706,7 +36413,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 163.83 274.3199 0)
+			(at 184.15 288.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35715,7 +36422,7 @@
 			)
 		)
 		(property "Footprint" "BowelProbe:Resistor100k"
-			(at 162.306 273.304 90)
+			(at 182.626 287.274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35724,7 +36431,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 161.29 273.05 0)
+			(at 181.61 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35732,8 +36439,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 161.29 273.05 0)
+		(property "Description" "-55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 181.61 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C60491"
+			(at 181.61 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 181.61 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35748,7 +36473,7 @@
 			(uuid "0f00af25-d5e6-41e8-a438-126999ff8a92")
 		)
 		(instances
-			(project ""
+			(project "bowelProbe"
 				(path "/b054b76f-bc06-48fe-994a-b07fc1433235"
 					(reference "R1")
 					(unit 1)

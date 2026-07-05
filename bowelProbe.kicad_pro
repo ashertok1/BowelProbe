@@ -505,14 +505,13 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 5
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -538,7 +537,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "PCBA_Files/bowelProbeBOM.csv",
+    "bom_export_filename": "PCBA_Files/bowelProbeBOM_Rev1.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -624,6 +623,12 @@
           "label": "LCSC PN",
           "name": "LCSC PN",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
         },
         {
           "group_by": false,
