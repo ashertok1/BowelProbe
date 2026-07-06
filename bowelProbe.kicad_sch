@@ -14212,6 +14212,23 @@
 	(rule_area
 		(polyline
 			(pts
+				(xy 13.97 166.37) (xy 57.15 166.37) (xy 57.15 147.32) (xy 138.43 147.32) (xy 138.43 13.97) (xy 13.97 13.97)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 0 0 255 0.1)
+			)
+			(fill
+				(type color)
+				(color 0 0 255 0.1)
+			)
+			(uuid 5993f871-667b-4172-9f5e-faab6d2f9589)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
 				(xy 327.66 133.6675) (xy 495.3 133.0325) (xy 495.3 36.195) (xy 327.66 36.83)
 			)
 			(stroke
@@ -14223,7 +14240,7 @@
 				(type color)
 				(color 255 255 0 0.1)
 			)
-			(uuid 05cd4e33-36c1-4a4b-8f21-9205581eaeb5)
+			(uuid 6704649c-59d2-4eed-9b18-433e87046b71)
 		)
 	)
 	(rule_area
@@ -14240,24 +14257,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 548824fb-7d4a-433f-b82d-cba41c2d8118)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 13.97 166.37) (xy 57.15 166.37) (xy 57.15 147.32) (xy 138.43 147.32) (xy 138.43 13.97) (xy 13.97 13.97)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-				(color 0 0 255 0.1)
-			)
-			(fill
-				(type color)
-				(color 0 0 255 0.1)
-			)
-			(uuid 5ff34652-25c8-4e46-8a0e-5fd12a024ff2)
+			(uuid 8e6188cf-f742-49dc-aa38-65ef6f11ea52)
 		)
 	)
 	(symbol
@@ -15313,7 +15313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 200V 250mW 30kΩ Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 200V 250mW 30kΩ Thick Film Resistor ±100ppm/℃ ±5% 1206 Chip Resistor - Surface Mount ROHS"
 			(at 466.09 241.3 0)
 			(effects
 				(font
@@ -15381,7 +15381,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C137314"
+		(property "LCSC PN" "C137155"
 			(at 466.09 241.3 0)
 			(effects
 				(font
@@ -24941,7 +24941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 Independent 10A 1A 50uA@60V 60V 660mV@1A SOD-323F Schottky Diodes ROHS"
+		(property "Description" "1 Independent 100uA@60V 10A 1A 60V 700mV@1A SOD-323 Schottky Diodes ROHS"
 			(at 199.39 377.19 0)
 			(effects
 				(font
@@ -25082,7 +25082,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Nexperia"
+		(property "Manufacturer" "DOWO"
 			(at 199.39 377.19 0)
 			(effects
 				(font
@@ -25100,7 +25100,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C406049"
+		(property "LCSC PN" "C27636122"
 			(at 199.39 377.19 0)
 			(effects
 				(font
@@ -28398,7 +28398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-40℃~+125℃@(TJ) 1 1A 2MHz 3V~40V 6uA Adjustable Boost Boost、SEPIC、Inverting Built-in DFN-8(2x3) DC-DC Converters ROHS"
+		(property "Description" "-40℃~+150℃@(TJ) 1 1A 2MHz 3V~40V 6uA Adjustable Boost Boost、SEPIC、Inverting Built-in DFN-8(2x3) DC-DC Converters ROHS"
 			(at 191.77 367.03 0)
 			(effects
 				(font
@@ -28457,7 +28457,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C673746"
+		(property "LCSC PN" "C673743"
 			(at 191.77 367.03 0)
 			(effects
 				(font
@@ -29585,7 +29585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 200V 250mW 30kΩ Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 200V 250mW 30kΩ Thick Film Resistor ±100ppm/℃ ±5% 1206 Chip Resistor - Surface Mount ROHS"
 			(at 429.26 110.49 0)
 			(effects
 				(font
@@ -29653,7 +29653,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C137314"
+		(property "LCSC PN" "C137155"
 			(at 429.26 110.49 0)
 			(effects
 				(font
@@ -30381,7 +30381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 1.8kΩ 200V 250mW Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 1.8kΩ 200V 250mW Thick Film Resistor ±100ppm/℃ ±5% 1206 Chip Resistor - Surface Mount ROHS"
 			(at 438.15 114.3 0)
 			(effects
 				(font
@@ -30449,7 +30449,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C137372"
+		(property "LCSC PN" "C137188"
 			(at 438.15 114.3 0)
 			(effects
 				(font
@@ -33080,7 +33080,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C276313"
+		(property "LCSC PN" "C228984"
 			(at 209.55 364.49 0)
 			(effects
 				(font
@@ -33348,7 +33348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 200V 250mW 30kΩ Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 200V 250mW 30kΩ Thick Film Resistor ±100ppm/℃ ±5% 1206 Chip Resistor - Surface Mount ROHS"
 			(at 476.25 241.3 0)
 			(effects
 				(font
@@ -33416,7 +33416,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C137314"
+		(property "LCSC PN" "C137155"
 			(at 476.25 241.3 0)
 			(effects
 				(font
@@ -34585,7 +34585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "YAGEO"
 			(at 349.25 104.14 0)
 			(effects
 				(font
@@ -34594,7 +34594,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C2168449"
+		(property "LCSC PN" "C513667"
 			(at 349.25 104.14 0)
 			(effects
 				(font
