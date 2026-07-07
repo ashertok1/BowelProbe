@@ -177,7 +177,7 @@
 	(net 34 "/D5")
 	(net 35 "/D6")
 	(net 36 "/D7")
-	(net 37 "/A0")
+	(net 37 "/A2")
 	(net 38 "/A1")
 	(net 39 "Net-(U8-VINA-)")
 	(net 40 "/A3")
@@ -214,12 +214,12 @@
 	(footprint "BowelProbe:CT3149-0"
 		(layer "F.Cu")
 		(uuid "00e188b2-bcf0-40ba-b3b6-a718f18b802e")
-		(at 83.341865 62.933008)
-		(property "Reference" "TX"
+		(at 83.341865 63.25)
+		(property "Reference" "Tx"
 			(at -1.741865 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "2c497fc8-def6-4832-93d3-bd172c3039ae")
+			(uuid "a0bcb0bf-d65f-41bc-bee9-74b8dfe5d1b5")
 			(effects
 				(font
 					(size 1 1)
@@ -232,7 +232,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bccec328-eeb9-4f63-a177-6ce009dec3a5")
+			(uuid "63315730-a1e2-4d4a-9af4-888fcc18fb5d")
 			(effects
 				(font
 					(size 1 1)
@@ -245,7 +245,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "07751ea2-d4f7-45b2-844c-588d06193fc0")
+			(uuid "0adf61bb-659e-436e-b0bc-f10148986d7d")
 			(effects
 				(font
 					(size 1 1)
@@ -258,7 +258,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "abeae3cf-ab57-4dbf-ac02-6d506a4f6215")
+			(uuid "0f7747bc-1d81-489f-81ef-4d7a8338339d")
 			(effects
 				(font
 					(size 1 1)
@@ -386,12 +386,187 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "BowelProbe:CT3149-0"
+		(layer "F.Cu")
+		(uuid "0135fcc1-e916-474a-bf62-0aee4b7e4a43")
+		(at 99.6 96)
+		(property "Reference" "D5"
+			(at 3 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "dadf2351-8d7c-4182-8ae6-6d0f85a975b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f137e7e-a418-4227-9c73-6fc42efc9a5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda2c67a-885f-45e4-a7a2-cbf0f1c8cf79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "01x01 hole to fit wire"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3835bc8f-b60d-4f30-bf0b-b8d4e4ebc66f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12fb405c-f929-4c1d-b987-c46b8e82d759")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bd1b057-7738-41e4-8bb3-fa32adbccd61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3f2bfb7-19c5-4032-9c40-8b295472a82c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80eb440c-4b64-494d-8e31-dcfd5e51ff2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa018747-fbe3-47b8-80f3-80aa397919cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abd29255-d170-42d1-821c-eab6cc20a573")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b8d31f2-5dc4-4218-a9da-13ebe6e60599")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/1dc23784-2816-480e-9caf-bd143d1530c7")
+		(sheetname "/")
+		(sheetfile "bowelProbe.kicad_sch")
+		(attr through_hole exclude_from_bom dnp)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "a3c24180-6002-4290-8de7-d3652cbd5546")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.25 1.25)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 34 "/D5")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "cd7d7188-ad1b-4f56-9142-bb1b6d1eb83a")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "BowelProbe:SN74LVC1G86DBVR"
 		(layer "F.Cu")
 		(uuid "035535cc-3f94-4ccd-b25b-57116698c935")
 		(at 130.615 60.9 180)
 		(property "Reference" "U5"
-			(at -0.485 2.55 0)
+			(at 1.015 2.6 0)
 			(layer "F.SilkS")
 			(uuid "cd939a5e-eb0e-4c67-a536-5f1d8d9a3af5")
 			(effects
@@ -2458,7 +2633,7 @@
 		(uuid "0f32f3c4-20f3-4049-b64f-e1b0e77cd50f")
 		(at 95.551303 62.348697 45)
 		(property "Reference" "C21"
-			(at 3.853732 0.035355 45)
+			(at 2.720518 0.035355 45)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "25a7740e-e49e-46b6-9b8e-6a8addf28720")
@@ -5237,7 +5412,7 @@
 	(footprint "BowelProbe:CT3149-2"
 		(layer "F.Cu")
 		(uuid "1df023ad-908f-45e2-adae-8174b2df6334")
-		(at 67.45 56.3)
+		(at 74.85 52.65)
 		(property "Reference" "J16"
 			(at 3 0 0)
 			(unlocked yes)
@@ -5672,12 +5847,12 @@
 	(footprint "BowelProbe:CT3149-0"
 		(layer "F.Cu")
 		(uuid "23db353f-9da4-4e9f-87e9-67b4814ba510")
-		(at 92.65 55.8 90)
+		(at 90.15 55.7 90)
 		(property "Reference" "SCL"
 			(at 2.307106 -0.007106 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "34b41059-ba17-4830-995b-4158535c2684")
+			(uuid "8602c79a-c62b-4078-b165-a6dc55bb2bf7")
 			(effects
 				(font
 					(size 1 1)
@@ -5690,7 +5865,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "40d19440-661f-460d-bb5d-8ccf376c56aa")
+			(uuid "7f17a1cb-0fc8-4449-a312-863c66bd8add")
 			(effects
 				(font
 					(size 1 1)
@@ -5703,7 +5878,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0aac767e-128a-4e42-9099-be2591363300")
+			(uuid "b08566cf-4a9e-43e8-86ed-a5432bda02e9")
 			(effects
 				(font
 					(size 1 1)
@@ -5716,7 +5891,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3fa24ea1-cb4e-4e0f-b9ae-126356ff70bc")
+			(uuid "b20334d9-958f-43be-9dd8-391de79574d5")
 			(effects
 				(font
 					(size 1 1)
@@ -5847,9 +6022,9 @@
 	(footprint "BowelProbe:Cap0.1uF"
 		(layer "F.Cu")
 		(uuid "23e828c8-1238-4c61-be61-b3b8b2739a56")
-		(at 75.576303 119.633697 45)
+		(at 99.9 68.8 45)
 		(property "Reference" "C14"
-			(at -0.030127 0.982878 45)
+			(at 0 1.06066 45)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b9c16116-863a-42c4-a907-6934a0716fe2")
@@ -8586,12 +8761,12 @@
 	(footprint "BowelProbe:Dupont2x3"
 		(layer "F.Cu")
 		(uuid "34ca15fb-3998-466f-8332-08a638b50026")
-		(at 78.95 78.83)
+		(at 132.215 78.97)
 		(property "Reference" "ICSP"
-			(at -6.9 0.23 0)
+			(at 7.11 -0.02 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "02cc1299-fc13-4d64-b853-394b9b38ea03")
+			(uuid "cc6b4991-fc21-49b1-ba04-f7d8e6dbe12e")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -8603,7 +8778,7 @@
 		(property "Value" "Conn_02x03_Odd_Even"
 			(at 0.282 0 0)
 			(layer "F.Fab")
-			(uuid "d64f0515-4d7a-4d77-8331-aecb9ec69203")
+			(uuid "03a8fe22-b8c8-4301-a965-e5afb8f91e98")
 			(effects
 				(font
 					(size 0.25 0.25)
@@ -8615,7 +8790,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "744114b7-9598-41a8-8053-ec6d41b00573")
+			(uuid "338c5c94-99fe-4045-91a5-864e0f559fe6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8627,7 +8802,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad907843-3d4b-4a55-9ccc-28627deb49f5")
+			(uuid "7a7d3eac-f565-4cfd-a107-e74bc7f6671b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9169,6 +9344,356 @@
 			)
 		)
 	)
+	(footprint "BowelProbe:CT3149-0"
+		(layer "F.Cu")
+		(uuid "3e08113c-6c5d-4ffe-977e-d9d110bd4b0a")
+		(at 99.6 103.65)
+		(property "Reference" "D9"
+			(at 3 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "cffa36d7-8942-4fe4-9468-9981d103f048")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d31fa226-a2b2-4489-9d6e-f25414e6eb10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2941e9ba-4f06-4dca-922a-301f8943377e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "01x01 hole to fit wire"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0b2251c-9a0b-44f3-ab53-8a17b39696b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "706df7c7-e70b-481e-8906-b33f9d1c2d05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25add69e-0288-490a-86f2-f743191149c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b7ce585-2a14-477e-9212-2b8212545971")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5320914d-ee26-463e-bf2e-2672bfbfb0d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d7c480d-b6af-40d5-8f0c-56bf49a03a4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8cfe4554-7625-4a3b-bf6e-fa29d03f3267")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "668e6a04-886c-4919-8e8a-437a899c3f01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/ca84e80a-1372-455b-b3f1-623939fffeda")
+		(sheetname "/")
+		(sheetfile "bowelProbe.kicad_sch")
+		(attr through_hole exclude_from_bom dnp)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "52befdf1-e1ed-47e8-8815-0ec80ca78340")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.25 1.25)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 56 "/D9")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "7ae85529-bfab-4312-be6a-b9395a2e6a42")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BowelProbe:CT3149-0"
+		(layer "F.Cu")
+		(uuid "3f6c75a2-cd68-4709-a2e0-a24cccb6ec94")
+		(at 102.15 96)
+		(property "Reference" "D10"
+			(at 3 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "7ac76e42-9f5c-484e-a609-bc47d5244767")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb014a9d-8419-4fc0-9af9-062b7205d838")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbe8b8f6-2313-4ef6-9f4c-32ad91624020")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "01x01 hole to fit wire"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12310da0-31d1-4f10-8fae-212fcff05521")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37da2e92-a098-49fd-99c5-4d0dd190fc7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb29a45e-9f32-4f3a-8f3b-1f7c12f91824")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfce7c49-e023-418e-8b25-40e73e5fbce8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08d1a331-86fb-4529-8111-b134a0924df7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "049f36ee-259f-4ec8-a37d-75c5053bfc49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95d9ac57-283c-48e7-9975-a9592c0eaf24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d99292a4-55aa-426b-8a52-0e447d589192")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/8103e362-3728-4b63-9ffb-fa231a0b9ce5")
+		(sheetname "/")
+		(sheetfile "bowelProbe.kicad_sch")
+		(attr through_hole exclude_from_bom dnp)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "476a71f4-e01f-474c-90ba-768d9f2132b3")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.25 1.25)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 55 "/D10")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "46b71f98-83be-4397-89ab-bc5b7833f91f")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "BowelProbe:Resistor10k"
 		(layer "F.Cu")
 		(uuid "3facbee1-85f8-48f9-9b72-e7c0263dd2b5")
@@ -9445,7 +9970,7 @@
 		(uuid "3ff54535-5ed8-4831-ad7d-6c33d1c22ddb")
 		(at 135.75 55.039 -90)
 		(property "Reference" "C55"
-			(at 0.011001 -1.72605 180)
+			(at 0.611 -1.75 180)
 			(layer "F.SilkS")
 			(uuid "3cdd4f3e-03db-47fa-ae81-22693f46670f")
 			(effects
@@ -10489,12 +11014,12 @@
 	(footprint "BowelProbe:Cap0.1uF"
 		(layer "F.Cu")
 		(uuid "48a69915-aea5-45bb-8cd7-1aaf0058cff0")
-		(at 75.894 122.835)
+		(at 78.081 72.95)
 		(property "Reference" "C15"
-			(at 1.956 0.015 0)
+			(at 2.65 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "4d7c7a03-46a3-440d-a14a-e44781056797")
+			(uuid "88cbc247-d5de-44e7-89d6-ec09dbbbe74a")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -10506,7 +11031,7 @@
 		(property "Value" "0.1u"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "58a991a2-2d7e-4302-b3cb-c84ac482f8b7")
+			(uuid "be2de7f1-4305-4342-b041-9058e49d2b1a")
 			(effects
 				(font
 					(size 0.393701 0.393701)
@@ -10518,7 +11043,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "77dcf49c-e27e-4995-8d09-c1c4ec7d550c")
+			(uuid "f7ea044f-6e17-4254-88ae-f4cd3b15898f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10530,7 +11055,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "39b38873-cbaa-4cca-9ad2-acaa52c03cc8")
+			(uuid "fe0e5241-b0c0-463a-9c3a-9680fa121b0e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11032,7 +11557,7 @@
 	(footprint "BowelProbe:CT3149-5"
 		(layer "F.Cu")
 		(uuid "4f2ab56f-4497-4a0e-ace0-5a8ed89f7aa0")
-		(at 145.25 62.4)
+		(at 145.55 62.4)
 		(property "Reference" "J12"
 			(at 2.1 0 0)
 			(unlocked yes)
@@ -11208,12 +11733,12 @@
 	(footprint "BowelProbe:CT3149-0"
 		(layer "F.Cu")
 		(uuid "4fbbf509-5c79-44f9-8ea4-4d7314b0a4bc")
-		(at 83.341865 65.433008)
+		(at 83.341865 65.75)
 		(property "Reference" "D2"
 			(at -1.791865 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "810be840-ccf2-45de-a338-c79f3002dce1")
+			(uuid "a9eb8a36-c2d9-43ff-af8d-dc428371f1fa")
 			(effects
 				(font
 					(size 1 1)
@@ -11226,7 +11751,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e868a40-74cc-4ee6-bbd6-f1462f5655d5")
+			(uuid "8c5e0bbc-8185-4ce5-bf51-3424effa30ef")
 			(effects
 				(font
 					(size 1 1)
@@ -11239,7 +11764,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dae01acf-749c-4f1b-960d-5ac9af88a02a")
+			(uuid "d4bc0459-91ae-42b4-82d0-15a6afd17867")
 			(effects
 				(font
 					(size 1 1)
@@ -11252,7 +11777,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "07acbd4c-40e4-45a4-94fc-b28992b09ad6")
+			(uuid "daae98e5-83c9-4a1f-8373-501f5c1def26")
 			(effects
 				(font
 					(size 1 1)
@@ -11644,7 +12169,7 @@
 		(uuid "51683b63-ee66-4ec4-b27e-bc6f4cd95928")
 		(at 128.9 63.331 -90)
 		(property "Reference" "C54"
-			(at 1.719 0.5 0)
+			(at 1.969 0.55 0)
 			(layer "F.SilkS")
 			(uuid "974624ff-63b3-4a6d-956e-077e6ee56b4f")
 			(effects
@@ -11913,7 +12438,7 @@
 	(footprint "BowelProbe:CT3149-5"
 		(layer "F.Cu")
 		(uuid "51b39930-a4b6-44ea-8fbc-a59367b19ea4")
-		(at 145.25 69.5)
+		(at 145.55 69.5)
 		(property "Reference" "J13"
 			(at 2.1 0 0)
 			(unlocked yes)
@@ -12091,7 +12616,7 @@
 		(uuid "53735a43-81d3-46bc-a817-2a3871c29902")
 		(at 98.40547 65.90547 135)
 		(property "Reference" "R9"
-			(at 0.007736 1.343503 45)
+			(at -1.477188 0.636396 45)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "0550c5c7-2ea7-49af-8774-70967ebc1feb")
@@ -13151,13 +13676,13 @@
 	(footprint "BowelProbe:CT3149-0"
 		(layer "F.Cu")
 		(uuid "59963925-ac86-4363-a320-566bd7d00e11")
-		(at 62.45 70.6)
+		(at 62.3 70.1)
 		(property "Reference" "J1"
 			(at 3 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a910dc0c-d732-487f-bfa0-c095d49c98b7")
+			(uuid "b078cc40-14e4-4c6a-a572-c71cff280281")
 			(effects
 				(font
 					(size 1 1)
@@ -13170,7 +13695,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4e34b100-7f6b-4750-972f-261a5c1ede43")
+			(uuid "4ad0b25b-825f-444a-88a4-ff0c2e730957")
 			(effects
 				(font
 					(size 1 1)
@@ -13183,7 +13708,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e33d40c2-fa58-4db8-8d36-188ea1120562")
+			(uuid "2ebbf39a-e3b8-461b-a9b4-603328378454")
 			(effects
 				(font
 					(size 1 1)
@@ -13196,7 +13721,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6969e88f-5f3f-436a-aaf3-1d0a0263a0e4")
+			(uuid "23576c55-c48e-4aff-b190-1dcea295c607")
 			(effects
 				(font
 					(size 1 1)
@@ -13321,6 +13846,181 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "c35f0a75-8e15-4606-a212-1101a421dda5")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BowelProbe:CT3149-0"
+		(layer "F.Cu")
+		(uuid "59f35cad-1e73-45b4-97d8-2227163c8b3e")
+		(at 99.6 101.1)
+		(property "Reference" "D7"
+			(at 3 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "4ffe721a-3f4b-46c0-a692-f6c5946c8f8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc32a7da-b0c7-4c8d-b59a-385512dd75f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d64b610-0848-4de1-b9d9-b15350cd176f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "01x01 hole to fit wire"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cfdaddd-6c86-4a36-800c-bee40aebcae6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9271a7f-a779-40f6-ae40-e6f74fbe9250")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8f8eda7-8a38-446e-9bdc-2afacc600530")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3f58677-7c10-4b0e-b6f8-42dc76d166db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f60f8936-aeab-4c88-a280-7124377c7dbc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84aefbb7-fb4b-420a-9322-53382b535709")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bdd30d0-ab73-491a-be2c-d2ef30dbcd09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74bc6af7-48db-4ffb-a71f-b770fc52b9fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/55b168c3-c4b8-4744-888f-b08e9cf8b8fc")
+		(sheetname "/")
+		(sheetfile "bowelProbe.kicad_sch")
+		(attr through_hole exclude_from_bom dnp)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "bbfea737-f4d7-439d-9097-9bbe38b792a7")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.25 1.25)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 36 "/D7")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "7bcacaa2-174d-41cd-9888-f9d5b4bbec31")
 		)
 		(embedded_fonts no)
 	)
@@ -14401,12 +15101,12 @@
 	(footprint "BowelProbe:Resistor47"
 		(layer "F.Cu")
 		(uuid "5dcebcee-4485-4c3d-95c2-3d7b5cc304e4")
-		(at 103.382 74.55 180)
+		(at 78.068 74.9 180)
 		(property "Reference" "R10"
-			(at 0 1 0)
+			(at -2.032 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "6431ede9-94fa-4f49-a0d1-6ecce7ca05cf")
+			(uuid "afd5c7cb-669e-48b9-9bff-861d5219a140")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14418,7 +15118,7 @@
 		(property "Value" "47"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "0c42e47b-14af-4e3a-9f72-df247753a053")
+			(uuid "1fd12862-2c16-4e7f-abe1-c5491cef8b50")
 			(effects
 				(font
 					(size 0.393701 0.393701)
@@ -14430,7 +15130,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bbc81be9-2a96-4a5c-94d0-f4755d932eec")
+			(uuid "375651a0-a389-4e6a-ac7c-d599214ba137")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14442,7 +15142,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6290ada7-abaa-435e-9fa4-6b33ecfbc1ef")
+			(uuid "b44c311a-4d19-4136-b264-db7197efb8b1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15767,12 +16467,12 @@
 	(footprint "BowelProbe:CT3149-0"
 		(layer "F.Cu")
 		(uuid "6459595e-0193-421d-aa11-63be9a81be1e")
-		(at 83.341865 60.433008)
-		(property "Reference" "RX"
+		(at 83.341865 60.75)
+		(property "Reference" "Rx"
 			(at -1.841865 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "e1aca3e2-cbe2-4701-814b-d4c6b7a2f743")
+			(uuid "3fee4956-d5fb-4c8e-b697-cdf90e92d47b")
 			(effects
 				(font
 					(size 1 1)
@@ -15785,7 +16485,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f9b33d19-1d7f-4931-b498-622c9f0b255f")
+			(uuid "eda59757-8043-4e39-bba7-aaf76469c562")
 			(effects
 				(font
 					(size 1 1)
@@ -15798,7 +16498,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a1118710-db4f-4b65-b960-a74224362924")
+			(uuid "1a2b1ddc-a306-4838-946c-cd594dcde8e2")
 			(effects
 				(font
 					(size 1 1)
@@ -15811,7 +16511,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f64db6d7-0b3f-4a37-8c5b-aba86e00def3")
+			(uuid "734eda3d-9459-4841-bb21-81c2ce08ab13")
 			(effects
 				(font
 					(size 1 1)
@@ -17941,6 +18641,181 @@
 			)
 		)
 	)
+	(footprint "BowelProbe:CT3149-0"
+		(layer "F.Cu")
+		(uuid "6fa78bd4-ac8f-409d-97fa-40c3c107cf16")
+		(at 99.6 98.55)
+		(property "Reference" "D6"
+			(at 3 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b4e72c4f-0bd3-4030-8489-7f4a4e206399")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "901d141b-c0e9-4dd4-9a02-fe227aa8ae14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71abc1ac-dc47-4682-86a6-882df190443f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "01x01 hole to fit wire"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e9d947d-19f5-4089-9d91-64824d2f111d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79b5aeb9-ca51-40c2-9f0c-740876e46cd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac9caa47-874d-4fbf-8442-eaf8abb9c1e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c84c73d1-5ce4-4b22-9f20-b2e1772f91e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9a72827-ae47-499f-8f15-b51281369ab3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aea1702f-97c6-47e2-8ce0-71f0d7674929")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "863d3505-f321-4c11-bac2-366468a0a231")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06765290-88e0-4adc-b949-cb7754bcbb5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/098c559b-e265-4a5f-bb99-c7387d191598")
+		(sheetname "/")
+		(sheetfile "bowelProbe.kicad_sch")
+		(attr through_hole exclude_from_bom dnp)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "80d21b21-4867-4605-8aa9-59ef4830e04d")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.25 1.25)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 35 "/D6")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "e190d0c5-6478-4367-81c6-5f9247b27bb3")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "BowelProbe:Cap4.7uF"
 		(layer "F.Cu")
 		(uuid "6ff9595b-5eb7-4dfe-b365-238500e25791")
@@ -19876,13 +20751,13 @@
 	(footprint "BowelProbe:microSD"
 		(layer "F.Cu")
 		(uuid "7d7e0187-8ce3-4235-a5ea-96a243d7a6d9")
-		(at 129.75 84.8 180)
+		(at 79.75 84.35 180)
 		(property "Reference" "J4"
 			(at -5.1 -0.1 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9174cd57-f43e-41f0-9e91-ba5bc075ab6e")
+			(uuid "f754cf79-0964-4ecf-a73a-bea178652fc7")
 			(effects
 				(font
 					(size 1 1)
@@ -19895,7 +20770,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f9da6622-6a06-4121-b168-de12f0c110ad")
+			(uuid "a3dad984-edfa-4018-a960-5f4bb5e31f16")
 			(effects
 				(font
 					(size 0.25 0.25)
@@ -19908,7 +20783,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3e4f74a6-33d5-43a6-baed-795051fc22f0")
+			(uuid "3524b401-f7d2-4ae5-a945-987c1cc4589c")
 			(effects
 				(font
 					(size 1 1)
@@ -19921,7 +20796,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "70e0c8f3-9b2c-4d6b-83bc-3d21c45eafb0")
+			(uuid "9caee0f7-ec8c-42fd-a1a7-e62d14a04333")
 			(effects
 				(font
 					(size 1 1)
@@ -20379,7 +21254,7 @@
 		(at 91.036224 70.063776 45)
 		(tags "C0603C180C5GACTU ")
 		(property "Reference" "C19"
-			(at -4.924002 0.123654 45)
+			(at -4.011026 0.070711 45)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b1f85242-789b-4cdc-b7b7-dbfd9295c4e0")
@@ -20919,12 +21794,12 @@
 	(footprint "BowelProbe:Cap0.1uF"
 		(layer "F.Cu")
 		(uuid "84c03fe0-71f6-45cb-8f6f-0a2b8fbf811a")
-		(at 75.475 108.416 -90)
+		(at 87.15 80.169 -90)
 		(property "Reference" "C11"
-			(at -0.016 -1.625 0)
+			(at -0.019 1.6 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "cd640155-a35a-41f2-be2c-7bea9cdc1bec")
+			(uuid "4ab57125-fb67-4d55-b330-2d280aa136e2")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -20936,7 +21811,7 @@
 		(property "Value" "0.1u"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "7932cbff-b03f-4754-9c7f-dcb3e8987f1b")
+			(uuid "7e2472a3-f212-44db-ad36-0561cb345ff2")
 			(effects
 				(font
 					(size 0.393701 0.393701)
@@ -20948,7 +21823,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "52560725-cad5-4bd1-999e-e1da25314fdc")
+			(uuid "ddee5678-00e9-480c-8f20-a126c7a4c4c8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20960,7 +21835,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8815a776-89d4-448b-83c7-e40e1707dd9c")
+			(uuid "95142fa7-057f-4850-b8e6-e0b9dbf12139")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21411,13 +22286,13 @@
 	(footprint "BowelProbe:CT3149-2"
 		(layer "F.Cu")
 		(uuid "8979e0c8-5553-4ed4-9338-40ff4e0da62a")
-		(at 62.45 62.05)
+		(at 62.3 61.55)
 		(property "Reference" "J2"
 			(at 3 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "13d99628-650f-4665-b342-0009bdfa217b")
+			(uuid "4a42d4c5-34db-47cf-a1f2-380fba498895")
 			(effects
 				(font
 					(size 1 1)
@@ -21430,7 +22305,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6e4020e5-46e1-42af-bf89-c0dd258e8ac1")
+			(uuid "1522c514-66c1-4bd9-b780-701c14f8aba6")
 			(effects
 				(font
 					(size 1 1)
@@ -21443,7 +22318,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da3d2287-c8da-42aa-bffc-c32eba2acc01")
+			(uuid "3831823a-d61d-4b99-b6e6-b831bcc43631")
 			(effects
 				(font
 					(size 1 1)
@@ -21456,7 +22331,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "47a7ab85-724a-4ac5-b50e-63327e852989")
+			(uuid "ca9a6540-1bab-4a13-9088-d4d0b6fccddd")
 			(effects
 				(font
 					(size 1 1)
@@ -21861,7 +22736,7 @@
 		(uuid "8bbff0a4-6b09-42f5-827e-b8e6ca631a5e")
 		(at 96.8 67.5 -45)
 		(property "Reference" "R7"
-			(at 0.176777 1.378858 45)
+			(at 1.484924 0.565685 45)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "99397e3d-e61b-44c3-9f1d-9d9f5456806e")
@@ -22870,7 +23745,7 @@
 		(uuid "9914c0e7-2f8b-4ea0-bd65-8f8f414795a4")
 		(at 115.671348 70.434 90)
 		(property "Reference" "C40"
-			(at -1.331 -0.65 0)
+			(at -1.716 0.228652 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "bceebafc-4916-41fc-bbfa-c0bb1f35adc2")
@@ -23136,6 +24011,181 @@
 				(xyz -90 -0 -0)
 			)
 		)
+	)
+	(footprint "BowelProbe:CT3149-0"
+		(layer "F.Cu")
+		(uuid "9ae6bf19-25aa-4f81-b327-a493d9642007")
+		(at 97.65 58.2)
+		(property "Reference" "A1"
+			(at 1.9 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "58584cf3-7a77-4400-bc77-594dc13946ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e47216c7-1883-4f0c-899e-c6a25a1b31cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14715ff8-916c-4fd2-bd04-3017cb3888c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "01x01 hole to fit wire"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe9f6095-fd1e-4207-83b3-2ab305eec0bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22ad2ca3-57b8-4a5b-98a8-89dafa411048")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ae66052-e86f-4e68-b282-0537be0bb130")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d18c078-36b1-47cc-9219-7b73fcc3dff0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21edba5e-70ee-47b7-bc49-ab778110cfb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33d4d0f0-185c-4470-a042-5337637838b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc049af6-1de5-45d7-ae57-44de6afde2cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c30c8d6c-4799-4702-a6f1-c0858ad5b6dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/ddb48c3f-6300-4acb-adf4-071bd4f30868")
+		(sheetname "/")
+		(sheetfile "bowelProbe.kicad_sch")
+		(attr through_hole exclude_from_bom dnp)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "98c2ec81-5287-49d4-ba78-e866b6e37bc2")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.25 1.25)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 38 "/A1")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "8791d60a-4ad1-4127-8308-1875494bfdf5")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "BowelProbe:Cap0.1uF"
 		(layer "F.Cu")
@@ -23412,12 +24462,12 @@
 	(footprint "BowelProbe:CT3149-0"
 		(layer "F.Cu")
 		(uuid "9e49fcd1-461f-4c73-ab0b-7c37338b4ae3")
-		(at 97.65 55.8 90)
+		(at 95.15 55.7 90)
 		(property "Reference" "A3"
-			(at 1.907106 -0.007106 90)
+			(at 1.5 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "31576834-6ff2-4dfd-85b0-cc09fcca0bca")
+			(uuid "a77fe86a-e5f3-44d9-a86b-db4e7dd9db89")
 			(effects
 				(font
 					(size 1 1)
@@ -23430,7 +24480,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6b6ccfaf-ad04-453f-9fc7-72fb8fb27515")
+			(uuid "e8520541-8c34-4482-a5f6-10f5f15b51b4")
 			(effects
 				(font
 					(size 1 1)
@@ -23443,7 +24493,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b8bf0999-3bde-40be-991f-7fa81e8d1201")
+			(uuid "14d391ed-a587-4dbc-ad0e-284486aeca23")
 			(effects
 				(font
 					(size 1 1)
@@ -23456,7 +24506,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d47cc0c-e214-42d8-aaa1-2d41f768d413")
+			(uuid "583e0136-35f9-49d3-ad0b-25821b1f167c")
 			(effects
 				(font
 					(size 1 1)
@@ -24119,7 +25169,7 @@
 		(uuid "a3932a9b-98b8-46f8-8e4b-a799881532d0")
 		(at 125.5 57.827 -90)
 		(property "Reference" "C35"
-			(at 0.023 -2.45 0)
+			(at -1.527 -0.85 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "06229884-b34b-45be-bd92-60a7e61d9dbf")
@@ -24376,11 +25426,11 @@
 	(footprint "BowelProbe:Resistor10k"
 		(layer "F.Cu")
 		(uuid "aa3d37ef-1be6-46b7-be06-2623417092de")
-		(at 95.1 58.135 -90)
+		(at 92.6 58.035 -90)
 		(property "Reference" "R23"
-			(at 0.015 -1.85 180)
+			(at 0.015 -1.95 180)
 			(layer "F.SilkS")
-			(uuid "f5eaaa79-4141-41b3-b32d-074ad6633718")
+			(uuid "d58e2d08-f7b3-4fc0-8da6-2fdf22b8c51a")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -24392,7 +25442,7 @@
 		(property "Value" "10k"
 			(at 1.49 1.1 90)
 			(layer "F.Fab")
-			(uuid "bbce0d65-2043-42a8-b19d-baeb9efedde6")
+			(uuid "525873b4-78e7-41cc-9d40-7d43395ac219")
 			(effects
 				(font
 					(size 0.393701 0.393701)
@@ -24404,7 +25454,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e4f4a177-2b1a-426b-963c-13f803de02cc")
+			(uuid "0f0fddda-56ea-406c-8399-0dbd5c16c118")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24416,7 +25466,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "acf9bb4a-b317-4b48-81af-8cf9aa98e3ca")
+			(uuid "b055da17-746f-41ef-ad14-bf490bb6ea4f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25712,13 +26762,13 @@
 	(footprint "BowelProbe:microSD"
 		(layer "F.Cu")
 		(uuid "ae8a6a8d-9813-4537-9642-e2f73fa45fe7")
-		(at 129.75 76.7 180)
+		(at 79.75 76.25 180)
 		(property "Reference" "J3"
 			(at -5.2 0.1 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6aac65ec-2440-45c3-ba08-d2fa6bc80045")
+			(uuid "e2949f51-3eaf-4e10-9b10-cef53ac3f14f")
 			(effects
 				(font
 					(size 1 1)
@@ -25731,7 +26781,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2978562e-4774-4f51-9c90-45147082ae04")
+			(uuid "a361d59d-c636-4215-ac04-5d998c911ef0")
 			(effects
 				(font
 					(size 0.25 0.25)
@@ -25744,7 +26794,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e03dcb13-289b-4aa4-86cf-9089cb6275f1")
+			(uuid "0501c471-1a0e-47d9-8c8f-8e86dcfafb49")
 			(effects
 				(font
 					(size 1 1)
@@ -25757,7 +26807,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a2d1a4fd-1ca5-4ae5-8d36-f88c80c28b53")
+			(uuid "1fd176ce-87f5-4b84-97e2-550c8360ab38")
 			(effects
 				(font
 					(size 1 1)
@@ -26828,6 +27878,181 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "595ce200-97c0-4f73-98a0-610ca4b0bf3d")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BowelProbe:CT3149-0"
+		(layer "F.Cu")
+		(uuid "b2fa1275-7641-491e-a1fd-01652c10fbb3")
+		(at 97.65 55.7)
+		(property "Reference" "A2"
+			(at 1.3 -0.9 315)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "37082607-4af2-4d83-b079-a3215ce3883d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ac3c284-df9a-4e86-ace7-31002ba817c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "257fb056-d3a2-4afc-97fb-cf79918f7dcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "01x01 hole to fit wire"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ee1bfec-a774-4d35-a6d7-ed7ba773cc00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Order" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3149-0/5114520?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLljQUq2jRA5TUA7tG8IA3QTG7&gclid=Cj0KCQiAg63LBhDtARIsAJygHZ4bQW1Hl-yMnvacsVNb6spHOenE0ZTvz6GgcATK-2ZWWp3x8ukiqvcaAt9EEALw_wcB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eced0108-99f5-4b2f-9725-0157ece247ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20844ac5-68f9-4a19-aa69-198566730476")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "548874c3-23b9-4aa8-90bd-ee7401cbcacb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "000de9eb-e064-458e-b2a2-d47bd9eafc04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df0c825d-3efe-46ac-a2ae-aaee9d330f33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "117599a4-b057-467b-b9bf-ab3eb38eec6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca930cf0-dc11-47f7-abf4-789c7e0aa10a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/28e382aa-61e6-4e52-9bdb-1bd1b4e36e15")
+		(sheetname "/")
+		(sheetfile "bowelProbe.kicad_sch")
+		(attr through_hole exclude_from_bom dnp)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "396e29fd-ee4b-448e-8e07-0b578f61a597")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.25 1.25)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 37 "/A2")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "716f4f22-c114-4980-871a-38b7ea93b64a")
 		)
 		(embedded_fonts no)
 	)
@@ -28470,7 +29695,7 @@
 		(property "Reference" "Q1"
 			(at 0 2.9 0)
 			(layer "F.SilkS")
-			(uuid "dd9cd046-7db2-4b7d-bdca-eb1500691109")
+			(uuid "a9241cbe-776b-4d49-867e-5d7696469934")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -28482,7 +29707,7 @@
 		(property "Value" "AO3407A"
 			(at 7.62 3.175 0)
 			(layer "F.Fab")
-			(uuid "aa093934-b160-474d-8679-18626b74cafd")
+			(uuid "220e208d-2da8-4138-8475-f20d87ba1383")
 			(effects
 				(font
 					(size 1 1)
@@ -28494,7 +29719,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3f3b8bdd-d6f9-446d-93b6-066c2f730e1a")
+			(uuid "8418c514-4b4f-4d1d-b210-cab883301a40")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28506,7 +29731,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "83830973-9d3d-45f0-a1df-c5e2f0f6a971")
+			(uuid "bff3b213-5f66-4303-b576-73eb9396c44c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30323,7 +31548,7 @@
 		(fp_text user "*"
 			(at -1.1684 -1.4732 90)
 			(layer "F.Fab")
-			(uuid "a7e67a2a-61f9-43e6-be9b-6c26ecf0665d")
+			(uuid "e85e2792-8f81-41c4-bec6-dbac4a99e2d9")
 			(effects
 				(font
 					(size 1 1)
@@ -31012,11 +32237,11 @@
 	(footprint "BowelProbe:Resistor10k"
 		(layer "F.Cu")
 		(uuid "d050c5d0-4e59-40af-aee1-1ad1e2c68ab2")
-		(at 92.65 58.15 -90)
+		(at 90.15 58.05 -90)
 		(property "Reference" "R22"
-			(at 0 1.9 180)
+			(at 2.1 0 180)
 			(layer "F.SilkS")
-			(uuid "48824bc2-6aaf-4ce8-84e8-bd150c7cadf4")
+			(uuid "0f89ffaf-2cee-4d2c-8048-ba27bf942691")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -31028,7 +32253,7 @@
 		(property "Value" "10k"
 			(at 1.49 1.1 90)
 			(layer "F.Fab")
-			(uuid "09117032-b121-4655-a365-89e85c84e612")
+			(uuid "7abb51f8-4ff1-4045-8c83-bc0413e9e176")
 			(effects
 				(font
 					(size 0.393701 0.393701)
@@ -31040,7 +32265,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc153d99-575a-4be0-b864-4d79378a8572")
+			(uuid "d3238604-1b9d-49a4-a4fa-4d49afb204a2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31052,7 +32277,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f18ca32f-4de7-4d51-bcc7-bb08ed0c5761")
+			(uuid "c2be0e7a-22df-45e8-b212-17bf23282a13")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31289,7 +32514,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e288603f-cdd0-47f8-82f1-6bc3ac4878b6")
+			(uuid "ad53bd90-12d8-420a-97d4-324271aa7ac6")
 			(effects
 				(font
 					(size 1 1)
@@ -31301,7 +32526,7 @@
 			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "829b58e3-9932-4a4c-8ff2-33f0e659c22d")
+			(uuid "02b1f42c-f608-4895-955b-b02bf2bb855f")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -31313,7 +32538,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f35e0c34-723b-46c8-ad1c-e689737756e6")
+			(uuid "10a86154-2d10-44b0-8496-f42865aa4d90")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31325,7 +32550,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "39eab4d5-898f-43c0-8767-34c0f106ea19")
+			(uuid "fe3f9ff7-e2d9-48b3-8c8b-26114694f589")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35198,12 +36423,12 @@
 	(footprint "BowelProbe:CT3149-0"
 		(layer "F.Cu")
 		(uuid "ee745579-d71a-428c-942d-e423757d36ec")
-		(at 95.15 55.8 90)
+		(at 92.65 55.7 90)
 		(property "Reference" "SDA"
 			(at 2.307106 -0.007106 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "9dc77ba3-ce69-4b66-8aea-7ef4f5024a82")
+			(uuid "95ef6ecf-a79b-4878-9b37-37fd4acbc31f")
 			(effects
 				(font
 					(size 1 1)
@@ -35216,7 +36441,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "25161f7a-2c79-4601-8fa4-36d6f2256549")
+			(uuid "5a0b3e64-d298-45fe-92aa-fa0418f3188e")
 			(effects
 				(font
 					(size 1 1)
@@ -35229,7 +36454,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb700504-a098-4c37-b1c8-eb82fe3e7450")
+			(uuid "6069a7c6-236c-455b-8575-235171e472eb")
 			(effects
 				(font
 					(size 1 1)
@@ -35242,7 +36467,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "335c6841-a068-46c2-a5d2-18ec675cd825")
+			(uuid "2c5588ee-afe3-46d6-9875-18792654d6b1")
 			(effects
 				(font
 					(size 1 1)
@@ -37942,7 +39167,7 @@
 			(chamfer top_left)
 			(net 34 "/D5")
 			(pinfunction "PD5")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "0cec3a48-2e52-43ec-aa29-4a7b9e1a76f1")
 		)
 		(pad "10" smd rect
@@ -37951,7 +39176,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 35 "/D6")
 			(pinfunction "PD6")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "83df620c-728b-4029-b68b-46d797a429e3")
 		)
 		(pad "11" smd rect
@@ -37960,7 +39185,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 36 "/D7")
 			(pinfunction "PD7")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "66b64961-fa92-448f-ae37-737a4aca2f08")
 		)
 		(pad "12" smd rect
@@ -37978,7 +39203,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 56 "/D9")
 			(pinfunction "PB1")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "dac5d74f-fc98-47fa-a498-03f64fa73ec6")
 		)
 		(pad "14" smd rect
@@ -37987,7 +39212,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 55 "/D10")
 			(pinfunction "PB2")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "142c409b-9171-4c66-9e25-c9bc896a8294")
 		)
 		(pad "15" smd rect
@@ -38072,9 +39297,9 @@
 			(at 2.3979 -1.25 135)
 			(size 0.2548 0.909599)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 37 "/A0")
+			(net 43 "/nSS_Sin")
 			(pinfunction "PC0")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "ca1a2bba-80c4-4291-8c6b-385c24e76db3")
 		)
 		(pad "24" smd roundrect
@@ -38086,7 +39311,7 @@
 			(chamfer top_right)
 			(net 38 "/A1")
 			(pinfunction "PC1")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "e0e324d1-3c6d-4b97-b392-1b5a82586531")
 		)
 		(pad "25" smd roundrect
@@ -38096,7 +39321,7 @@
 			(roundrect_rratio 0)
 			(chamfer_ratio 0.3)
 			(chamfer bottom_right)
-			(net 43 "/nSS_Sin")
+			(net 37 "/A2")
 			(pinfunction "PC2")
 			(pintype "bidirectional")
 			(uuid "64030b60-fb31-45c9-a8a2-22f1a85ebac5")
@@ -40355,7 +41580,7 @@
 		(uuid "85573450-46aa-4b38-87d2-cdd52c2e62d7")
 	)
 	(gr_text "GND"
-		(at 76.95 76.06 90)
+		(at 130.05 76.2 90)
 		(layer "F.SilkS")
 		(uuid "0a5e7e99-526c-460d-bec8-81aa884187d8")
 		(effects
@@ -40367,7 +41592,7 @@
 		)
 	)
 	(gr_text "SCK"
-		(at 79.55 81.66 90)
+		(at 132.65 81.8 90)
 		(layer "F.SilkS")
 		(uuid "2a340e07-b2a9-4995-896b-2fad60bce168")
 		(effects
@@ -40379,7 +41604,7 @@
 		)
 	)
 	(gr_text "RST"
-		(at 77.05 81.66 90)
+		(at 130.15 81.8 90)
 		(layer "F.SilkS")
 		(uuid "4368f73c-f6ba-433e-9b59-8bb38246860c")
 		(effects
@@ -40391,7 +41616,7 @@
 		)
 	)
 	(gr_text "MISO"
-		(at 82.15 81.66 90)
+		(at 135.25 81.8 90)
 		(layer "F.SilkS")
 		(uuid "48979f5b-9bfc-458f-8fc0-39ad3437ec8c")
 		(effects
@@ -40494,7 +41719,7 @@
 		)
 	)
 	(gr_text "PROBE"
-		(at 145.85 68.4 90)
+		(at 146.15 68.4 90)
 		(layer "F.SilkS")
 		(uuid "64da8265-effe-49d0-82bd-6f0118568c33")
 		(effects
@@ -40507,7 +41732,7 @@
 		)
 	)
 	(gr_text "+5V"
-		(at 81.95 76.06 90)
+		(at 135.05 76.2 90)
 		(layer "F.SilkS")
 		(uuid "87cde6fe-db67-4254-ae00-427aaf31a1c8")
 		(effects
@@ -40519,7 +41744,7 @@
 		)
 	)
 	(gr_text "MOSI"
-		(at 79.55 76.06 90)
+		(at 132.65 76.2 90)
 		(layer "F.SilkS")
 		(uuid "e304c607-88d0-4656-9042-547718e5abcb")
 		(effects
@@ -40531,7 +41756,7 @@
 		)
 	)
 	(gr_text "+ Vin -"
-		(at 61.95 63.1 270)
+		(at 61.8 62.6 270)
 		(layer "F.SilkS")
 		(uuid "e44ee3f2-4ecb-4df6-9405-7b95eb0ca521")
 		(effects
@@ -40653,6 +41878,62 @@
 		(uuid "5aae874e-7dad-48b7-8647-d61e310b80d9")
 	)
 	(via
+		(at 84.5 54.3)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "89e7c0cf-0a84-4dba-8645-163140ffb58e")
+	)
+	(via
+		(at 138.45 70.65)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "8bac0eeb-c12f-4dc2-bf3b-714bb30e7b48")
+	)
+	(via
+		(at 86.75 58)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "a1c9fb22-af0e-4c1d-b849-f8b8103a7bb6")
+	)
+	(via
+		(at 120.6 76.3)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(net 1)
+		(uuid "a5fe263c-8e3e-42c0-9099-0ed6efd63724")
+	)
+	(via
+		(at 122.2 50.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "d4f5d2c7-46f2-4cf8-9b2e-309f34bc11a3")
+	)
+	(via
 		(at 101.1 46.9)
 		(size 0.6)
 		(drill 0.3)
@@ -40680,6 +41961,15 @@
 		(uuid "060c830e-4e85-4f7f-8b5b-ba0abef0f1c2")
 	)
 	(via
+		(at 140.2 63.3)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "0be44054-72fa-4ed0-9e51-6722990f28e6")
+	)
+	(via
 		(at 129.8 68.43)
 		(size 0.6)
 		(drill 0.3)
@@ -40687,6 +41977,24 @@
 		(free yes)
 		(net 2)
 		(uuid "0c6e4382-c43e-4d21-95c9-97112c511e99")
+	)
+	(via
+		(at 87.8 55.4)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "0ef6860f-9ecb-4fe7-9241-32285d6e7fa6")
+	)
+	(via
+		(at 78.7 50.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "19193f96-cf6e-4233-bf75-5f33053b22c8")
 	)
 	(via
 		(at 117.35 65.2)
@@ -40725,13 +42033,22 @@
 		(uuid "2b279f4c-126f-4a6e-ba95-564896016fa3")
 	)
 	(via
-		(at 119.7 76.35)
+		(at 119.7 76.3)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
 		(net 2)
 		(uuid "395f6f1c-01f1-4299-a113-2126f7689a0d")
+	)
+	(via
+		(at 131.85 58.9)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "3a75fa23-0f13-42a5-98aa-4110ca7fcd49")
 	)
 	(via
 		(at 112.6 46.9)
@@ -40743,6 +42060,15 @@
 		(uuid "3d457cff-6ef6-438a-a76c-400b89e6f036")
 	)
 	(via
+		(at 137 58.1)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "43d09fb8-2f17-49ea-8677-4005485da631")
+	)
+	(via
 		(at 107.1 65.9)
 		(size 0.6)
 		(drill 0.3)
@@ -40750,6 +42076,15 @@
 		(free yes)
 		(net 2)
 		(uuid "44463df5-9f3e-477f-84ea-4fd18f1f6100")
+	)
+	(via
+		(at 130.1 55.65)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "4737acda-79b8-4dae-a0f6-6a2625125965")
 	)
 	(via
 		(at 75.4 70.5)
@@ -40768,6 +42103,15 @@
 		(free yes)
 		(net 2)
 		(uuid "4c907ad1-eb96-4e1c-83c3-1ee3d6165ebd")
+	)
+	(via
+		(at 135.1 65.35)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "5a25a36e-de7c-4467-bf6d-051d22782ed2")
 	)
 	(via
 		(at 118.5 46.9)
@@ -40806,7 +42150,7 @@
 		(uuid "746ade6d-dc29-4138-8b76-c963818e8090")
 	)
 	(via
-		(at 88.941865 72.433008)
+		(at 89.5 71.85)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -40824,6 +42168,15 @@
 		(uuid "77f9cc3b-5c1f-446d-9e88-ab24253749e3")
 	)
 	(via
+		(at 83.95 58.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "86c576ff-f354-4c84-9fd4-02c3cfe93b78")
+	)
+	(via
 		(at 115.671348 68.915)
 		(size 0.6)
 		(drill 0.3)
@@ -40831,6 +42184,42 @@
 		(free yes)
 		(net 2)
 		(uuid "8cbb9194-f47c-42d7-b2a3-7401e80f74c1")
+	)
+	(via
+		(at 134.65 55.85)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "8da5d245-03d4-4652-9aa2-52bddf1f0575")
+	)
+	(via
+		(at 128.9 64.4)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "907a929e-7d64-4a19-bf50-c28349cb5b5c")
+	)
+	(via
+		(at 100.65 68.05)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "96eda621-2742-4c40-bbeb-8d4012349498")
+	)
+	(via
+		(at 129.75 49.7)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "99a3aefd-a573-49d0-b772-ed5b0baef592")
 	)
 	(via
 		(at 93 65.4)
@@ -40851,13 +42240,13 @@
 		(uuid "9cb6250a-f85b-4e6d-be37-68d12d664a13")
 	)
 	(via
-		(at 97.511688 61.079455)
+		(at 96.35 61.55)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
 		(net 2)
-		(uuid "a9b413be-a508-401d-a2ed-84a5fbcef95f")
+		(uuid "9d64d61d-89b7-49d6-8209-16ca27767e0e")
 	)
 	(via
 		(at 124.5 46.9)
@@ -40885,15 +42274,6 @@
 		(free yes)
 		(net 2)
 		(uuid "b0cc06a4-d4c4-49c5-957f-8844368ea417")
-	)
-	(via
-		(at 119.365948 67.565)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "b1f25977-399f-48ef-abe3-5f4fad242af0")
 	)
 	(via
 		(at 138.2 60.1)
@@ -40950,13 +42330,31 @@
 		(uuid "cb8936a0-361b-4d41-8381-2cd7d19e16ed")
 	)
 	(via
-		(at 95.441865 60.533008)
+		(at 78.3 61.55)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
 		(net 2)
-		(uuid "d54c2743-4d8e-4295-8fcf-a223a1bbf487")
+		(uuid "d0134b4f-cb39-45e5-b8ed-2862aa5d5eab")
+	)
+	(via
+		(at 97.4 62.6)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "d20356c3-0ebe-408c-8a23-36cb76393c04")
+	)
+	(via
+		(at 114.6 57.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "d9ce6ad7-b57a-4c47-9fa2-0efd7a02d288")
 	)
 	(via
 		(at 73.2 68.55)
@@ -40977,6 +42375,15 @@
 		(uuid "dcf218c9-4457-4e3c-9db7-66cabccf4a0a")
 	)
 	(via
+		(at 120.2 48.95)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "e0bdde44-aa63-4271-8227-09f4fd12db7b")
+	)
+	(via
 		(at 104.9 64.4)
 		(size 0.6)
 		(drill 0.3)
@@ -40984,6 +42391,60 @@
 		(free yes)
 		(net 2)
 		(uuid "e2181a8a-ac8a-4811-9a2c-6170626dea83")
+	)
+	(via
+		(at 79.162 72.95)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "e416c332-c4b5-45c5-b3fc-95cf1f4fac13")
+	)
+	(via
+		(at 71.05 71.85)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "f3d7287a-b72f-4559-8066-8f5fb38e5c27")
+	)
+	(via
+		(at 135.15 49.7)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "f9881a63-9641-49cd-9885-1009de4299b4")
+	)
+	(via
+		(at 133.5 58.45)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 3)
+		(uuid "16952e34-bcbd-4b46-961f-b09fb6344ff5")
+	)
+	(via
+		(at 131 63.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 3)
+		(uuid "1a50696b-12b7-41a0-a3a8-7b4c74d52343")
+	)
+	(via
+		(at 77.012 72.95)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 3)
+		(uuid "1b29591a-5beb-4e4c-a745-fee2d134b33a")
 	)
 	(via
 		(at 101.5 53.8)
@@ -41004,7 +42465,25 @@
 		(uuid "37b34a4d-4de1-4565-a9f0-4a9b6d5a9b2a")
 	)
 	(via
-		(at 98.311688 61.779455)
+		(at 136.7 54.6)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 3)
+		(uuid "548aa22a-b8f0-4a48-81a9-5bc83bc0c616")
+	)
+	(via
+		(at 133.5 69.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 3)
+		(uuid "5f90cf24-7ab4-4cd8-8835-a9114e46dd5a")
+	)
+	(via
+		(at 98.1 62.05)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -41040,7 +42519,7 @@
 		(uuid "b723cbe6-0fe5-4a35-9b64-58ddbfe531e1")
 	)
 	(via
-		(at 94.941865 61.033008)
+		(at 91.4 58.75)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -41067,6 +42546,15 @@
 		(uuid "d62efefa-2995-4b74-aeea-9e303d9a1365")
 	)
 	(via
+		(at 99.1 69.55)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 3)
+		(uuid "e9d6ac1b-c95d-4117-9953-b77175b5d407")
+	)
+	(via
 		(at 120.5 65)
 		(size 0.6)
 		(drill 0.3)
@@ -41074,6 +42562,15 @@
 		(free yes)
 		(net 8)
 		(uuid "adbc3879-071a-420a-946f-a93f1dc46608")
+	)
+	(via
+		(at 112.5 55.9)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 8)
+		(uuid "be81180b-0f5b-4351-9bd3-738435bb3823")
 	)
 	(via
 		(at 129.8 69.43)
@@ -41094,7 +42591,16 @@
 		(uuid "775d9258-7baa-4676-ba64-17d02589bf23")
 	)
 	(via
-		(at 102.082 74.55)
+		(at 101.3 70.25)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 25)
+		(uuid "9251b835-2f0b-40d9-a90b-3ddf3bd2ae5e")
+	)
+	(via
+		(at 76.782 74.9)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -41112,7 +42618,25 @@
 		(uuid "93e9afd9-9276-491d-bf6b-3835bc5515e8")
 	)
 	(via
-		(at 100.111688 67.279455)
+		(at 100.311688 71.129455)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 26)
+		(uuid "e870644a-3033-49de-aa1e-d7632ce9f095")
+	)
+	(via
+		(at 102.25 69.45)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 27)
+		(uuid "60e85d2c-2c26-4d44-879d-1c549cb6c905")
+	)
+	(via
+		(at 100.25 67.4)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -41130,7 +42654,7 @@
 		(uuid "8b7c26ee-6f33-4c79-bf35-3adcc55908dc")
 	)
 	(via
-		(at 87.041865 68.733008)
+		(at 88.8 65.1)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -41139,13 +42663,40 @@
 		(uuid "bfa49604-90d4-4db4-97b3-c9f2931dbc83")
 	)
 	(via
-		(at 88.741865 65.133008)
+		(at 88.05 64.4)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
 		(net 30)
 		(uuid "2efc76ce-cb43-4247-9ad5-4d22412b3e54")
+	)
+	(via
+		(at 94.2 69.15)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 34)
+		(uuid "e99b8286-8235-4a48-886a-fc3d41975484")
+	)
+	(via
+		(at 95.05 69.4)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 35)
+		(uuid "3926c317-69aa-405c-baa2-51ad87b77bca")
+	)
+	(via
+		(at 95.9 69.65)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 36)
+		(uuid "85c4d5e1-3a5a-4059-99db-7f372c32a31a")
 	)
 	(via
 		(at 105.8 53.8)
@@ -41173,6 +42724,24 @@
 		(free yes)
 		(net 46)
 		(uuid "f1961372-c890-4a74-bbf4-228852d722a5")
+	)
+	(via
+		(at 95.7 67.65)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 55)
+		(uuid "ec7ae545-5d78-4f5d-9c68-899546f15d81")
+	)
+	(via
+		(at 95.9 68.4)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 56)
+		(uuid "e3853f5e-42de-4ba9-bfd5-12f112c5dbf5")
 	)
 	(via
 		(at 95.7 63.25)
