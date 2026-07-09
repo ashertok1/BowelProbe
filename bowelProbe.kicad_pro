@@ -529,7 +529,7 @@
       "idf": "",
       "netlist": "",
       "plot": "HFSSsim/",
-      "pos_files": "PCBA_Files/",
+      "pos_files": "PCBA_Files/bowelProb-PickAndPlace(Rev1)",
       "specctra_dsn": "",
       "step": "bowelProbe.step",
       "svg": "",
